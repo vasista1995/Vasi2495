@@ -1,0 +1,62 @@
+﻿{
+    "LdsPKeyMappings": [
+        {
+            "LdsId": 812,
+            "PKeyAttributesMappings": {
+                "Daval_07": "ParameterFacility",
+                "Daval_06": "ParameterOper"
+            }
+        },
+        {
+            "LdsId": 813,
+            "PKeyAttributesMappings": {
+                "Exval_18": "ParameterFacility",
+                "Exval_19": "ParameterOper"
+            }
+
+        },
+        {
+            "LdsId": 816,
+            "PKeyAttributesMappings": {
+                "Exval_17": "ParameterFacility",
+                "-": "ParameterOper"
+            }
+        },
+        {
+            "LdsId": 819,
+            "PKeyAttributesMappings": {
+                "Daval_10": "ParameterFacility",
+                "-": "ParameterOper"
+            }
+        },
+        {
+            "LdsId": 823,
+            "PKeyAttributesMappings": {
+                "Daval_10": "ParameterFacility",
+                "-": "ParameterOper"
+            }
+        },
+        {
+            "LdsId": 824,
+            "PKeyAttributesMappings": {
+                "Daval_04": "ParameterFacility",
+                "-": "ParameterOper"
+            }
+        },
+        {
+            "LdsId": 831,
+            "PKeyAttributesMappings": {
+                "Daval_07": "ParameterFacility",
+                "-": "ParameterOper"
+            }
+        },
+        {
+            "LdsId": 834,
+            "PKeyAttributesMappings": {
+                "Daval_10": "ParameterFacility",
+                "-": "ParameterOper"
+            }
+        }
+
+    ]   
+}

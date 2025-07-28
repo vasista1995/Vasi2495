@@ -1,0 +1,23 @@
+﻿{
+    // "Fake" RawValues: These properties are MetaData so they will appear
+    // in the SpaceAttributes section in the E4A. For the loader they will
+    // be copied down to each entry in the rawvalues section and removed
+    // from the SpaceAttributes section.
+    // Note: If you want to keep the property also in the SpaceAttribute
+    // section so that it will be treated as Flat-/StrageMetaData by the
+    // loader then define it also in the "MetaDataPropertiesToKeep" section below
+    "RawValueTransferProperties": [
+        "SampleId",
+        "ExternalFlagged",
+        "InternalFlagged",
+        "InternalComment",
+        "NumViolations",
+        "ViolationComments",
+        "ViolationList",
+        "PrimaryViolation",
+        "Plant",
+        "PrimaryViolationComments"
+    ],
+    "MetaDataPropertiesToKeep": [
+    ]
+}

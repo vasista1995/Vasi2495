@@ -1,0 +1,301 @@
+{
+  "PackageFamily": [
+    "MDIP",
+    "MSIP"
+  ],
+  "MeasurementEquipment": [
+    "LTE004",
+    "LTE013",
+    "LTE007",
+    "LTE014",
+    "LTE006",
+    "LTE008"
+  ],
+  "ParameterClass": [
+    "NON_KEY"
+  ],
+  "Package": [
+    "PG-MDIP-24-12",
+    "PG-MDIP-24-41",
+    "PG-MSIP-22-12"
+  ],
+  "Device": [
+    "K9039A57531",
+    "K9032A54231",
+    "K9051E59531",
+    "K9051G61531",
+    "K9351C65711"
+  ],
+  "SpaceRawValues.BreakPoint": [
+    "Rawvalueslist"
+  ],
+  "SpaceRawValues.ExternalFlagged": [
+    "N"
+  ],
+  "SpaceRawValues.InternalFlagged": [
+    "N"
+  ],
+  "SpaceRawValues.NumViolations": [
+    "0"
+  ],
+  "SpecName": [
+    "Test1"
+  ],
+  "SalesName": [
+    "IGCM10F60GA",
+    "IKCM15L60GD",
+    "IKCM15F60GA",
+    "IKCM15H60GA",
+    "IM393-M6FP"
+  ],
+  "DeviceFamily": [
+    "K9039",
+    "K9032",
+    "K9051",
+    "K9351"
+  ],
+  "PackageGroup": [
+    "MDIP-FP-24",
+    "MDIP-DCB-2",
+    "MSIP-TINY-2"
+  ],
+  "PackageClass": [
+    "MDIP-FP",
+    "MDIP-DCB",
+    "MSIP-TINY"
+  ],
+  "BusinessSegment": [
+    "59"
+  ],
+  "MoveInQuantity": [
+    "894",
+    "867",
+    "895",
+    "900",
+    "899",
+    "994",
+    "896",
+    "892",
+    "996",
+    "884",
+    "1002",
+    "889",
+    "875"
+  ],
+  "MoveOutQuantity": [
+    "887",
+    "866",
+    "892",
+    "895",
+    "899",
+    "865",
+    "991",
+    "897",
+    "889",
+    "996",
+    "879",
+    "997",
+    "894",
+    "890",
+    "882",
+    "870"
+  ],
+  "ProcessOwner": [
+    "PTE"
+  ],
+  "BeSegmentName": [
+    "CHE"
+  ],
+  "ManufacturingWipLevel": [
+    "ASSY"
+  ],
+  "Baunumber": [
+    "95077244",
+    "95077962",
+    "95076911",
+    "95077250",
+    "95077848"
+  ],
+  "OperatorId": [
+    "CHEMFOPS1"
+  ],
+  "ParameterUnit": [
+    "%",
+    "pcs"
+  ],
+  "SampleSize": [
+    "1",
+    "894",
+    "867",
+    "895",
+    "900",
+    "899",
+    "994",
+    "896",
+    "892",
+    "996",
+    "884",
+    "1002",
+    "889"
+  ],
+  "LdsID": [
+    "2305"
+  ],
+  "IsCalcParam": [
+    "1",
+    "0"
+  ],
+  "CtrlMeanHighEnabled": [
+    "N",
+    "Y"
+  ],
+  "CtrlMeanLowEnabled": [
+    "N"
+  ],
+  "CtrlMeanTargetEnabled": [
+    "N"
+  ],
+  "CtrlLowEnabled": [
+    "N"
+  ],
+  "CtrlHighEnabled": [
+    "N"
+  ],
+  "CtrlRangeLowEnabled": [
+    "N",
+    "Y"
+  ],
+  "CtrlRangeHighEnabled": [
+    "N",
+    "Y"
+  ],
+  "CtrlSigmaLowEnabled": [
+    "N",
+    "Y"
+  ],
+  "CtrlSigmaCenterEnabled": [
+    "N",
+    "Y"
+  ],
+  "CtrlRangeCenterEnabled": [
+    "N",
+    "Y"
+  ],
+  "CtrlCenterEnabled": [
+    "N"
+  ],
+  "CtrlSigmaHighEnabled": [
+    "N",
+    "Y"
+  ],
+  "SpecLowEnabled": [
+    "N"
+  ],
+  "SpecHighEnabled": [
+    "Y"
+  ],
+  "RvStoreFlag": [
+    "N"
+  ],
+  "BasicType": [
+    "K9039A",
+    "K9032A",
+    "K9051E",
+    "K9051G",
+    "K9351C"
+  ],
+  "Operation": [
+    "Test1"
+  ],
+  "Facility": [
+    "BE1KOR"
+  ],
+  "Lot": [
+    "2Z34906I",
+    "2Z349092",
+    "2Z34905I",
+    "2Z34906F",
+    "2Z3480LA",
+    "2Z34900G",
+    "2Z349036",
+    "2Z34901R",
+    "2Z34902I",
+    "2Z34906R",
+    "2Z3480CC",
+    "2Z3480KJ",
+    "2Z349063",
+    "2Z3480KM",
+    "2Z3490GC",
+    "2Z3480BL",
+    "2Z3490BJ",
+    "2Z34909M"
+  ],
+  "CkcId": [
+    "0"
+  ],
+  "SpaceInstanceName": [
+    "BE"
+  ],
+  "Sitekey": [
+    "CJJ"
+  ],
+  "ILdsID": [
+    "0"
+  ],
+  "AcceptFlag": [
+    "Y"
+  ],
+  "UpdatedBy": [
+    " "
+  ],
+  "SpecTargetOrigin": [
+    "V"
+  ],
+  "ViolCount": [
+    "0"
+  ],
+  "OutOfOrder": [
+    "N"
+  ],
+  "LimitEnable": [
+    "NNYYYNNYYNYYYYYYYYYNNNYYYYYYYNNNNYYYY",
+    "YYYYYNYYYNYYYYYYYYYYYYYYYYYYYYYYYYYYY",
+    "NYYYYNNYYYYYYYYYYYYNNNYYYYYYYNNNNYYYY"
+  ],
+  "ClOrigin": [
+    "0"
+  ],
+  "MVLal": [
+    "0"
+  ],
+  "MVUal": [
+    "0"
+  ],
+  "ExtSpecLower": [
+    "0"
+  ],
+  "ExtSpecUpper": [
+    "0"
+  ],
+  "ExtSpecLimEnable": [
+    "NN"
+  ],
+  "Owner": [
+    "PROD"
+  ],
+  "ChannelType": [
+    "N"
+  ],
+  "ChState": [
+    "Online"
+  ],
+  "SigmaCntrlLow": [
+    "0"
+  ],
+  "SigmaCntrlTarget": [
+    "0"
+  ],
+  "SigmaCntrlHigh": [
+    "0"
+  ]
+}

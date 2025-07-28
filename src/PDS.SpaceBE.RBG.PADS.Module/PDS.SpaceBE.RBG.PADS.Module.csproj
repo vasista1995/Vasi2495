@@ -1,0 +1,7 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\PDS.SpaceBE.RBG.Common\PDS.SpaceBE.RBG.Common.csproj" />
+  </ItemGroup>
+
+</Project>

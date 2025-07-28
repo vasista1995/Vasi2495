@@ -1,0 +1,177 @@
+{
+    "Data_flat_Metadata": {
+        "Shift": "GY",
+        "MeasLot": "2Z34902B",
+        "SiteKey": "CJJ",
+        "SpaceInstanceName": "BE",
+        "BeginTimestampUtc": "2023-12-10T13:22:28Z",
+        "BeginTimestamp": "2023-12-10T22:22:28Z",
+        "EndTimestampUtc": "2023-12-10T13:22:28Z",
+        "EndTimestamp": "2023-12-10T22:22:28Z"
+    },
+    "Data_flat_StrangeMetadata": {
+        "Operator": "30156566",
+        "Package": "CIPOS MINI",
+        "Device": "IKCM15F60GA"
+    },
+    "Data_1list_Parameters": [
+        {
+            "Data_1list_RawValues": [
+                {
+                    "Seqnr": 2,
+                    "SampleId": 243031067,
+                    "Value": 28.6174,
+                    "is_flagged": "N",
+                    "SampleTimestamp": "2023-12-10T22:22:28Z",
+                    "SampleTimestampUtc": "2023-12-10T13:22:28Z",
+                    "CreatedTimestamp": "2023-12-10T22:22:28Z",
+                    "CreatedTimestampUtc": "2023-12-10T13:22:28Z",
+                    "UpdatedTimestamp": "2023-12-10T22:22:28Z",
+                    "UpdatedTimestampUtc": "2023-12-10T13:22:28Z",
+                    "NumViolations": 0,
+                    "SampleMean": 28.6115,
+                    "SampleMin": 28.5992,
+                    "SampleMax": 28.6179,
+                    "SampleMedian": 28.6174,
+                    "SampleStdev": 0.0106550457530691,
+                    "SampleQ1": 28.6083,
+                    "SampleQ3": 28.61765,
+                    "SampleSize": 3
+                },
+                {
+                    "Seqnr": 3,
+                    "SampleId": 243031067,
+                    "Value": 28.5992,
+                    "is_flagged": "N",
+                    "SampleTimestamp": "2023-12-10T22:22:28Z",
+                    "SampleTimestampUtc": "2023-12-10T13:22:28Z",
+                    "CreatedTimestamp": "2023-12-10T22:22:28Z",
+                    "CreatedTimestampUtc": "2023-12-10T13:22:28Z",
+                    "UpdatedTimestamp": "2023-12-10T22:22:28Z",
+                    "UpdatedTimestampUtc": "2023-12-10T13:22:28Z",
+                    "NumViolations": 0,
+                    "SampleMean": 28.6115,
+                    "SampleMin": 28.5992,
+                    "SampleMax": 28.6179,
+                    "SampleMedian": 28.6174,
+                    "SampleStdev": 0.0106550457530691,
+                    "SampleQ1": 28.6083,
+                    "SampleQ3": 28.61765,
+                    "SampleSize": 3
+                },
+                {
+                    "Seqnr": 1,
+                    "SampleId": 243031067,
+                    "Value": 28.6179,
+                    "is_flagged": "N",
+                    "SampleTimestamp": "2023-12-10T22:22:28Z",
+                    "SampleTimestampUtc": "2023-12-10T13:22:28Z",
+                    "CreatedTimestamp": "2023-12-10T22:22:28Z",
+                    "CreatedTimestampUtc": "2023-12-10T13:22:28Z",
+                    "UpdatedTimestamp": "2023-12-10T22:22:28Z",
+                    "UpdatedTimestampUtc": "2023-12-10T13:22:28Z",
+                    "NumViolations": 0,
+                    "SampleMean": 28.6115,
+                    "SampleMin": 28.5992,
+                    "SampleMax": 28.6179,
+                    "SampleMedian": 28.6174,
+                    "SampleStdev": 0.0106550457530691,
+                    "SampleQ1": 28.6083,
+                    "SampleQ3": 28.61765,
+                    "SampleSize": 3
+                }
+            ],
+            "process_equipment": "LTF004",
+            "ParameterClass": "E_SPC",
+            "Segment": "IFPS",
+            "Module": "MiniFP",
+            "Data_flat_Limits": {
+                "CKC_ID": "0",
+                "MeasurementSpecLimits": {
+                    "SpecHighEnabled": "Y",
+                    "SpecLowEnabled": "Y",
+                    "spec_high": 28.9,
+                    "spec_low": 28.3,
+                    "target": 28.6
+                },
+                "ControlLimits": {
+                    "ctrl_mean_low": 28.4,
+                    "CtrlMeanLowEnabled": "Y",
+                    "ctrl_mean_target": 28.6,
+                    "CtrlMeanTargetEnabled": "Y",
+                    "ctrl_mean_high": 28.8,
+                    "CtrlMeanHighEnabled": "Y",
+                    "CtrlLowEnabled": "N",
+                    "CtrlHighEnabled": "N",
+                    "CtrlStdevLowEnabled": "N",
+                    "CtrlSigmaCenterEnabled": "N",
+                    "CtrlRangeCenterEnabled": "N",
+                    "CtrlCenterEnabled": "N",
+                    "CtrlStdevHighEnabled": "N",
+                    "CtrlRangeLowEnabled": "N",
+                    "ctrl_range_high": 0.165110543602448,
+                    "CtrlRangeHighEnabled": "Y"
+                }
+            },
+            "Data_flat_MeasurementAggregates": {
+                "exec_count": 3,
+                "base_count": 3,
+                "flagged_count": 0,
+                "mean": 28.611499999999996,
+                "median": 28.6174,
+                "stdev": 0.008699808427009383,
+                "range": 0.01869999999999905,
+                "min": 28.5992,
+                "max": 28.6179,
+                "q02": 28.599928,
+                "q05": 28.601020000000002,
+                "q25": 28.6083,
+                "q75": 28.617649999999998,
+                "q95": 28.617849999999997,
+                "q98": 28.617879999999996,
+                "NumViolations": 0,
+                "Samples": "243031067"
+            },
+            "ParameterName": "TipToTip_DistanceIn",
+            "ParameterUnit": "mm",
+            "ChannelId": "59915",
+            "SourceDataLevel": "C",
+            "channel_name": "TipToTip_DistanceIn MiniFP",
+            "RvStoreFlag": "Y",
+            "created_timestamp_utc": "2023-12-10T13:22:28Z",
+            "created_timestamp": "2023-12-10T22:22:28Z",
+            "updated_timestamp_utc": "2023-12-10T13:22:28Z",
+            "updated_timestamp": "2023-12-10T22:22:28Z"
+        }
+    ],
+    "Document": {
+        "Version": "1.0",
+        "Type": "ProcessControl",
+        "Repetition": {
+            "Id": "0",
+            "IdBaseValue": "2023-12-10T13:22:28Z"
+        }
+    },
+    "ProductionAction": {
+        "Id": "SPACEAGGED2:CJJ:BE:::",
+        "Type": "SpaceAggregation"
+    },
+    "Item": {
+        "Id": "Measlot:2Z34902B",
+        "IdSystemName": "Measlot",
+        "Type": "Lot"
+    },
+    "SystemLog": {
+        "UniqueSourceKey": "CJJ:BE:2Z34902B:::TipToTip_DistanceIn:59915:243031067:0",
+        "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+        "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+        "DocCreatedTimestampUtc": "2023-12-10T22:22:28Z",
+        "QueueOffset": 0,
+        "QueuePartition": 0
+    },
+    "SearchPatterns": {
+        "SpaceKey": "Measlot:2Z34902B:SPACEAGGED2:CJJ:BE::::ProcessControl:1.0",
+        "TimeGroup": "0",
+        "SiteKey": "CJJ"
+    }
+}

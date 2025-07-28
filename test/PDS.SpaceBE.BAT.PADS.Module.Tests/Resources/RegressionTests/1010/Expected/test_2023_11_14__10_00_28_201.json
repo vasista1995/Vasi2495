@@ -1,0 +1,218 @@
+{
+  "Data_flat_Metadata": {
+    "ParameterOper": "Wire_Bond1",
+    "ParameterFacility": "BE1I",
+    "SiteKey": "BAT",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-11-14T06:37:38Z",
+    "BeginTimestamp": "2023-11-14T13:37:38Z",
+    "EndTimestampUtc": "2023-11-14T06:37:38Z",
+    "EndTimestamp": "2023-11-14T13:37:38Z"
+  },
+  "Data_flat_StrangeMetadata": {
+    "Device": "L8404F",
+    "ParameterClass": "NON_PPAP",
+    "Segment": "WB",
+    "F56Parameter": "N"
+  },
+  "Data_1list_Parameters": [
+    {
+      "Data_1list_RawValues": [
+        {
+          "Seqnr": 4,
+          "SampleId": 240186695,
+          "Value": 56.254,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T13:37:38Z",
+          "SampleTimestampUtc": "2023-11-14T06:37:38Z",
+          "CreatedTimestamp": "2023-11-14T13:37:38Z",
+          "CreatedTimestampUtc": "2023-11-14T06:37:38Z",
+          "UpdatedTimestamp": "2023-11-14T13:37:38Z",
+          "UpdatedTimestampUtc": "2023-11-14T06:37:38Z",
+          "NumViolations": 0,
+          "SampleMean": 55.2878,
+          "SampleMin": 48.831,
+          "SampleMax": 60.603,
+          "SampleMedian": 55.887,
+          "SampleStdev": 4.22533450746802,
+          "SampleQ1": 54.864,
+          "SampleQ3": 56.254,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 3,
+          "SampleId": 240186695,
+          "Value": 60.603,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T13:37:38Z",
+          "SampleTimestampUtc": "2023-11-14T06:37:38Z",
+          "CreatedTimestamp": "2023-11-14T13:37:38Z",
+          "CreatedTimestampUtc": "2023-11-14T06:37:38Z",
+          "UpdatedTimestamp": "2023-11-14T13:37:38Z",
+          "UpdatedTimestampUtc": "2023-11-14T06:37:38Z",
+          "NumViolations": 0,
+          "SampleMean": 55.2878,
+          "SampleMin": 48.831,
+          "SampleMax": 60.603,
+          "SampleMedian": 55.887,
+          "SampleStdev": 4.22533450746802,
+          "SampleQ1": 54.864,
+          "SampleQ3": 56.254,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 2,
+          "SampleId": 240186695,
+          "Value": 55.887,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T13:37:38Z",
+          "SampleTimestampUtc": "2023-11-14T06:37:38Z",
+          "CreatedTimestamp": "2023-11-14T13:37:38Z",
+          "CreatedTimestampUtc": "2023-11-14T06:37:38Z",
+          "UpdatedTimestamp": "2023-11-14T13:37:38Z",
+          "UpdatedTimestampUtc": "2023-11-14T06:37:38Z",
+          "NumViolations": 0,
+          "SampleMean": 55.2878,
+          "SampleMin": 48.831,
+          "SampleMax": 60.603,
+          "SampleMedian": 55.887,
+          "SampleStdev": 4.22533450746802,
+          "SampleQ1": 54.864,
+          "SampleQ3": 56.254,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 1,
+          "SampleId": 240186695,
+          "Value": 54.864,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T13:37:38Z",
+          "SampleTimestampUtc": "2023-11-14T06:37:38Z",
+          "CreatedTimestamp": "2023-11-14T13:37:38Z",
+          "CreatedTimestampUtc": "2023-11-14T06:37:38Z",
+          "UpdatedTimestamp": "2023-11-14T13:37:38Z",
+          "UpdatedTimestampUtc": "2023-11-14T06:37:38Z",
+          "NumViolations": 0,
+          "SampleMean": 55.2878,
+          "SampleMin": 48.831,
+          "SampleMax": 60.603,
+          "SampleMedian": 55.887,
+          "SampleStdev": 4.22533450746802,
+          "SampleQ1": 54.864,
+          "SampleQ3": 56.254,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 5,
+          "SampleId": 240186695,
+          "Value": 48.831,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T13:37:38Z",
+          "SampleTimestampUtc": "2023-11-14T06:37:38Z",
+          "CreatedTimestamp": "2023-11-14T13:37:38Z",
+          "CreatedTimestampUtc": "2023-11-14T06:37:38Z",
+          "UpdatedTimestamp": "2023-11-14T13:37:38Z",
+          "UpdatedTimestampUtc": "2023-11-14T06:37:38Z",
+          "NumViolations": 0,
+          "SampleMean": 55.2878,
+          "SampleMin": 48.831,
+          "SampleMax": 60.603,
+          "SampleMedian": 55.887,
+          "SampleStdev": 4.22533450746802,
+          "SampleQ1": 54.864,
+          "SampleQ3": 56.254,
+          "SampleSize": 5
+        }
+      ],
+      "CFComment": "FOL",
+      "FourDReport": "*",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "N",
+          "SpecLowEnabled": "Y",
+          "spec_low": 12.0,
+          "target": 24.0
+        },
+        "ControlLimits": {
+          "ctrl_mean_low": 34.032,
+          "CtrlMeanLowEnabled": "Y",
+          "ctrl_mean_target": 54.7459608343712,
+          "CtrlMeanTargetEnabled": "Y",
+          "ctrl_mean_high": 75.4599,
+          "CtrlMeanHighEnabled": "Y",
+          "CtrlLowEnabled": "N",
+          "CtrlHighEnabled": "N",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "N",
+          "CtrlRangeCenterEnabled": "Y",
+          "CtrlCenterEnabled": "N",
+          "CtrlStdevHighEnabled": "N",
+          "CtrlRangeLowEnabled": "N",
+          "ctrl_range_target": 7.2871976586086,
+          "ctrl_range_high": 26.5717119103382,
+          "CtrlRangeHighEnabled": "Y"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 5,
+        "base_count": 5,
+        "flagged_count": 0,
+        "mean": 55.287800000000004,
+        "median": 55.887,
+        "stdev": 3.779254074549632,
+        "range": 11.771999999999998,
+        "min": 48.831,
+        "max": 60.603,
+        "q02": 49.31364000000001,
+        "q05": 50.037600000000005,
+        "q25": 54.864,
+        "q75": 56.254,
+        "q95": 59.7332,
+        "q98": 60.25508,
+        "NumViolations": 0,
+        "Samples": "240186695"
+      },
+      "ParameterName": "StitchPull",
+      "ChannelId": "70656",
+      "SourceDataLevel": "C",
+      "channel_name": "Stitch_PullForce TSDSO14 65 Cu 150MIL UTC",
+      "channel_description": "Created from LDS  exclude list by  action 'Create SPC Channel'",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-11-14T06:37:38Z",
+      "created_timestamp": "2023-11-14T13:37:38Z",
+      "updated_timestamp_utc": "2023-11-14T06:37:38Z",
+      "updated_timestamp": "2023-11-14T13:37:38Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-11-14T06:37:38Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED2:BAT:BE:BE1I:Wire_Bond1:",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "Measlot:",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "BAT:BE:VF329123B05:BE1I:Wire_Bond1:StitchPull:70656:240186695:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-11-14T13:37:38Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "Measlot::SPACEAGGED2:BAT:BE:BE1I:Wire_Bond1::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "BAT"
+  }
+}

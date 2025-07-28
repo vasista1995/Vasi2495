@@ -1,0 +1,147 @@
+{
+  "Data_flat_Metadata": {
+    "Line": "IHM",
+    "ProductionOrder": "81768891",
+    "Batch": "HA11671P0",
+    "MaterialNumber": "22904",
+    "ProductGroup": "M-62MM3.GEN",
+    "MeasurementRecipe": "1",
+    "OrderType": "2100",
+    "QrkGroup": "2100",
+    "ProcessGroup": "system_soldering",
+    "SpcClass": "2100",
+    "Segment": "HPS",
+    "MeasLot": "81768891",
+    "SiteKey": "CEG",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-10-27T09:15:08Z",
+    "BeginTimestamp": "2023-10-27T11:15:08Z",
+    "EndTimestampUtc": "2023-10-27T09:15:08Z",
+    "EndTimestamp": "2023-10-27T11:15:08Z",
+    "Equipment": "VADU40"
+  },
+  "Data_flat_StrangeMetadata": {
+    "MaterialNumberText": "2100",
+    "Operator": "2100",
+    "ParameterClass": "NON_SPC",
+    "Package": "IHM",
+    "PosName": "2100"
+  },
+  "Data_1list_Parameters": [
+    {
+      "process_equipment": "10029787",
+      "ProcessEquipmentName": "VADU40",
+      "LongParameterName": "K2-Massflow",
+      "Data_1list_RawValues": [
+        {
+          "process_equipment": "10029787",
+          "MeasurementEquipment": "VADU40",
+          "ProcessEquipmentName": "VADU40",
+          "Seqnr": 1,
+          "SampleId": 332712281,
+          "Value": 15.0,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-10-27T11:15:08Z",
+          "SampleTimestampUtc": "2023-10-27T09:15:08Z",
+          "CreatedTimestamp": "2023-10-27T11:20:18Z",
+          "CreatedTimestampUtc": "2023-10-27T09:20:18Z",
+          "UpdatedTimestamp": "2023-10-27T11:20:18Z",
+          "UpdatedTimestampUtc": "2023-10-27T09:20:18Z",
+          "NumViolations": 0,
+          "SampleMean": 15.0,
+          "SampleMin": 15.0,
+          "SampleMax": 15.0,
+          "SampleMedian": 15.0,
+          "SampleStdev": 0.0,
+          "SampleQ1": 15.0,
+          "SampleQ3": 15.0,
+          "SampleSize": 1
+        }
+      ],
+      "ParameterType": "2100",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "Y",
+          "SpecLowEnabled": "Y",
+          "spec_high": 17.1,
+          "spec_low": 12.9,
+          "target": 15.0
+        },
+        "ControlLimits": {
+          "CtrlMeanLowEnabled": "N",
+          "CtrlMeanTargetEnabled": "N",
+          "CtrlMeanHighEnabled": "N",
+          "CtrlLowEnabled": "N",
+          "CtrlHighEnabled": "N",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "N",
+          "CtrlRangeCenterEnabled": "N",
+          "CtrlCenterEnabled": "N",
+          "CtrlStdevHighEnabled": "N",
+          "CtrlRangeLowEnabled": "N",
+          "CtrlRangeHighEnabled": "N"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 1,
+        "base_count": 1,
+        "flagged_count": 0,
+        "mean": 15.0,
+        "median": 15.0,
+        "stdev": 0.0,
+        "range": 0.0,
+        "min": 15.0,
+        "max": 15.0,
+        "q02": 15.0,
+        "q05": 15.0,
+        "q25": 15.0,
+        "q75": 15.0,
+        "q95": 15.0,
+        "q98": 15.0,
+        "NumViolations": 0,
+        "Samples": "332712281"
+      },
+      "ParameterName": "K2-MFC",
+      "ParameterUnit": "SDL",
+      "ChannelId": "104759",
+      "SourceDataLevel": "C",
+      "channel_name": "K2-MFC Recipe1 induction",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-10-27T09:20:18Z",
+      "created_timestamp": "2023-10-27T11:20:18Z",
+      "updated_timestamp_utc": "2023-10-27T09:20:18Z",
+      "updated_timestamp": "2023-10-27T11:20:18Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-10-27T09:20:18Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED3:CEG:BE:IHM::",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "ERROR:81768891",
+    "IdSystemName": "ERROR",
+    "Type": "Fauf"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "CEG:BE:81768891:IHM::K2-MFC:104759:332712281:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-10-27T11:15:08Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "ERROR:81768891:SPACEAGGED3:CEG:BE:IHM:::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "CEG"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "Data_flat_Metadata": {
+    "ParameterOper": "Die_Bond2",
+    "ParameterFacility": "BE1I",
+    "SiteKey": "BAT",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-11-14T07:23:22Z",
+    "BeginTimestamp": "2023-11-14T14:23:22Z",
+    "EndTimestampUtc": "2023-11-14T07:23:22Z",
+    "EndTimestamp": "2023-11-14T14:23:22Z"
+  },
+  "Data_flat_StrangeMetadata": {
+    "Device": "L2891S",
+    "Module": "DS-TS-RB",
+    "ParameterClass": "NON_SPC",
+    "Segment": "DA",
+    "F56Parameter": "N"
+  },
+  "Data_1list_Parameters": [
+    {
+      "Data_1list_RawValues": [
+        {
+          "Seqnr": 4,
+          "SampleId": 240189285,
+          "Value": 7.9,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T14:23:22Z",
+          "SampleTimestampUtc": "2023-11-14T07:23:22Z",
+          "CreatedTimestamp": "2023-11-14T14:23:22Z",
+          "CreatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "UpdatedTimestamp": "2023-11-14T14:23:22Z",
+          "UpdatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "NumViolations": 0,
+          "SampleMean": 11.8,
+          "SampleMin": 7.9,
+          "SampleMax": 15.6,
+          "SampleMedian": 12.0,
+          "SampleStdev": 3.70472671056854,
+          "SampleQ1": 8.2,
+          "SampleQ3": 15.3,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 3,
+          "SampleId": 240189285,
+          "Value": 12.0,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T14:23:22Z",
+          "SampleTimestampUtc": "2023-11-14T07:23:22Z",
+          "CreatedTimestamp": "2023-11-14T14:23:22Z",
+          "CreatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "UpdatedTimestamp": "2023-11-14T14:23:22Z",
+          "UpdatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "NumViolations": 0,
+          "SampleMean": 11.8,
+          "SampleMin": 7.9,
+          "SampleMax": 15.6,
+          "SampleMedian": 12.0,
+          "SampleStdev": 3.70472671056854,
+          "SampleQ1": 8.2,
+          "SampleQ3": 15.3,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 1,
+          "SampleId": 240189285,
+          "Value": 15.3,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T14:23:22Z",
+          "SampleTimestampUtc": "2023-11-14T07:23:22Z",
+          "CreatedTimestamp": "2023-11-14T14:23:22Z",
+          "CreatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "UpdatedTimestamp": "2023-11-14T14:23:22Z",
+          "UpdatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "NumViolations": 0,
+          "SampleMean": 11.8,
+          "SampleMin": 7.9,
+          "SampleMax": 15.6,
+          "SampleMedian": 12.0,
+          "SampleStdev": 3.70472671056854,
+          "SampleQ1": 8.2,
+          "SampleQ3": 15.3,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 2,
+          "SampleId": 240189285,
+          "Value": 15.6,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T14:23:22Z",
+          "SampleTimestampUtc": "2023-11-14T07:23:22Z",
+          "CreatedTimestamp": "2023-11-14T14:23:22Z",
+          "CreatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "UpdatedTimestamp": "2023-11-14T14:23:22Z",
+          "UpdatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "NumViolations": 0,
+          "SampleMean": 11.8,
+          "SampleMin": 7.9,
+          "SampleMax": 15.6,
+          "SampleMedian": 12.0,
+          "SampleStdev": 3.70472671056854,
+          "SampleQ1": 8.2,
+          "SampleQ3": 15.3,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 5,
+          "SampleId": 240189285,
+          "Value": 8.2,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T14:23:22Z",
+          "SampleTimestampUtc": "2023-11-14T07:23:22Z",
+          "CreatedTimestamp": "2023-11-14T14:23:22Z",
+          "CreatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "UpdatedTimestamp": "2023-11-14T14:23:22Z",
+          "UpdatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "NumViolations": 0,
+          "SampleMean": 11.8,
+          "SampleMin": 7.9,
+          "SampleMax": 15.6,
+          "SampleMedian": 12.0,
+          "SampleStdev": 3.70472671056854,
+          "SampleQ1": 8.2,
+          "SampleQ3": 15.3,
+          "SampleSize": 5
+        }
+      ],
+      "CFComment": "FOL",
+      "FourDReport": "*",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "Y",
+          "SpecLowEnabled": "N",
+          "spec_high": 30.0,
+          "target": 0.0
+        },
+        "ControlLimits": {
+          "ctrl_mean_low": -0.5,
+          "CtrlMeanLowEnabled": "Y",
+          "ctrl_mean_target": 12.5,
+          "CtrlMeanTargetEnabled": "Y",
+          "ctrl_mean_high": 25.0,
+          "CtrlMeanHighEnabled": "Y",
+          "CtrlLowEnabled": "N",
+          "CtrlHighEnabled": "N",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "N",
+          "CtrlRangeCenterEnabled": "Y",
+          "CtrlCenterEnabled": "N",
+          "CtrlStdevHighEnabled": "N",
+          "CtrlRangeLowEnabled": "N",
+          "ctrl_range_target": 5.33547859543973,
+          "ctrl_range_high": 18.5937519367413,
+          "CtrlRangeHighEnabled": "Y"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 5,
+        "base_count": 5,
+        "flagged_count": 0,
+        "mean": 11.8,
+        "median": 12.0,
+        "stdev": 3.3136083051561784,
+        "range": 7.699999999999999,
+        "min": 7.9,
+        "max": 15.6,
+        "q02": 7.924,
+        "q05": 7.96,
+        "q25": 8.2,
+        "q75": 15.3,
+        "q95": 15.54,
+        "q98": 15.576,
+        "NumViolations": 0,
+        "Samples": "240189285"
+      },
+      "ParameterName": "GlueDieTilt",
+      "ParameterUnit": "um",
+      "ChannelId": "26887",
+      "SourceDataLevel": "C",
+      "channel_name": "Die_Tiltness",
+      "channel_description": "Created from LDS  exclude list by  action 'Create SPC Channel'",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-11-14T07:23:22Z",
+      "created_timestamp": "2023-11-14T14:23:22Z",
+      "updated_timestamp_utc": "2023-11-14T07:23:22Z",
+      "updated_timestamp": "2023-11-14T14:23:22Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-11-14T07:23:22Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED2:BAT:BE:BE1I:Die_Bond2:",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "Measlot:",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "BAT:BE:VE347303B11:BE1I:Die_Bond2:GlueDieTilt:26887:240189285:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-11-14T14:23:22Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "Measlot::SPACEAGGED2:BAT:BE:BE1I:Die_Bond2::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "BAT"
+  }
+}

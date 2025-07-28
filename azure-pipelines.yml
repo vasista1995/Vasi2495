@@ -1,0 +1,37 @@
+parameters:
+- name: pushImage
+  displayName: "Feature build: Push image to OpenShift registry"
+  type: boolean
+  default: false
+- name: releaseBuild
+  displayName: "Perform release build"
+  type: boolean
+  default: false
+- name: ignoreTestFailed
+  displayName: "Release build: Ignore failed unit tests"
+  type: boolean
+  default: false
+
+trigger:
+- develop
+- feature/*
+
+resources:
+  repositories:
+    - repository: pds-framework
+      type: git
+      name: framework
+      ref: refs/tags/1.5.0
+
+pool:
+  name: 'MDI DPI PDS Build Agents'
+  demands: DOTNET_SDK_8
+
+extends:
+  template: ci-templates/app.yml@pds-framework
+  parameters:
+    targetImageDevelop: pads-build/space-app-develop
+    targetImageRelease: pads-build/space-app-release
+    pushImage: ${{ parameters.pushImage }}
+    releaseBuild: ${{ parameters.releaseBuild }}
+    ignoreTestFailed: ${{ parameters.ignoreTestFailed }}

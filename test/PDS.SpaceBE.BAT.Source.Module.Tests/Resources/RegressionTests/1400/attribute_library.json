@@ -1,0 +1,252 @@
+{
+  "Device": [
+    "U5880B",
+    "S8803E",
+    "L2891S",
+    "L2791T",
+    "L8406J",
+    "L8420J",
+    "L8408J",
+    "S7185C"
+  ],
+  "ParameterClass": [
+    "E_SPC",
+    "NON_SPC",
+    "PPAP"
+  ],
+  "CFComment": [
+    "EOL",
+    "FOL"
+  ],
+  "Segment": [
+    "MOLD",
+    "SNPL",
+    "DA"
+  ],
+  "FourDReport": [
+    "*"
+  ],
+  "SpaceRawValues.BreakPoint": [
+    "Rawvalueslist"
+  ],
+  "SpaceRawValues.ExternalFlagged": [
+    "N"
+  ],
+  "SpaceRawValues.InternalFlagged": [
+    "N"
+  ],
+  "SpaceRawValues.NumViolations": [
+    "0",
+    "1",
+    "2"
+  ],
+  "ParameterName": [
+    "MoldTemperature",
+    "PreheatTemperature",
+    "Thickness",
+    "GlueBondLineThicknessAverage",
+    "GlueDieTilt",
+    "GlueVoidSingle",
+    "GlueVoidTotal",
+    "EjectorPinDepth-Molding",
+    "OffCenter-X",
+    "OffCenter-Y",
+    "OffSet-X",
+    "OffSet-Y"
+  ],
+  "ParameterUnit": [
+    "deg",
+    "um",
+    "%",
+    "mm"
+  ],
+  "SampleSize": [
+    "10",
+    "6",
+    "9",
+    "18",
+    "5",
+    "4"
+  ],
+  "LdsID": [
+    "1400"
+  ],
+  "IsCalcParam": [
+    "0"
+  ],
+  "CtrlMeanHighEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlMeanLowEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlMeanTargetEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlLowEnabled": [
+    "N"
+  ],
+  "CtrlHighEnabled": [
+    "N"
+  ],
+  "CtrlRangeLowEnabled": [
+    "N"
+  ],
+  "CtrlRangeHighEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlSigmaLowEnabled": [
+    "N"
+  ],
+  "CtrlSigmaCenterEnabled": [
+    "N",
+    "Y"
+  ],
+  "CtrlRangeCenterEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlCenterEnabled": [
+    "N"
+  ],
+  "CtrlSigmaHighEnabled": [
+    "N",
+    "Y"
+  ],
+  "SpecLowEnabled": [
+    "Y",
+    "N"
+  ],
+  "SpecHighEnabled": [
+    "Y"
+  ],
+  "RvStoreFlag": [
+    "Y"
+  ],
+  "Operation": [
+    "Mould",
+    "Post_Plate_Baking",
+    "Die_Bond2",
+    "Plating",
+    "1700"
+  ],
+  "Facility": [
+    "BE1I"
+  ],
+  "CkcId": [
+    "0",
+    "60",
+    "61",
+    "1"
+  ],
+  "ChannelDescr": [
+    "Created from LDS \nexclude list by \naction 'Create SPC Channel'"
+  ],
+  "SpaceInstanceName": [
+    "BE"
+  ],
+  "Sitekey": [
+    "BAT"
+  ],
+  "ILdsID": [
+    "0"
+  ],
+  "AcceptFlag": [
+    "Y"
+  ],
+  "UpdatedBy": [
+    " ",
+    "iscw4ce01954pz"
+  ],
+  "SpecTargetOrigin": [
+    "V"
+  ],
+  "ViolCount": [
+    "0",
+    "1",
+    "2"
+  ],
+  "OutOfOrder": [
+    "N"
+  ],
+  "LimitEnable": [
+    "YYNYNNYNYYYYYYYYYYYNNNYYYYYYNNNNNNNNN",
+    "NYNYNNYNYYYYYYYYYYYNNNYYYYYYNNNNNNNNN",
+    "YYNNYNYYNYYYYYYYYYYNNNYYYYYYNNNNNNNNN",
+    "NYNYNNYNYNYYYYYYYYYNNNYYYYYYNNNNNNNNN"
+  ],
+  "ClOrigin": [
+    "0"
+  ],
+  "MVLal": [
+    "0"
+  ],
+  "MVUal": [
+    "0"
+  ],
+  "ExtSpecLower": [
+    "0"
+  ],
+  "ExtSpecUpper": [
+    "0"
+  ],
+  "ExtSpecLimEnable": [
+    "NN"
+  ],
+  "CalculationStrategy": [
+    "ND",
+    "ND 4.5 Sigma"
+  ],
+  "ChannelType": [
+    "N"
+  ],
+  "ChState": [
+    "Online"
+  ],
+  "Module": [
+    "DSO 300-LSS",
+    "None",
+    "DS-TS-RB",
+    "GLUE VOID",
+    "DSO 150-SSS",
+    "DSO 150-LSS",
+    "DSO 300-EPAD-LSS"
+  ],
+  "SigmaCntrlTarget": [
+    "0,478096466574241",
+    "0,436920407077527",
+    "0,610879491594937"
+  ],
+  "SigmaCntrlHigh": [
+    "1,27255032870345",
+    "2,06410796722227",
+    "2,03348369450807"
+  ],
+  "F56Parameter": [
+    "N"
+  ],
+  "SpaceRawValues.ViolationComments": [
+    "F/D \t: OFFCENTER Y RAW ABOVE SPECIFICATION\nR/C \t: UNBALANCE DIESET\nC/A \t: REALIGMENT DIESET\nTYPE \t: ENGINEERING\nPCDF \t: NA\nTECH \t: BONDOR\nPC \t: 30045812",
+    "F/D \t: OFFSET X RAW ABOVE SPECIFICATION\nR/C \t: UNBALANCE DIESET\nC/A \t: REALIGMENT DIESET\nTYPE \t: ENGINEERING\nPCDF \t: NA\nTECH \t: BONDOR\nPC \t: 30045812",
+    "F/D \t: OFFSET Y RAW ABOVE SPECIFICATION\nR/C \t: UNBALANCE DIESET\nC/A \t: REALIGMENT DIESET\nTYPE \t: ENGINEERING\nPCDF \t: NA\nTECH \t: BONDOR\nPC \t: 30045812"
+  ],
+  "SpaceRawValues.ViolationList": [
+    "1",
+    "1,3",
+    "1,6",
+    "8"
+  ],
+  "SpaceRawValues.PrimaryViolation": [
+    "1",
+    "8"
+  ],
+  "SpaceRawValues.PrimaryViolationComments": [
+    "F/D \t: OFFCENTER Y RAW ABOVE SPECIFICATION\nR/C \t: UNBALANCE DIESET\nC/A \t: REALIGMENT DIESET\nTYPE \t: ENGINEERING\nPCDF \t: NA\nTECH \t: BONDOR\nPC \t: 30045812",
+    "F/D \t: OFFSET X RAW ABOVE SPECIFICATION\nR/C \t: UNBALANCE DIESET\nC/A \t: REALIGMENT DIESET\nTYPE \t: ENGINEERING\nPCDF \t: NA\nTECH \t: BONDOR\nPC \t: 30045812",
+    "F/D \t: OFFSET Y RAW ABOVE SPECIFICATION\nR/C \t: UNBALANCE DIESET\nC/A \t: REALIGMENT DIESET\nTYPE \t: ENGINEERING\nPCDF \t: NA\nTECH \t: BONDOR\nPC \t: 30045812"
+  ]
+}

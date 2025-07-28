@@ -1,0 +1,253 @@
+{
+    "IdSource": "SPACEACT1:RBG:FE:3A110879:WLADR:8667:WARPAGE:161310:522659434:9",
+    "ProductionAction": {
+        "Type": "SpaceAction",
+        "Id": "SPACEACT1:RBG:FE:WLADR:8667:WARPAGE:161310"
+    },
+    "Item": {
+        "Id": "Measlot:3A110879",
+        "IdSystemName": "Measlot",
+        "Type": "Lot"
+    },
+    "Data_flat_Metadata": {
+        "Lot": "3A110879",
+        "ParameterName": "WARPAGE",
+        "ParameterOper": "8667",
+        "ParameterFacility": "WLADR",
+        "SiteKey": "RBG",
+        "ChannelId": 161310,
+        "SpaceInstanceName": "FE",
+        "CreatedTimestampUtc": "2021-01-08T07:42:40",
+        "UpdatedTimestampUtc": "2021-01-08T07:42:40",
+        "ExportedTimestampUtc": "2021-03-16T12:47:22.1664216Z",
+        "SampleTimestampUtc": "2021-01-08T07:42:40",
+        "ProcessEquipment": "509-681",
+        "Route": "WLERP002A0",
+        "ProcessBatch": "0",
+        "SPSNumber": "K84002",
+        "Equipment": "MET984-02",
+        "ChannelName": "8667_WARPAGE_RADAR",
+        "ChannelDescr": "Rohdatensammelkarte RADAR",
+        "Recipe": "WLERP002A0",
+        "EquipmentType": "NIKON_VMR",
+        "RvStoreFlag": "Y"
+    },
+    "Data_flat_StrangeMetadata": {
+        "BasicType": "W1350D",
+        "ProductType": "W1350D00012",
+        "Product": "67090914",
+        "ProcessGroup": "EWLBA_FO",
+        "ProcessLine": "08FIWLBA01",
+        "Design": "-",
+        "Layer": "-",
+        "MeasurementBatch": "0"
+    },
+    "Data_1list_Parameters": {
+        "Data_flat_Limits": {
+            "Ckc_id": 0,
+            "MeasurementSpecLimits": {
+                "SpecHighEnabled": "Y",
+                "SpecLowEnabled": "Y",
+                "SpecHigh": 3,
+                "SpecLow": -3,
+                "SpecTarget": 0
+            },
+            "SpaceAggregates": {
+                "Mean": "-7.6923076922812E-06",
+                "Median": "-.1636",
+                "Sigma": ".294741362501483",
+                "Min": "-.2884",
+                "Max": ".3647",
+                "Q1": "-.2333",
+                "Q3": ".3501"
+            },
+            "ControlLimits": {
+                "CtrlMeanLowEnabled": "N",
+                "CtrlMeanTargetEnabled": "N",
+                "CtrlMeanHighEnabled": "N",
+                "CtrlLowEnabled": "N",
+                "CtrlHighEnabled": "N",
+                "CtrlSigmaLowEnabled": "N",
+                "CtrlSigmaHighEnabled": "N",
+                "CtrlRangeLowEnabled": "N",
+                "CtrlRangeHighEnabled": "N"
+            }
+        },
+        "SampleSize": 13,
+        "Data_1list_RawValues": [
+            {
+                "SampleId": 522659434,
+                "Seqnr": 12,
+                "Value": 0.3647,
+                "X": "-0.7384",
+                "Y": "-9.9723",
+                "GOF": "0",
+                "Slot": "1",
+                "WaferSequence": "1",
+                "MotherLotWafer": "3A11087901",
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N"
+            },
+            {
+                "SampleId": 522659434,
+                "Seqnr": 11,
+                "Value": 0.3533,
+                "X": "-9.3678",
+                "Y": "-0.4803",
+                "GOF": "0",
+                "Slot": "1",
+                "WaferSequence": "1",
+                "MotherLotWafer": "3A11087901",
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N"
+            },
+            {
+                "SampleId": 522659434,
+                "Seqnr": 10,
+                "Value": 0.3481,
+                "X": "0.2635",
+                "Y": "9.3005",
+                "GOF": "0",
+                "Slot": "1",
+                "WaferSequence": "1",
+                "MotherLotWafer": "3A11087901",
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N"
+            },
+            {
+                "SampleId": 522659434,
+                "Seqnr": 9,
+                "Value": 0.3501,
+                "X": "9.8262",
+                "Y": "0.0808",
+                "GOF": "0",
+                "Slot": "1",
+                "WaferSequence": "1",
+                "MotherLotWafer": "3A11087901",
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N"
+            },
+            {
+                "SampleId": 522659434,
+                "Seqnr": 8,
+                "Value": -0.2147,
+                "X": "-68.1804",
+                "Y": "-66.9308",
+                "GOF": "0",
+                "Slot": "1",
+                "WaferSequence": "1",
+                "MotherLotWafer": "3A11087901",
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N"
+            },
+            {
+                "SampleId": 522659434,
+                "Seqnr": 7,
+                "Value": -0.2574,
+                "X": "-93.0011",
+                "Y": "-0.4053",
+                "GOF": "0",
+                "Slot": "1",
+                "WaferSequence": "1",
+                "MotherLotWafer": "3A11087901",
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N"
+            },
+            {
+                "SampleId": 522659434,
+                "Seqnr": 13,
+                "Value": 0.3631,
+                "X": "0.3085",
+                "Y": "0.421",
+                "GOF": "0",
+                "Slot": "1",
+                "WaferSequence": "1",
+                "MotherLotWafer": "3A11087901",
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N"
+            },
+            {
+                "SampleId": 522659434,
+                "Seqnr": 5,
+                "Value": -0.1636,
+                "X": "0.5734",
+                "Y": "84.3351",
+                "GOF": "0",
+                "Slot": "1",
+                "WaferSequence": "1",
+                "MotherLotWafer": "3A11087901",
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N"
+            },
+            {
+                "SampleId": 522659434,
+                "Seqnr": 4,
+                "Value": -0.2432,
+                "X": "66.2034",
+                "Y": "66.4083",
+                "GOF": "0",
+                "Slot": "1",
+                "WaferSequence": "1",
+                "MotherLotWafer": "3A11087901",
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N"
+            },
+            {
+                "SampleId": 522659434,
+                "Seqnr": 3,
+                "Value": -0.2884,
+                "X": "95.044",
+                "Y": "-0.0404",
+                "GOF": "0",
+                "Slot": "1",
+                "WaferSequence": "1",
+                "MotherLotWafer": "3A11087901",
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N"
+            },
+            {
+                "SampleId": 522659434,
+                "Seqnr": 2,
+                "Value": -0.1625,
+                "X": "65.9623",
+                "Y": "-67.5228",
+                "GOF": "0",
+                "Slot": "1",
+                "WaferSequence": "1",
+                "MotherLotWafer": "3A11087901",
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N"
+            },
+            {
+                "SampleId": 522659434,
+                "Seqnr": 1,
+                "Value": -0.2163,
+                "X": "-0.0581",
+                "Y": "-94.9622",
+                "GOF": "0",
+                "Slot": "1",
+                "WaferSequence": "1",
+                "MotherLotWafer": "3A11087901",
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N"
+            },
+            {
+                "SampleId": 522659434,
+                "Seqnr": 6,
+                "Value": -0.2333,
+                "X": "-67.1602",
+                "Y": "67.1635",
+                "GOF": "0",
+                "Slot": "1",
+                "WaferSequence": "1",
+                "MotherLotWafer": "3A11087901",
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N"
+            }
+        ]
+    },
+    "SystemLog": {
+        "JobId": 0,
+        "LoadingTimestamp": "2021-03-16T12:47:22.1664223+00:00"
+    }
+}

@@ -1,0 +1,221 @@
+{
+  "Data_flat_Metadata": {
+    "ParameterOper": "Die_Bond2",
+    "ParameterFacility": "BE1I",
+    "SiteKey": "BAT",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-11-14T07:23:22Z",
+    "BeginTimestamp": "2023-11-14T14:23:22Z",
+    "EndTimestampUtc": "2023-11-14T07:23:22Z",
+    "EndTimestamp": "2023-11-14T14:23:22Z"
+  },
+  "Data_flat_StrangeMetadata": {
+    "Device": "L2891S",
+    "Module": "DS-TS-RB",
+    "ParameterClass": "E_SPC",
+    "Segment": "DA",
+    "F56Parameter": "N"
+  },
+  "Data_1list_Parameters": [
+    {
+      "Data_1list_RawValues": [
+        {
+          "Seqnr": 5,
+          "SampleId": 240189284,
+          "Value": 12.55,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T14:23:22Z",
+          "SampleTimestampUtc": "2023-11-14T07:23:22Z",
+          "CreatedTimestamp": "2023-11-14T14:23:22Z",
+          "CreatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "UpdatedTimestamp": "2023-11-14T14:23:22Z",
+          "UpdatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "NumViolations": 0,
+          "SampleMean": 13.665,
+          "SampleMin": 11.75,
+          "SampleMax": 14.825,
+          "SampleMedian": 14.45,
+          "SampleStdev": 1.41858203851593,
+          "SampleQ1": 12.55,
+          "SampleQ3": 14.75,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 1,
+          "SampleId": 240189284,
+          "Value": 11.75,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T14:23:22Z",
+          "SampleTimestampUtc": "2023-11-14T07:23:22Z",
+          "CreatedTimestamp": "2023-11-14T14:23:22Z",
+          "CreatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "UpdatedTimestamp": "2023-11-14T14:23:22Z",
+          "UpdatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "NumViolations": 0,
+          "SampleMean": 13.665,
+          "SampleMin": 11.75,
+          "SampleMax": 14.825,
+          "SampleMedian": 14.45,
+          "SampleStdev": 1.41858203851593,
+          "SampleQ1": 12.55,
+          "SampleQ3": 14.75,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 2,
+          "SampleId": 240189284,
+          "Value": 14.75,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T14:23:22Z",
+          "SampleTimestampUtc": "2023-11-14T07:23:22Z",
+          "CreatedTimestamp": "2023-11-14T14:23:22Z",
+          "CreatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "UpdatedTimestamp": "2023-11-14T14:23:22Z",
+          "UpdatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "NumViolations": 0,
+          "SampleMean": 13.665,
+          "SampleMin": 11.75,
+          "SampleMax": 14.825,
+          "SampleMedian": 14.45,
+          "SampleStdev": 1.41858203851593,
+          "SampleQ1": 12.55,
+          "SampleQ3": 14.75,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 3,
+          "SampleId": 240189284,
+          "Value": 14.825,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T14:23:22Z",
+          "SampleTimestampUtc": "2023-11-14T07:23:22Z",
+          "CreatedTimestamp": "2023-11-14T14:23:22Z",
+          "CreatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "UpdatedTimestamp": "2023-11-14T14:23:22Z",
+          "UpdatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "NumViolations": 0,
+          "SampleMean": 13.665,
+          "SampleMin": 11.75,
+          "SampleMax": 14.825,
+          "SampleMedian": 14.45,
+          "SampleStdev": 1.41858203851593,
+          "SampleQ1": 12.55,
+          "SampleQ3": 14.75,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 4,
+          "SampleId": 240189284,
+          "Value": 14.45,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T14:23:22Z",
+          "SampleTimestampUtc": "2023-11-14T07:23:22Z",
+          "CreatedTimestamp": "2023-11-14T14:23:22Z",
+          "CreatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "UpdatedTimestamp": "2023-11-14T14:23:22Z",
+          "UpdatedTimestampUtc": "2023-11-14T07:23:22Z",
+          "NumViolations": 0,
+          "SampleMean": 13.665,
+          "SampleMin": 11.75,
+          "SampleMax": 14.825,
+          "SampleMedian": 14.45,
+          "SampleStdev": 1.41858203851593,
+          "SampleQ1": 12.55,
+          "SampleQ3": 14.75,
+          "SampleSize": 5
+        }
+      ],
+      "CFComment": "FOL",
+      "FourDReport": "*",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "Y",
+          "SpecLowEnabled": "Y",
+          "spec_high": 40.0,
+          "spec_low": 5.0,
+          "target": 22.5
+        },
+        "ControlLimits": {
+          "ctrl_mean_low": 10.0,
+          "CtrlMeanLowEnabled": "Y",
+          "ctrl_mean_target": 22.0,
+          "CtrlMeanTargetEnabled": "Y",
+          "ctrl_mean_high": 34.0,
+          "CtrlMeanHighEnabled": "Y",
+          "CtrlLowEnabled": "N",
+          "CtrlHighEnabled": "N",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "N",
+          "CtrlRangeCenterEnabled": "Y",
+          "CtrlCenterEnabled": "N",
+          "CtrlStdevHighEnabled": "N",
+          "CtrlRangeLowEnabled": "N",
+          "ctrl_range_target": 7.5,
+          "ctrl_range_high": 15.0,
+          "CtrlRangeHighEnabled": "Y"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 5,
+        "base_count": 5,
+        "flagged_count": 0,
+        "mean": 13.665000000000001,
+        "median": 14.45,
+        "stdev": 1.2688183479127337,
+        "range": 3.0749999999999993,
+        "min": 11.75,
+        "max": 14.825,
+        "q02": 11.814,
+        "q05": 11.91,
+        "q25": 12.55,
+        "q75": 14.75,
+        "q95": 14.81,
+        "q98": 14.818999999999999,
+        "NumViolations": 0,
+        "Samples": "240189284"
+      },
+      "ParameterName": "GlueBondLineThicknessAverage",
+      "ParameterUnit": "um",
+      "ChannelId": "11601",
+      "SourceDataLevel": "C",
+      "channel_name": "Glue_Thickness Average_DS-TS-RB",
+      "channel_description": "Created from LDS  exclude list by  action 'Create SPC Channel'",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-11-14T07:23:22Z",
+      "created_timestamp": "2023-11-14T14:23:22Z",
+      "updated_timestamp_utc": "2023-11-14T07:23:22Z",
+      "updated_timestamp": "2023-11-14T14:23:22Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-11-14T07:23:22Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED2:BAT:BE:BE1I:Die_Bond2:",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "Measlot:",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "BAT:BE:VE347303B11:BE1I:Die_Bond2:GlueBondLineThicknessAverage:11601:240189284:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-11-14T14:23:22Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "Measlot::SPACEAGGED2:BAT:BE:BE1I:Die_Bond2::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "BAT"
+  }
+}

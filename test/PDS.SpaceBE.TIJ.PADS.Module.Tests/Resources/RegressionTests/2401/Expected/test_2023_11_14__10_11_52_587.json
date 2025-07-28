@@ -1,0 +1,184 @@
+{
+  "Data_flat_Metadata": {
+    "Classification": "SPC-Monitoreo",
+    "Layout": "8IN_ELLEMEX",
+    "PartNumber": "913520DH",
+    "Area": "Pre_assy_Pasivacion",
+    "MeasLot": "104OOFV.1",
+    "SiteKey": "TIJ",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-10-10T02:52:33Z",
+    "BeginTimestamp": "2023-10-09T19:52:33Z",
+    "EndTimestampUtc": "2023-10-10T02:52:33Z",
+    "EndTimestamp": "2023-10-09T19:52:33Z"
+  },
+  "Data_flat_StrangeMetadata": {
+    "Module": "SP",
+    "Category": "PBF",
+    "Operator": "cerna"
+  },
+  "Data_1list_Parameters": [
+    {
+      "Data_1list_RawValues": [
+        {
+          "process_equipment": "WEOA0102",
+          "Seqnr": 3,
+          "SampleId": 3096853,
+          "Value": 0.041,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-10-09T19:52:33Z",
+          "SampleTimestampUtc": "2023-10-10T02:52:33Z",
+          "CreatedTimestamp": "2023-10-09T19:52:34Z",
+          "CreatedTimestampUtc": "2023-10-10T02:52:34Z",
+          "UpdatedTimestamp": "2023-10-09T19:52:34Z",
+          "UpdatedTimestampUtc": "2023-10-10T02:52:34Z",
+          "NumViolations": 0,
+          "SampleMean": 0.042,
+          "SampleMin": 0.04,
+          "SampleMax": 0.045,
+          "SampleMedian": 0.041,
+          "SampleStdev": 0.00264575131106459,
+          "SampleQ1": 0.0405,
+          "SampleQ3": 0.043,
+          "SampleSize": 3
+        },
+        {
+          "process_equipment": "WEOA0102",
+          "Seqnr": 1,
+          "SampleId": 3096853,
+          "Value": 0.045,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-10-09T19:52:33Z",
+          "SampleTimestampUtc": "2023-10-10T02:52:33Z",
+          "CreatedTimestamp": "2023-10-09T19:52:34Z",
+          "CreatedTimestampUtc": "2023-10-10T02:52:34Z",
+          "UpdatedTimestamp": "2023-10-09T19:52:34Z",
+          "UpdatedTimestampUtc": "2023-10-10T02:52:34Z",
+          "NumViolations": 0,
+          "SampleMean": 0.042,
+          "SampleMin": 0.04,
+          "SampleMax": 0.045,
+          "SampleMedian": 0.041,
+          "SampleStdev": 0.00264575131106459,
+          "SampleQ1": 0.0405,
+          "SampleQ3": 0.043,
+          "SampleSize": 3
+        },
+        {
+          "process_equipment": "WEOA0102",
+          "Seqnr": 2,
+          "SampleId": 3096853,
+          "Value": 0.04,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-10-09T19:52:33Z",
+          "SampleTimestampUtc": "2023-10-10T02:52:33Z",
+          "CreatedTimestamp": "2023-10-09T19:52:34Z",
+          "CreatedTimestampUtc": "2023-10-10T02:52:34Z",
+          "UpdatedTimestamp": "2023-10-09T19:52:34Z",
+          "UpdatedTimestampUtc": "2023-10-10T02:52:34Z",
+          "NumViolations": 0,
+          "SampleMean": 0.042,
+          "SampleMin": 0.04,
+          "SampleMax": 0.045,
+          "SampleMedian": 0.041,
+          "SampleStdev": 0.00264575131106459,
+          "SampleQ1": 0.0405,
+          "SampleQ3": 0.043,
+          "SampleSize": 3
+        }
+      ],
+      "process_equipment": "WEOA0102",
+      "ParameterClass": "E_SPC",
+      "Segment": "Tijuana",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "Y",
+          "SpecLowEnabled": "Y",
+          "spec_high": 0.06,
+          "spec_low": 0.03,
+          "target": 0.045
+        },
+        "ControlLimits": {
+          "ctrl_mean_low": 0.0297,
+          "CtrlMeanLowEnabled": "Y",
+          "ctrl_mean_target": 0.03896,
+          "CtrlMeanTargetEnabled": "Y",
+          "ctrl_mean_high": 0.04822,
+          "CtrlMeanHighEnabled": "Y",
+          "CtrlLowEnabled": "N",
+          "CtrlHighEnabled": "N",
+          "CtrlStdevLowEnabled": "Y",
+          "CtrlSigmaCenterEnabled": "Y",
+          "CtrlRangeCenterEnabled": "N",
+          "CtrlCenterEnabled": "N",
+          "CtrlStdevHighEnabled": "Y",
+          "ctrl_range_low": 0.0,
+          "CtrlRangeLowEnabled": "N",
+          "ctrl_range_target": 0.005025,
+          "ctrl_range_high": 0.01005,
+          "CtrlRangeHighEnabled": "N"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 3,
+        "base_count": 3,
+        "flagged_count": 0,
+        "mean": 0.042,
+        "median": 0.041,
+        "stdev": 0.0021602468994692853,
+        "range": 0.0049999999999999975,
+        "min": 0.04,
+        "max": 0.045,
+        "q02": 0.04004,
+        "q05": 0.040100000000000004,
+        "q25": 0.0405,
+        "q75": 0.043,
+        "q95": 0.0446,
+        "q98": 0.04484,
+        "NumViolations": 0,
+        "Samples": "3096853"
+      },
+      "ParameterName": "PasivationAperture_DistanceXa",
+      "ParameterUnit": "mm",
+      "ChannelId": "1563",
+      "SourceDataLevel": "C",
+      "channel_name": "PasivationAperture_DistanceXa WDSON PBF 8IN_ELLEMEX",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-10-10T02:52:34Z",
+      "created_timestamp": "2023-10-09T19:52:34Z",
+      "updated_timestamp_utc": "2023-10-10T02:52:34Z",
+      "updated_timestamp": "2023-10-09T19:52:34Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-10-10T02:52:34Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED2:TIJ:BE:Pre_assy_Pasivacion:SP",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "Measlot:104OOFV.1",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "TIJ:BE:104OOFV.1:Pre_assy_Pasivacion:SP:PasivationAperture_DistanceXa:1563:3096853:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-10-09T19:52:33Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "Measlot:104OOFV.1:SPACEAGGED2:TIJ:BE:Pre_assy_Pasivacion:SP:ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "TIJ"
+  }
+}

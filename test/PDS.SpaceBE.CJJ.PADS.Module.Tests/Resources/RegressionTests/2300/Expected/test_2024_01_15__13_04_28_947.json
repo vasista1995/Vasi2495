@@ -1,0 +1,140 @@
+{
+  "Data_flat_Metadata": {
+    "Classification": "Capillary change",
+    "MeasLot": "2Z3490JN",
+    "SiteKey": "CJJ",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-12-11T14:07:21Z",
+    "BeginTimestamp": "2023-12-11T23:07:21Z",
+    "EndTimestampUtc": "2023-12-11T14:07:21Z",
+    "EndTimestamp": "2023-12-11T23:07:21Z"
+  },
+  "Data_flat_StrangeMetadata": {
+    "WireSize": "30",
+    "WireType": "Gold",
+    "ChipType": "NTC_Sintering",
+    "Operator": "30156566",
+    "Package": "CIPOS TINY",
+    "Device": "IM393-M6F"
+  },
+  "Data_1list_Parameters": [
+    {
+      "Data_1list_RawValues": [
+        {
+          "Seqnr": 1,
+          "SampleId": 243042503,
+          "Value": 61.2,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-12-11T23:07:21Z",
+          "SampleTimestampUtc": "2023-12-11T14:07:21Z",
+          "CreatedTimestamp": "2023-12-11T23:07:21Z",
+          "CreatedTimestampUtc": "2023-12-11T14:07:21Z",
+          "UpdatedTimestamp": "2023-12-11T23:07:21Z",
+          "UpdatedTimestampUtc": "2023-12-11T14:07:21Z",
+          "NumViolations": 0,
+          "SampleMean": 61.2,
+          "SampleMin": 61.2,
+          "SampleMax": 61.2,
+          "SampleMedian": 61.2,
+          "SampleStdev": 0.0,
+          "SampleQ1": 61.2,
+          "SampleQ3": 61.2,
+          "SampleSize": 1
+        }
+      ],
+      "ParameterClass": "PPAP",
+      "Segment": "IFPS",
+      "Module": "Tiny",
+      "FourDReport": "*",
+      "SpecialCharacteristics": "ISC",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "N",
+          "SpecLowEnabled": "Y",
+          "spec_low": 23.0,
+          "target": 50.0
+        },
+        "ControlLimits": {
+          "ctrl_mean_low": 43.424,
+          "CtrlMeanLowEnabled": "Y",
+          "ctrl_mean_target": 68.6117,
+          "CtrlMeanTargetEnabled": "Y",
+          "ctrl_mean_high": 93.0453245689102,
+          "CtrlMeanHighEnabled": "Y",
+          "CtrlLowEnabled": "N",
+          "CtrlHighEnabled": "N",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "N",
+          "CtrlRangeCenterEnabled": "N",
+          "CtrlCenterEnabled": "N",
+          "ctrl_stdev_high": 0.0,
+          "CtrlStdevHighEnabled": "Y",
+          "CtrlRangeLowEnabled": "N",
+          "ctrl_range_high": 0.0,
+          "CtrlRangeHighEnabled": "Y"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 1,
+        "base_count": 1,
+        "flagged_count": 0,
+        "mean": 61.2,
+        "median": 61.2,
+        "stdev": 0.0,
+        "range": 0.0,
+        "min": 61.2,
+        "max": 61.2,
+        "q02": 61.2,
+        "q05": 61.2,
+        "q25": 61.2,
+        "q75": 61.2,
+        "q95": 61.2,
+        "q98": 61.2,
+        "NumViolations": 0,
+        "Samples": "243042503"
+      },
+      "ParameterName": "Force_ShearOnBall",
+      "ParameterUnit": "g",
+      "ChannelId": "59955",
+      "SourceDataLevel": "C",
+      "channel_name": "Ball_ShearForce Tiny Au 30 NTC_NTC_Sintering",
+      "channel_description": "W B",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-12-11T14:07:21Z",
+      "created_timestamp": "2023-12-11T23:07:21Z",
+      "updated_timestamp_utc": "2023-12-11T14:07:21Z",
+      "updated_timestamp": "2023-12-11T23:07:21Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-12-11T14:07:21Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED2:CJJ:BE:::",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "Measlot:2Z3490JN",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "CJJ:BE:2Z3490JN:::Force_ShearOnBall:59955:243042503:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-12-11T23:07:21Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "Measlot:2Z3490JN:SPACEAGGED2:CJJ:BE::::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "CJJ"
+  }
+}

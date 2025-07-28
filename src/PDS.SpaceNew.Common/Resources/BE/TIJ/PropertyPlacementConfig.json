@@ -1,0 +1,34 @@
+{
+    // All daval_ and exval_ attribute names which correspond with
+    // this section are assigned to the Data_flat_Metadata section
+    // All other daval_ and exval_ attributes are assigned to the
+    // Data_flat_StrangeMetadata section
+    // Note: This config enabled overriding specific properties of
+    //       the general PropertyPlacementConfig
+    //       Also: Properties specified in DataFlatStrangeMetaData
+    //       section will remove the specified properties in
+    //       Data_flat_Metadata
+    "Data_flat_Metadata": [
+        "Classification",
+        "PartNumber",
+        "Track",
+        "Area"
+    ],
+    "DataFlatStrangeMetaData": [
+        "Module",
+        "PackageFamily",
+        "Package",
+        "Operator"
+    ],
+    "Data1List": [
+        "ProcessEquipment",
+        "FourDReport",
+        "ParameterClass",
+        "Segment"
+
+    ],
+    "Data1ListRawValues": [
+        "ProcessEquipment"
+    ]
+}
+

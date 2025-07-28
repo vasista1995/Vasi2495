@@ -1,0 +1,172 @@
+{
+    "IdSource": "SPACEACT2:BAT:BE:PF345816B01:BE1I:A2_Plating:WirePull:11432:240193044:0",
+    "Data_flat_Metadata": {
+        "Device": "U0163B",
+        "ParameterClass": "PPAP",
+        "CFComment": "FOL",
+        "Segment": "WB",
+        "F56Parameter": "N",
+        "FourDReport": "*",
+        "ParameterName": "WirePull",
+        "ParameterUnit": "g",
+        "ParameterOper": "A2_Plating",
+        "ParameterFacility": "BE1I",
+        "SiteKey": "BAT",
+        "ChannelId": "11432",
+        "SpaceInstanceName": "BE",
+        "CreatedTimestampUtc": "2023-11-14T08:19:47Z",
+        "CreatedTimestamp": "2023-11-14T15:19:47Z",
+        "UpdatedTimestamp": "2023-11-14T15:19:47Z",
+        "UpdatedTimestampUtc": "2023-11-14T08:19:47Z",
+        "ExportedTimestampUtc": "2023-11-14T15:19:47Z",
+        "ExportedTimestamp": "2023-11-14T15:19:47Z",
+        "SampleTimestampUtc": "2023-11-14T08:19:47Z",
+        "SampleTimestamp": "2023-11-14T15:19:47Z",
+        "SourceDataLevel": "C",
+        "ChannelName": "Wire_PullForce/AU/30um/PDS36/CTL",
+        "ChannelDescr": "Created from ( I )LDS \nexclude list by \naction 'Create SPC Channel'",
+        "RvStoreFlag": "N",
+        "CalcCreated": "09/14/2022 15:36:43",
+        "ILdsID": 0,
+        "AcceptFlag": "Y",
+        "UpdatedBy": " ",
+        "ClOrigin": 0,
+        "OutOfOrder": "N",
+        "Calc2ID": 1875909,
+        "ViolCount": 0,
+        "CalculationStrategy": "ND 4.5 Sigma",
+        "LdsID": "1010",
+        "IsCalcParam": 0,
+        "ChannelType": "N",
+        "ChState": "Online"
+    },
+    "Data_1list_RawValues": {
+        "Data_flat_Limits": {
+            "CkcId": "0",
+            "MeasurementSpecLimits": {
+                "SpecHighEnabled": "N",
+                "SpecLowEnabled": "Y",
+                "SpecLow": 4.0,
+                "SpecTarget": 8.0,
+                "SpecTargetOrigin": "V",
+                "ExtSpecLimEnable": "NN",
+                "ExtSpecUpper": 0.0,
+                "ExtSpecLower": 0.0,
+                "LimitEnable": "YYNYNNYNYYNNNNNNNNNNNNNNNNNNNNNNNNNNN"
+            },
+            "SpaceAggregates": {
+                "Mean": "11,1594",
+                "Median": "11,245",
+                "Sigma": ",29254965390511",
+                "Min": "10,678",
+                "Max": "11,468",
+                "Q1": "11,157",
+                "Q3": "11,249"
+            },
+            "ControlLimits": {
+                "ctrl_mean_low": 7.73120771405798,
+                "CtrlMeanLowEnabled": "Y",
+                "ctrl_mean_target": 11.8417,
+                "CtrlMeanTargetEnabled": "Y",
+                "ctrl_mean_high": 15.952192285942,
+                "CtrlMeanHighEnabled": "Y",
+                "CtrlLowEnabled": "N",
+                "CtrlSigmaCenterEnabled": "N",
+                "CtrlRangeCenterEnabled": "Y",
+                "CtrlCenterEnabled": "N",
+                "CtrlHighEnabled": "N",
+                "CtrlSigmaLowEnabled": "N",
+                "CtrlSigmaHighEnabled": "N",
+                "CtrlRangeLowEnabled": "N",
+                "ctrl_range_target": 1.58307278471605,
+                "ctrl_range_high": 4.54692904014163,
+                "CtrlRangeHighEnabled": "Y",
+                "ExtMaMV": 11.4894,
+                "ExtEwmaMV": 11.1825689347798,
+                "ExtMsMV": 0.0760846896556723,
+                "EwmaS": 0.38425074724258,
+                "EwmaR": 0.931542432900247,
+                "ExtEwmaMVLCL": 8.32145249809926,
+                "ExtEwmaMVCenter": 10.3776328413284,
+                "ExtEwmaMVUCL": 12.4338131845575,
+                "ExtMaMVLCL": 8.92369377728859,
+                "ExtMaMVCenter": 10.3776328413284,
+                "ExtMaMVUCL": 11.8315719053682,
+                "EwmaSLCL": 0.237438148955703,
+                "EwmaSCenter": 0.677760226627756,
+                "EwmaSUCL": 1.11808230429981,
+                "EwmaRLCL": 0.568016495146562,
+                "EwmaRCenter": 1.6660295202952,
+                "EwmaRUCL": 2.76404254544384,
+                "ExtMSMVLCL": 0.00165564569524918,
+                "ExtMSMVCenter": 0.780752802020894,
+                "ExtMSMVUCL": 3.13631424170108,
+                "MVLal": 0.0,
+                "MVUal": 0.0,
+                "RawLal": 3.53669293624507,
+                "RawUal": 17.2185727464118,
+                "SigmaLal": -0.474281151067832,
+                "SigmaUal": 2.85027494249185,
+                "RangeLal": -1.3733576330872,
+                "RangeUal": 7.51078529556722
+            }
+        },
+        "Data_1list_RawValues": [
+            {
+                "SampleId": 240193044,
+                "Seqnr": 5,
+                "Value": 11.468,
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N",
+                "NumViolations": 0
+            },
+            {
+                "SampleId": 240193044,
+                "Seqnr": 4,
+                "Value": 10.678,
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N",
+                "NumViolations": 0
+            },
+            {
+                "SampleId": 240193044,
+                "Seqnr": 3,
+                "Value": 11.249,
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N",
+                "NumViolations": 0
+            },
+            {
+                "SampleId": 240193044,
+                "Seqnr": 1,
+                "Value": 11.157,
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N",
+                "NumViolations": 0
+            },
+            {
+                "SampleId": 240193044,
+                "Seqnr": 2,
+                "Value": 11.245,
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N",
+                "NumViolations": 0
+            }
+        ],
+        "SampleSize": 5
+    },
+    "ProductionAction": {
+        "Id": "SPACEACT1:BAT:BE:BE1I:A2_Plating:WirePull:11432",
+        "Type": "SpaceAction"
+    },
+    "Item": {
+        "Id": "Measlot:",
+        "IdSystemName": "Measlot",
+        "Type": "Lot"
+    },
+    "SystemLog": {
+        "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+        "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+        "UniqueSourceKey": "BAT:BE:PF345816B01:BE1I:A2_Plating:WirePull:11432:240193044:0"
+    }
+}

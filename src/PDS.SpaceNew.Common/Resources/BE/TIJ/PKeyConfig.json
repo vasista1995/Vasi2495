@@ -1,0 +1,15 @@
+﻿//Naming Convention Exception TIJ,
+//the naming convention used to identify these parameters within the application will remain unchanged.
+//However, an exception will be made for some sites,
+{
+    "LdsPKeyMappings": [
+        {
+            "LdsId": 2401,
+            "PKeyAttributesMappings": {
+                "Exval_05": "ParameterFacility",
+                "Cf_value_05": "ParameterOper"
+            }
+        }
+
+    ]
+}

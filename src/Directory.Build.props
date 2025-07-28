@@ -1,0 +1,10 @@
+﻿<Project>
+
+	<Import Project="../Directory.Build.props" />
+
+	<PropertyGroup>
+		<!-- <IsPackable>true</IsPackable> -->
+		<IsPublishable>true</IsPublishable>
+	</PropertyGroup>
+
+</Project>

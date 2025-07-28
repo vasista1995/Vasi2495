@@ -1,0 +1,11 @@
+﻿{
+    "LdsPKeyMappings": [
+        {
+            "LdsId": 201,
+            "PKeyAttributesMappings": {
+                "Exval_00": "ParameterFacility",
+                "Exval_03": "ParameterOper"
+            }
+        }
+    ]   
+}

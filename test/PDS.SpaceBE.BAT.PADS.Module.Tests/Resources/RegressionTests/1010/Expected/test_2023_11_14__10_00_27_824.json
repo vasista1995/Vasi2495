@@ -1,0 +1,221 @@
+{
+  "Data_flat_Metadata": {
+    "ParameterOper": "A2_Plating",
+    "ParameterFacility": "BE1I",
+    "SiteKey": "BAT",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-11-14T08:21:10Z",
+    "BeginTimestamp": "2023-11-14T15:21:10Z",
+    "EndTimestampUtc": "2023-11-14T08:21:10Z",
+    "EndTimestamp": "2023-11-14T15:21:10Z"
+  },
+  "Data_flat_StrangeMetadata": {
+    "Device": "U0163B",
+    "ParameterClass": "PPAP",
+    "Segment": "WB",
+    "F56Parameter": "N"
+  },
+  "Data_1list_Parameters": [
+    {
+      "Data_1list_RawValues": [
+        {
+          "Seqnr": 1,
+          "SampleId": 240193049,
+          "Value": 12.571,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T15:21:10Z",
+          "SampleTimestampUtc": "2023-11-14T08:21:10Z",
+          "CreatedTimestamp": "2023-11-14T15:21:10Z",
+          "CreatedTimestampUtc": "2023-11-14T08:21:10Z",
+          "UpdatedTimestamp": "2023-11-14T15:21:10Z",
+          "UpdatedTimestampUtc": "2023-11-14T08:21:10Z",
+          "NumViolations": 0,
+          "SampleMean": 11.841,
+          "SampleMin": 11.021,
+          "SampleMax": 12.571,
+          "SampleMedian": 12.181,
+          "SampleStdev": 0.696361615829017,
+          "SampleQ1": 11.174,
+          "SampleQ3": 12.258,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 2,
+          "SampleId": 240193049,
+          "Value": 12.181,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T15:21:10Z",
+          "SampleTimestampUtc": "2023-11-14T08:21:10Z",
+          "CreatedTimestamp": "2023-11-14T15:21:10Z",
+          "CreatedTimestampUtc": "2023-11-14T08:21:10Z",
+          "UpdatedTimestamp": "2023-11-14T15:21:10Z",
+          "UpdatedTimestampUtc": "2023-11-14T08:21:10Z",
+          "NumViolations": 0,
+          "SampleMean": 11.841,
+          "SampleMin": 11.021,
+          "SampleMax": 12.571,
+          "SampleMedian": 12.181,
+          "SampleStdev": 0.696361615829017,
+          "SampleQ1": 11.174,
+          "SampleQ3": 12.258,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 3,
+          "SampleId": 240193049,
+          "Value": 11.021,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T15:21:10Z",
+          "SampleTimestampUtc": "2023-11-14T08:21:10Z",
+          "CreatedTimestamp": "2023-11-14T15:21:10Z",
+          "CreatedTimestampUtc": "2023-11-14T08:21:10Z",
+          "UpdatedTimestamp": "2023-11-14T15:21:10Z",
+          "UpdatedTimestampUtc": "2023-11-14T08:21:10Z",
+          "NumViolations": 0,
+          "SampleMean": 11.841,
+          "SampleMin": 11.021,
+          "SampleMax": 12.571,
+          "SampleMedian": 12.181,
+          "SampleStdev": 0.696361615829017,
+          "SampleQ1": 11.174,
+          "SampleQ3": 12.258,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 4,
+          "SampleId": 240193049,
+          "Value": 11.174,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T15:21:10Z",
+          "SampleTimestampUtc": "2023-11-14T08:21:10Z",
+          "CreatedTimestamp": "2023-11-14T15:21:10Z",
+          "CreatedTimestampUtc": "2023-11-14T08:21:10Z",
+          "UpdatedTimestamp": "2023-11-14T15:21:10Z",
+          "UpdatedTimestampUtc": "2023-11-14T08:21:10Z",
+          "NumViolations": 0,
+          "SampleMean": 11.841,
+          "SampleMin": 11.021,
+          "SampleMax": 12.571,
+          "SampleMedian": 12.181,
+          "SampleStdev": 0.696361615829017,
+          "SampleQ1": 11.174,
+          "SampleQ3": 12.258,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 5,
+          "SampleId": 240193049,
+          "Value": 12.258,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T15:21:10Z",
+          "SampleTimestampUtc": "2023-11-14T08:21:10Z",
+          "CreatedTimestamp": "2023-11-14T15:21:10Z",
+          "CreatedTimestampUtc": "2023-11-14T08:21:10Z",
+          "UpdatedTimestamp": "2023-11-14T15:21:10Z",
+          "UpdatedTimestampUtc": "2023-11-14T08:21:10Z",
+          "NumViolations": 0,
+          "SampleMean": 11.841,
+          "SampleMin": 11.021,
+          "SampleMax": 12.571,
+          "SampleMedian": 12.181,
+          "SampleStdev": 0.696361615829017,
+          "SampleQ1": 11.174,
+          "SampleQ3": 12.258,
+          "SampleSize": 5
+        }
+      ],
+      "CFComment": "FOL",
+      "FourDReport": "*",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "N",
+          "SpecLowEnabled": "Y",
+          "spec_low": 4.0,
+          "target": 8.0
+        },
+        "ControlLimits": {
+          "ctrl_mean_low": 6.58369440212967,
+          "CtrlMeanLowEnabled": "Y",
+          "ctrl_mean_target": 11.1681178082192,
+          "CtrlMeanTargetEnabled": "Y",
+          "ctrl_mean_high": 15.7525412143087,
+          "CtrlMeanHighEnabled": "Y",
+          "ctrl_low": 6.07986743002658,
+          "CtrlLowEnabled": "Y",
+          "ctrl_target": 11.1681178082192,
+          "ctrl_high": 16.2563681864118,
+          "CtrlHighEnabled": "Y",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "N",
+          "CtrlRangeCenterEnabled": "Y",
+          "CtrlCenterEnabled": "Y",
+          "CtrlStdevHighEnabled": "N",
+          "CtrlRangeLowEnabled": "N",
+          "ctrl_range_target": 1.29109589041096,
+          "ctrl_range_high": 4.00234841399781,
+          "CtrlRangeHighEnabled": "Y"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 5,
+        "base_count": 5,
+        "flagged_count": 0,
+        "mean": 11.841,
+        "median": 12.181,
+        "stdev": 0.6228447639661102,
+        "range": 1.549999999999999,
+        "min": 11.021,
+        "max": 12.571,
+        "q02": 11.033240000000001,
+        "q05": 11.0516,
+        "q25": 11.174,
+        "q75": 12.258,
+        "q95": 12.5084,
+        "q98": 12.54596,
+        "NumViolations": 0,
+        "Samples": "240193049"
+      },
+      "ParameterName": "WedgeBumpPullTest",
+      "ParameterUnit": "g",
+      "ChannelId": "71452",
+      "SourceDataLevel": "C",
+      "channel_name": "WedgeBump_PullForce AU 30um CBC PG-DSO-36-21 LSS",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-11-14T08:21:10Z",
+      "created_timestamp": "2023-11-14T15:21:10Z",
+      "updated_timestamp_utc": "2023-11-14T08:21:10Z",
+      "updated_timestamp": "2023-11-14T15:21:10Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-11-14T08:21:10Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED2:BAT:BE:BE1I:A2_Plating:",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "Measlot:",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "BAT:BE:PF345816B01:BE1I:A2_Plating:WedgeBumpPullTest:71452:240193049:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-11-14T15:21:10Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "Measlot::SPACEAGGED2:BAT:BE:BE1I:A2_Plating::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "BAT"
+  }
+}

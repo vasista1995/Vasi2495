@@ -1,0 +1,147 @@
+{
+  "Data_flat_Metadata": {
+    "Line": "IHM",
+    "ProductionOrder": "81771429",
+    "Batch": "HR05865P0",
+    "MaterialNumber": "42812",
+    "ProductGroup": "M-IHM-B190",
+    "MeasurementRecipe": "9",
+    "OrderType": "2100",
+    "QrkGroup": "2100",
+    "ProcessGroup": "system_soldering",
+    "SpcClass": "2100",
+    "Segment": "HPS",
+    "MeasLot": "81771429",
+    "SiteKey": "CEG",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-10-27T09:21:34Z",
+    "BeginTimestamp": "2023-10-27T11:21:34Z",
+    "EndTimestampUtc": "2023-10-27T09:21:34Z",
+    "EndTimestamp": "2023-10-27T11:21:34Z",
+    "Equipment": "VADU22"
+  },
+  "Data_flat_StrangeMetadata": {
+    "MaterialNumberText": "2100",
+    "Operator": "2100",
+    "ParameterClass": "NON_SPC",
+    "Package": "IHM",
+    "PosName": "2100"
+  },
+  "Data_1list_Parameters": [
+    {
+      "process_equipment": "132013101092",
+      "ProcessEquipmentName": "VADU22",
+      "LongParameterName": "K1-Druck nach HCOOH fluten",
+      "Data_1list_RawValues": [
+        {
+          "process_equipment": "132013101092",
+          "MeasurementEquipment": "VADU22",
+          "ProcessEquipmentName": "VADU22",
+          "Seqnr": 1,
+          "SampleId": 332712506,
+          "Value": 385.2,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-10-27T11:21:34Z",
+          "SampleTimestampUtc": "2023-10-27T09:21:34Z",
+          "CreatedTimestamp": "2023-10-27T11:26:31Z",
+          "CreatedTimestampUtc": "2023-10-27T09:26:31Z",
+          "UpdatedTimestamp": "2023-10-27T11:26:31Z",
+          "UpdatedTimestampUtc": "2023-10-27T09:26:31Z",
+          "NumViolations": 0,
+          "SampleMean": 385.2,
+          "SampleMin": 385.2,
+          "SampleMax": 385.2,
+          "SampleMedian": 385.2,
+          "SampleStdev": 0.0,
+          "SampleQ1": 385.2,
+          "SampleQ3": 385.2,
+          "SampleSize": 1
+        }
+      ],
+      "ParameterType": "2100",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "Y",
+          "SpecLowEnabled": "Y",
+          "spec_high": 405.0,
+          "spec_low": 365.0,
+          "target": 385.0
+        },
+        "ControlLimits": {
+          "CtrlMeanLowEnabled": "N",
+          "CtrlMeanTargetEnabled": "N",
+          "CtrlMeanHighEnabled": "N",
+          "CtrlLowEnabled": "N",
+          "CtrlHighEnabled": "N",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "N",
+          "CtrlRangeCenterEnabled": "N",
+          "CtrlCenterEnabled": "N",
+          "CtrlStdevHighEnabled": "N",
+          "CtrlRangeLowEnabled": "N",
+          "CtrlRangeHighEnabled": "N"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 1,
+        "base_count": 1,
+        "flagged_count": 0,
+        "mean": 385.2,
+        "median": 385.2,
+        "stdev": 0.0,
+        "range": 0.0,
+        "min": 385.2,
+        "max": 385.2,
+        "q02": 385.2,
+        "q05": 385.2,
+        "q25": 385.2,
+        "q75": 385.2,
+        "q95": 385.2,
+        "q98": 385.2,
+        "NumViolations": 0,
+        "Samples": "332712506"
+      },
+      "ParameterName": "K1-P-HCOOH",
+      "ParameterUnit": "mBar",
+      "ChannelId": "101141",
+      "SourceDataLevel": "C",
+      "channel_name": "K1-P-HCOOH",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-10-27T09:26:31Z",
+      "created_timestamp": "2023-10-27T11:26:31Z",
+      "updated_timestamp_utc": "2023-10-27T09:26:31Z",
+      "updated_timestamp": "2023-10-27T11:26:31Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-10-27T09:26:31Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED3:CEG:BE:IHM::",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "ERROR:81771429",
+    "IdSystemName": "ERROR",
+    "Type": "Fauf"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "CEG:BE:81771429:IHM::K1-P-HCOOH:101141:332712506:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-10-27T11:21:34Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "ERROR:81771429:SPACEAGGED3:CEG:BE:IHM:::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "CEG"
+  }
+}

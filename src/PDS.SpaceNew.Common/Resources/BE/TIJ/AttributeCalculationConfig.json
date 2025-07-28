@@ -1,0 +1,12 @@
+﻿{
+    // First block translates to
+    //        if (entry.Label4Extr1 == "ProcessStep")
+    //            e4a.ProcessStep = entry.VariableExtr1;
+    //        else if (entry.Label4Extr3 == "ProcessStep")
+    //            e4a.ProcessStep = entry.VariableExtr3;
+    "AttributeAssignmentConfig": [    
+    ],
+    "AttributesToDelete": [
+
+    ]
+}

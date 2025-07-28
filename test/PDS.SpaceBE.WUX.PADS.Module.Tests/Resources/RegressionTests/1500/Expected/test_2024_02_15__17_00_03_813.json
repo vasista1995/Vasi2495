@@ -1,0 +1,168 @@
+{
+  "Data_flat_Metadata": {
+    "Baunumber": "90042435",
+    "Line": "SOT23",
+    "Shift": "C",
+    "Process": "Testing",
+    "MeasLot": "VC337948C02",
+    "ParameterOper": "D_Test",
+    "ParameterFacility": "TCWUS",
+    "SiteKey": "WUX",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-10-06T07:14:53Z",
+    "BeginTimestamp": "2023-10-06T15:14:53Z",
+    "EndTimestampUtc": "2023-10-06T07:14:53Z",
+    "EndTimestamp": "2023-10-06T15:14:53Z",
+    "Equipment": "SRM13"
+  },
+  "Data_flat_StrangeMetadata": {
+    "Package": "PG-SOT23-3-5",
+    "SalesName": "BSS138N H6327",
+    "Track": "T1",
+    "ChipType": "L8056Q62341",
+    "Operator": "30040342"
+  },
+  "Data_1list_Parameters": [
+    {
+      "Data_1list_RawValues": [
+        {
+          "Seqnr": 1,
+          "SampleId": 200697656,
+          "Value": 0.579,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-10-06T15:14:53Z",
+          "SampleTimestampUtc": "2023-10-06T07:14:53Z",
+          "CreatedTimestamp": "2023-10-06T15:14:53Z",
+          "CreatedTimestampUtc": "2023-10-06T07:14:53Z",
+          "UpdatedTimestamp": "2023-10-06T15:14:53Z",
+          "UpdatedTimestampUtc": "2023-10-06T07:14:53Z",
+          "NumViolations": 0,
+          "SampleMean": 0.5935,
+          "SampleMin": 0.579,
+          "SampleMax": 0.608,
+          "SampleMedian": 0.5935,
+          "SampleStdev": 0.0205060966544099,
+          "SampleQ1": 0.58625,
+          "SampleQ3": 0.60075,
+          "SampleSize": 2
+        },
+        {
+          "Seqnr": 2,
+          "SampleId": 200697656,
+          "Value": 0.608,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-10-06T15:14:53Z",
+          "SampleTimestampUtc": "2023-10-06T07:14:53Z",
+          "CreatedTimestamp": "2023-10-06T15:14:53Z",
+          "CreatedTimestampUtc": "2023-10-06T07:14:53Z",
+          "UpdatedTimestamp": "2023-10-06T15:14:53Z",
+          "UpdatedTimestampUtc": "2023-10-06T07:14:53Z",
+          "NumViolations": 0,
+          "SampleMean": 0.5935,
+          "SampleMin": 0.579,
+          "SampleMax": 0.608,
+          "SampleMedian": 0.5935,
+          "SampleStdev": 0.0205060966544099,
+          "SampleQ1": 0.58625,
+          "SampleQ3": 0.60075,
+          "SampleSize": 2
+        }
+      ],
+      "ParameterClass": "E_SPC",
+      "Segment": "DS",
+      "Module": "M2_TEST",
+      "FourDReport": "*",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "Y",
+          "SpecLowEnabled": "Y",
+          "spec_high": 1.0,
+          "spec_low": 0.2,
+          "target": 0.6
+        },
+        "ControlLimits": {
+          "ctrl_mean_low": 0.364785928129543,
+          "CtrlMeanLowEnabled": "Y",
+          "ctrl_mean_target": 0.556427120365668,
+          "CtrlMeanTargetEnabled": "Y",
+          "ctrl_mean_high": 0.748068312601792,
+          "CtrlMeanHighEnabled": "Y",
+          "CtrlLowEnabled": "N",
+          "CtrlHighEnabled": "N",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "Y",
+          "CtrlRangeCenterEnabled": "Y",
+          "CtrlCenterEnabled": "N",
+          "ctrl_stdev_target": 0.0339255750422926,
+          "ctrl_stdev_high": 0.157590674079557,
+          "CtrlStdevHighEnabled": "Y",
+          "CtrlRangeLowEnabled": "N",
+          "ctrl_range_target": 0.0448400203148809,
+          "ctrl_range_high": 0.261142196289835,
+          "CtrlRangeHighEnabled": "Y"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 2,
+        "base_count": 2,
+        "flagged_count": 0,
+        "mean": 0.5934999999999999,
+        "median": 0.5934999999999999,
+        "stdev": 0.014500000000000013,
+        "range": 0.029000000000000026,
+        "min": 0.579,
+        "max": 0.608,
+        "q02": 0.5795799999999999,
+        "q05": 0.5804499999999999,
+        "q25": 0.5862499999999999,
+        "q75": 0.6007499999999999,
+        "q95": 0.60655,
+        "q98": 0.60742,
+        "NumViolations": 0,
+        "Samples": "200697656"
+      },
+      "ParameterName": "Peel_Of_Force",
+      "ParameterUnit": "N",
+      "ChannelId": "64199",
+      "SourceDataLevel": "C",
+      "channel_name": "Tape_PeelOffForce SOT23",
+      "channel_description": "Created from LDS  exclude list by  action 'Create SPC Channel'",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-10-06T07:14:53Z",
+      "created_timestamp": "2023-10-06T15:14:53Z",
+      "updated_timestamp_utc": "2023-10-06T07:14:53Z",
+      "updated_timestamp": "2023-10-06T15:14:53Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-10-06T07:14:53Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED2:WUX:BE:TCWUS:D_Test:",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "Measlot:VC337948C02",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "WUX:BE:VC337948C02:TCWUS:D_Test:Peel_Of_Force:64199:200697656:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-10-06T15:14:53Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "Measlot:VC337948C02:SPACEAGGED2:WUX:BE:TCWUS:D_Test::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "WUX"
+  }
+}

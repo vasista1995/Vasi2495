@@ -1,0 +1,150 @@
+{
+  "Data_flat_Metadata": {
+    "Line": "62mm",
+    "ProductionOrder": "81771705",
+    "Batch": "UZ38277P0",
+    "MaterialNumber": "42814",
+    "ProductGroup": "M-62MM3.GEN",
+    "MeasurementRecipe": "1",
+    "OrderType": "2100",
+    "QrkGroup": "2100",
+    "ProcessGroup": "system_soldering",
+    "SpcClass": "2100",
+    "CustomComment": "system soldering",
+    "Segment": "HPS",
+    "MeasLot": "81771705",
+    "ParameterOper": "system soldering",
+    "SiteKey": "CEG",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-10-27T10:02:58Z",
+    "BeginTimestamp": "2023-10-27T12:02:58Z",
+    "EndTimestampUtc": "2023-10-27T10:02:58Z",
+    "EndTimestamp": "2023-10-27T12:02:58Z",
+    "Equipment": "VADU10"
+  },
+  "Data_flat_StrangeMetadata": {
+    "MaterialNumberText": "2100",
+    "Operator": "2100",
+    "ParameterClass": "NON_SPC",
+    "Package": "62mm",
+    "Module": "11 substrate-baseplate interconnect",
+    "PosName": "2100"
+  },
+  "Data_1list_Parameters": [
+    {
+      "process_equipment": "10000973",
+      "ProcessEquipmentName": "VADU10",
+      "LongParameterName": "K2-Abpumpzeit",
+      "Data_1list_RawValues": [
+        {
+          "process_equipment": "10000973",
+          "MeasurementEquipment": "VADU10",
+          "ProcessEquipmentName": "VADU10",
+          "Seqnr": 1,
+          "SampleId": 332713701,
+          "Value": 24.46,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-10-27T12:02:58Z",
+          "SampleTimestampUtc": "2023-10-27T10:02:58Z",
+          "CreatedTimestamp": "2023-10-27T12:03:55Z",
+          "CreatedTimestampUtc": "2023-10-27T10:03:55Z",
+          "UpdatedTimestamp": "2023-10-27T12:03:55Z",
+          "UpdatedTimestampUtc": "2023-10-27T10:03:55Z",
+          "NumViolations": 0,
+          "SampleMean": 24.46,
+          "SampleMin": 24.46,
+          "SampleMax": 24.46,
+          "SampleMedian": 24.46,
+          "SampleStdev": 0.0,
+          "SampleQ1": 24.46,
+          "SampleQ3": 24.46,
+          "SampleSize": 1
+        }
+      ],
+      "ParameterType": "2100",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "Y",
+          "SpecLowEnabled": "Y",
+          "spec_high": 32.0,
+          "spec_low": 5.0,
+          "target": 14.0
+        },
+        "ControlLimits": {
+          "CtrlMeanLowEnabled": "N",
+          "CtrlMeanTargetEnabled": "N",
+          "CtrlMeanHighEnabled": "N",
+          "CtrlLowEnabled": "N",
+          "CtrlHighEnabled": "N",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "N",
+          "CtrlRangeCenterEnabled": "N",
+          "CtrlCenterEnabled": "N",
+          "CtrlStdevHighEnabled": "N",
+          "CtrlRangeLowEnabled": "N",
+          "CtrlRangeHighEnabled": "N"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 1,
+        "base_count": 1,
+        "flagged_count": 0,
+        "mean": 24.46,
+        "median": 24.46,
+        "stdev": 0.0,
+        "range": 0.0,
+        "min": 24.46,
+        "max": 24.46,
+        "q02": 24.46,
+        "q05": 24.46,
+        "q25": 24.46,
+        "q75": 24.46,
+        "q95": 24.46,
+        "q98": 24.46,
+        "NumViolations": 0,
+        "Samples": "332713701"
+      },
+      "ParameterName": "K2-P-t-ab",
+      "ParameterUnit": "s",
+      "ChannelId": "101004",
+      "SourceDataLevel": "C",
+      "channel_name": "K2-P-t-ab",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-10-27T10:03:55Z",
+      "created_timestamp": "2023-10-27T12:03:55Z",
+      "updated_timestamp_utc": "2023-10-27T10:03:55Z",
+      "updated_timestamp": "2023-10-27T12:03:55Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-10-27T10:03:55Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED3:CEG:BE:62mm:system soldering:",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "HPSModFAUF:81771705",
+    "IdSystemName": "HPSModFAUF",
+    "Type": "Fauf"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "CEG:BE:81771705:62mm:system soldering:K2-P-t-ab:101004:332713701:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-10-27T12:02:58Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "HPSModFAUF:81771705:SPACEAGGED3:CEG:BE:62mm:system soldering::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "CEG"
+  }
+}

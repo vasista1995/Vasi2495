@@ -1,0 +1,182 @@
+{
+  "Data_flat_Metadata": {
+    "Classification": "Routine check(Daily SPC)",
+    "MeasLot": "2Z3490HU",
+    "SiteKey": "CJJ",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-12-10T13:48:10Z",
+    "BeginTimestamp": "2023-12-10T22:48:10Z",
+    "EndTimestampUtc": "2023-12-10T13:48:10Z",
+    "EndTimestamp": "2023-12-10T22:48:10Z"
+  },
+  "Data_flat_StrangeMetadata": {
+    "WireSize": "125",
+    "WireType": "Al",
+    "Operator": "30156566",
+    "Package": "CIPOS MINI",
+    "Device": "IKCM15F60GA",
+    "MaterialType": "Schweizer"
+  },
+  "Data_1list_Parameters": [
+    {
+      "Data_1list_RawValues": [
+        {
+          "Seqnr": 3,
+          "SampleId": 243031304,
+          "Value": 336.9,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-12-10T22:48:10Z",
+          "SampleTimestampUtc": "2023-12-10T13:48:10Z",
+          "CreatedTimestamp": "2023-12-10T22:48:10Z",
+          "CreatedTimestampUtc": "2023-12-10T13:48:10Z",
+          "UpdatedTimestamp": "2023-12-10T22:48:10Z",
+          "UpdatedTimestampUtc": "2023-12-10T13:48:10Z",
+          "NumViolations": 0,
+          "SampleMean": 319.073333333333,
+          "SampleMin": 301.4,
+          "SampleMax": 336.9,
+          "SampleMedian": 318.92,
+          "SampleStdev": 17.7504967066652,
+          "SampleQ1": 310.16,
+          "SampleQ3": 327.91,
+          "SampleSize": 3
+        },
+        {
+          "Seqnr": 2,
+          "SampleId": 243031304,
+          "Value": 318.92,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-12-10T22:48:10Z",
+          "SampleTimestampUtc": "2023-12-10T13:48:10Z",
+          "CreatedTimestamp": "2023-12-10T22:48:10Z",
+          "CreatedTimestampUtc": "2023-12-10T13:48:10Z",
+          "UpdatedTimestamp": "2023-12-10T22:48:10Z",
+          "UpdatedTimestampUtc": "2023-12-10T13:48:10Z",
+          "NumViolations": 0,
+          "SampleMean": 319.073333333333,
+          "SampleMin": 301.4,
+          "SampleMax": 336.9,
+          "SampleMedian": 318.92,
+          "SampleStdev": 17.7504967066652,
+          "SampleQ1": 310.16,
+          "SampleQ3": 327.91,
+          "SampleSize": 3
+        },
+        {
+          "Seqnr": 1,
+          "SampleId": 243031304,
+          "Value": 301.4,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-12-10T22:48:10Z",
+          "SampleTimestampUtc": "2023-12-10T13:48:10Z",
+          "CreatedTimestamp": "2023-12-10T22:48:10Z",
+          "CreatedTimestampUtc": "2023-12-10T13:48:10Z",
+          "UpdatedTimestamp": "2023-12-10T22:48:10Z",
+          "UpdatedTimestampUtc": "2023-12-10T13:48:10Z",
+          "NumViolations": 0,
+          "SampleMean": 319.073333333333,
+          "SampleMin": 301.4,
+          "SampleMax": 336.9,
+          "SampleMedian": 318.92,
+          "SampleStdev": 17.7504967066652,
+          "SampleQ1": 310.16,
+          "SampleQ3": 327.91,
+          "SampleSize": 3
+        }
+      ],
+      "process_equipment": "LAW033",
+      "ParameterClass": "PPAP",
+      "Segment": "IFPS",
+      "Module": "MiniFP",
+      "FourDReport": "*",
+      "SpecialCharacteristics": "ISC",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "N",
+          "SpecLowEnabled": "Y",
+          "spec_low": 150.0,
+          "target": 200.0
+        },
+        "ControlLimits": {
+          "ctrl_mean_low": 244.806983980942,
+          "CtrlMeanLowEnabled": "Y",
+          "ctrl_mean_target": 304.833520765931,
+          "CtrlMeanTargetEnabled": "Y",
+          "ctrl_mean_high": 364.86005755092,
+          "CtrlMeanHighEnabled": "Y",
+          "CtrlLowEnabled": "N",
+          "CtrlHighEnabled": "N",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "N",
+          "CtrlRangeCenterEnabled": "N",
+          "CtrlCenterEnabled": "N",
+          "ctrl_stdev_high": 43.8801104401609,
+          "CtrlStdevHighEnabled": "Y",
+          "CtrlRangeLowEnabled": "N",
+          "ctrl_range_high": 108.039459120097,
+          "CtrlRangeHighEnabled": "Y"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 3,
+        "base_count": 3,
+        "flagged_count": 0,
+        "mean": 319.0733333333333,
+        "median": 318.92,
+        "stdev": 14.493219870761026,
+        "range": 35.5,
+        "min": 301.4,
+        "max": 336.9,
+        "q02": 302.1008,
+        "q05": 303.152,
+        "q25": 310.15999999999997,
+        "q75": 327.90999999999997,
+        "q95": 335.102,
+        "q98": 336.1808,
+        "NumViolations": 0,
+        "Samples": "243031304"
+      },
+      "ParameterName": "Force_ShearOnPCB",
+      "ParameterUnit": "g",
+      "ChannelId": "50240",
+      "SourceDataLevel": "C",
+      "channel_name": "Wedge_ShearForce MiniFP Al 125 PCB",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-12-10T13:48:10Z",
+      "created_timestamp": "2023-12-10T22:48:10Z",
+      "updated_timestamp_utc": "2023-12-10T13:48:10Z",
+      "updated_timestamp": "2023-12-10T22:48:10Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-12-10T13:48:10Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED2:CJJ:BE:::",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "Measlot:2Z3490HU",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "CJJ:BE:2Z3490HU:::Force_ShearOnPCB:50240:243031304:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-12-10T22:48:10Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "Measlot:2Z3490HU:SPACEAGGED2:CJJ:BE::::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "CJJ"
+  }
+}

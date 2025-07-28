@@ -1,0 +1,218 @@
+{
+  "Data_flat_Metadata": {
+    "ParameterOper": "Wire_Bond1",
+    "ParameterFacility": "BE1I",
+    "SiteKey": "BAT",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-11-14T06:37:20Z",
+    "BeginTimestamp": "2023-11-14T13:37:20Z",
+    "EndTimestampUtc": "2023-11-14T06:37:20Z",
+    "EndTimestamp": "2023-11-14T13:37:20Z"
+  },
+  "Data_flat_StrangeMetadata": {
+    "Device": "S0946T",
+    "ParameterClass": "NON_SPC",
+    "Segment": "WB"
+  },
+  "Data_1list_Parameters": [
+    {
+      "Data_1list_RawValues": [
+        {
+          "Seqnr": 1,
+          "SampleId": 240186692,
+          "Value": 101.8,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T13:37:20Z",
+          "SampleTimestampUtc": "2023-11-14T06:37:20Z",
+          "CreatedTimestamp": "2023-11-14T13:37:20Z",
+          "CreatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "UpdatedTimestamp": "2023-11-14T13:37:20Z",
+          "UpdatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "NumViolations": 0,
+          "SampleMean": 120.182,
+          "SampleMin": 101.8,
+          "SampleMax": 154.71,
+          "SampleMedian": 113.89,
+          "SampleStdev": 20.7349456232709,
+          "SampleQ1": 108.13,
+          "SampleQ3": 122.38,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 2,
+          "SampleId": 240186692,
+          "Value": 113.89,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T13:37:20Z",
+          "SampleTimestampUtc": "2023-11-14T06:37:20Z",
+          "CreatedTimestamp": "2023-11-14T13:37:20Z",
+          "CreatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "UpdatedTimestamp": "2023-11-14T13:37:20Z",
+          "UpdatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "NumViolations": 0,
+          "SampleMean": 120.182,
+          "SampleMin": 101.8,
+          "SampleMax": 154.71,
+          "SampleMedian": 113.89,
+          "SampleStdev": 20.7349456232709,
+          "SampleQ1": 108.13,
+          "SampleQ3": 122.38,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 3,
+          "SampleId": 240186692,
+          "Value": 122.38,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T13:37:20Z",
+          "SampleTimestampUtc": "2023-11-14T06:37:20Z",
+          "CreatedTimestamp": "2023-11-14T13:37:20Z",
+          "CreatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "UpdatedTimestamp": "2023-11-14T13:37:20Z",
+          "UpdatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "NumViolations": 0,
+          "SampleMean": 120.182,
+          "SampleMin": 101.8,
+          "SampleMax": 154.71,
+          "SampleMedian": 113.89,
+          "SampleStdev": 20.7349456232709,
+          "SampleQ1": 108.13,
+          "SampleQ3": 122.38,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 4,
+          "SampleId": 240186692,
+          "Value": 108.13,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T13:37:20Z",
+          "SampleTimestampUtc": "2023-11-14T06:37:20Z",
+          "CreatedTimestamp": "2023-11-14T13:37:20Z",
+          "CreatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "UpdatedTimestamp": "2023-11-14T13:37:20Z",
+          "UpdatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "NumViolations": 0,
+          "SampleMean": 120.182,
+          "SampleMin": 101.8,
+          "SampleMax": 154.71,
+          "SampleMedian": 113.89,
+          "SampleStdev": 20.7349456232709,
+          "SampleQ1": 108.13,
+          "SampleQ3": 122.38,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 5,
+          "SampleId": 240186692,
+          "Value": 154.71,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T13:37:20Z",
+          "SampleTimestampUtc": "2023-11-14T06:37:20Z",
+          "CreatedTimestamp": "2023-11-14T13:37:20Z",
+          "CreatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "UpdatedTimestamp": "2023-11-14T13:37:20Z",
+          "UpdatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "NumViolations": 0,
+          "SampleMean": 120.182,
+          "SampleMin": 101.8,
+          "SampleMax": 154.71,
+          "SampleMedian": 113.89,
+          "SampleStdev": 20.7349456232709,
+          "SampleQ1": 108.13,
+          "SampleQ3": 122.38,
+          "SampleSize": 5
+        }
+      ],
+      "CFComment": "FOL",
+      "FourDReport": "*",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "Y",
+          "SpecLowEnabled": "Y",
+          "spec_high": 200.0,
+          "spec_low": 50.0,
+          "target": 125.0
+        },
+        "ControlLimits": {
+          "ctrl_mean_low": 65.0,
+          "CtrlMeanLowEnabled": "Y",
+          "ctrl_mean_target": 125.0,
+          "CtrlMeanTargetEnabled": "Y",
+          "ctrl_mean_high": 185.0,
+          "CtrlMeanHighEnabled": "Y",
+          "CtrlLowEnabled": "N",
+          "CtrlHighEnabled": "N",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "N",
+          "CtrlRangeCenterEnabled": "Y",
+          "CtrlCenterEnabled": "N",
+          "CtrlStdevHighEnabled": "N",
+          "CtrlRangeLowEnabled": "N",
+          "ctrl_range_target": 0.0,
+          "ctrl_range_high": 150.0,
+          "CtrlRangeHighEnabled": "Y"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 5,
+        "base_count": 5,
+        "flagged_count": 0,
+        "mean": 120.18199999999999,
+        "median": 113.89,
+        "stdev": 18.545899169358172,
+        "range": 52.91000000000001,
+        "min": 101.8,
+        "max": 154.71,
+        "q02": 102.30640000000001,
+        "q05": 103.066,
+        "q25": 108.13,
+        "q75": 122.38,
+        "q95": 148.244,
+        "q98": 152.1236,
+        "NumViolations": 0,
+        "Samples": "240186692"
+      },
+      "ParameterName": "CopperLoopHeight",
+      "ParameterUnit": "um",
+      "ChannelId": "67703",
+      "SourceDataLevel": "C",
+      "channel_name": "Loop_Height CU 50um 300mil EPAD",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-11-14T06:37:20Z",
+      "created_timestamp": "2023-11-14T13:37:20Z",
+      "updated_timestamp_utc": "2023-11-14T06:37:20Z",
+      "updated_timestamp": "2023-11-14T13:37:20Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-11-14T06:37:20Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED2:BAT:BE:BE1I:Wire_Bond1:",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "Measlot:",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "BAT:BE:RU342051B01:BE1I:Wire_Bond1:CopperLoopHeight:67703:240186692:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-11-14T13:37:20Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "Measlot::SPACEAGGED2:BAT:BE:BE1I:Wire_Bond1::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "BAT"
+  }
+}

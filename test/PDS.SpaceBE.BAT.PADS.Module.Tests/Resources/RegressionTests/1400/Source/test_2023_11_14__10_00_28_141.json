@@ -1,0 +1,212 @@
+{
+  "IdSource": "SPACEACT2:BAT:BE:VE347303B11:BE1I:Die_Bond2:GlueVoidSingle:7904:240191193:0",
+  "Data_flat_Metadata": {
+    "Device": "L2891S",
+    "Module": "GLUE VOID",
+    "ParameterClass": "E_SPC",
+    "CFComment": "FOL",
+    "Segment": "DA",
+    "F56Parameter": "N",
+    "FourDReport": "*",
+    "ParameterName": "GlueVoidSingle",
+    "ParameterUnit": "%",
+    "ParameterOper": "Die_Bond2",
+    "ParameterFacility": "BE1I",
+    "SiteKey": "BAT",
+    "ChannelId": "7904",
+    "SpaceInstanceName": "BE",
+    "CreatedTimestampUtc": "2023-11-14T07:46:13Z",
+    "CreatedTimestamp": "2023-11-14T14:46:13Z",
+    "UpdatedTimestamp": "2023-11-14T14:46:13Z",
+    "UpdatedTimestampUtc": "2023-11-14T07:46:13Z",
+    "ExportedTimestampUtc": "2023-11-14T14:46:13Z",
+    "ExportedTimestamp": "2023-11-14T14:46:13Z",
+    "SampleTimestampUtc": "2023-11-14T07:46:13Z",
+    "SampleTimestamp": "2023-11-14T14:46:13Z",
+    "SourceDataLevel": "C",
+    "ChannelName": "Void_MaxPercentage",
+    "ChannelDescr": "Created from LDS \nexclude list by \naction 'Create SPC Channel'",
+    "RvStoreFlag": "Y",
+    "CalcCreated": "09/14/2022 14:26:17",
+    "ILdsID": 0,
+    "AcceptFlag": "Y",
+    "UpdatedBy": " ",
+    "ClOrigin": 0,
+    "OutOfOrder": "N",
+    "Calc2ID": 1875388,
+    "ViolCount": 0,
+    "CalculationStrategy": "ND 4.5 Sigma",
+    "LdsID": "1400",
+    "IsCalcParam": 0,
+    "ChannelType": "N",
+    "ChState": "Online"
+  },
+  "Data_1list_RawValues": {
+    "Data_flat_Limits": {
+      "CkcId": "0",
+      "MeasurementSpecLimits": {
+        "SpecHighEnabled": "Y",
+        "SpecLowEnabled": "N",
+        "SpecHigh": 10.0,
+        "SpecTarget": 0.0,
+        "SpecTargetOrigin": "V",
+        "ExtSpecLimEnable": "NN",
+        "ExtSpecUpper": 0.0,
+        "ExtSpecLower": 0.0,
+        "LimitEnable": "NYNYNNYNYYYYYYYYYYYNNNYYYYYYNNNNNNNNN"
+      },
+      "SpaceAggregates": {
+        "Mean": "0",
+        "Median": "0",
+        "Sigma": "0",
+        "Min": "0",
+        "Max": "0",
+        "Q1": "0",
+        "Q3": "0"
+      },
+      "ControlLimits": {
+        "CtrlMeanLowEnabled": "N",
+        "ctrl_mean_target": 0.425636363636364,
+        "CtrlMeanTargetEnabled": "Y",
+        "ctrl_mean_high": 5.0,
+        "CtrlMeanHighEnabled": "Y",
+        "CtrlLowEnabled": "N",
+        "CtrlSigmaCenterEnabled": "N",
+        "CtrlRangeCenterEnabled": "Y",
+        "CtrlCenterEnabled": "N",
+        "CtrlHighEnabled": "N",
+        "CtrlSigmaLowEnabled": "N",
+        "CtrlSigmaHighEnabled": "N",
+        "CtrlRangeLowEnabled": "N",
+        "ctrl_range_target": 0.160059675515053,
+        "ctrl_range_high": 5.0,
+        "CtrlRangeHighEnabled": "Y",
+        "ExtMaMV": 0.02,
+        "ExtEwmaMV": 0.00254743189303432,
+        "ExtMsMV": 0.0,
+        "EwmaS": 0.00308840755356472,
+        "EwmaR": 0.00665723264186401,
+        "ExtEwmaMVLCL": -0.534549030768723,
+        "ExtEwmaMVCenter": 0.486848,
+        "ExtEwmaMVUCL": 1.50824503076872,
+        "ExtMaMVLCL": -0.235388766740369,
+        "ExtMaMVCenter": 0.486848,
+        "ExtMaMVUCL": 1.20908476674037,
+        "EwmaSLCL": -0.177021683973943,
+        "EwmaSCenter": 0.203706487873367,
+        "EwmaSUCL": 0.584434659720677,
+        "EwmaRLCL": -0.508447874742087,
+        "EwmaRCenter": 0.572661596958175,
+        "EwmaRUCL": 1.65377106865844,
+        "ExtMSMVLCL": 0.000590915046603215,
+        "ExtMSMVCenter": 0.278657794790046,
+        "ExtMSMVUCL": 1.11937915316972,
+        "MVLal": 0.0,
+        "MVUal": 0.0,
+        "RawLal": -2.84158209979641,
+        "RawUal": 3.81527809979641,
+        "SigmaLal": 0.0,
+        "SigmaUal": 0.0,
+        "RangeLal": 0.0,
+        "RangeUal": 0.0
+      }
+    },
+    "Data_1list_RawValues": [
+      {
+        "SampleId": 240191193,
+        "Seqnr": 6,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240191193,
+        "Seqnr": 7,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240191193,
+        "Seqnr": 8,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240191193,
+        "Seqnr": 9,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240191193,
+        "Seqnr": 5,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240191193,
+        "Seqnr": 4,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240191193,
+        "Seqnr": 10,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240191193,
+        "Seqnr": 2,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240191193,
+        "Seqnr": 1,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240191193,
+        "Seqnr": 3,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      }
+    ],
+    "SampleSize": 10
+  },
+  "ProductionAction": {
+    "Id": "SPACEACT1:BAT:BE:BE1I:Die_Bond2:GlueVoidSingle:7904",
+    "Type": "SpaceAction"
+  },
+  "Item": {
+    "Id": "Measlot:",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "UniqueSourceKey": "BAT:BE:VE347303B11:BE1I:Die_Bond2:GlueVoidSingle:7904:240191193:0"
+  }
+}

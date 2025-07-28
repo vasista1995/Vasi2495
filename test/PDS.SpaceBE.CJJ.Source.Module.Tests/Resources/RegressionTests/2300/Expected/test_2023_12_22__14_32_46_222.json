@@ -1,0 +1,202 @@
+{
+  "IdSource": "SPACEACT2:CJJ:BE:2Z3490HU:::Force_WirePull_Gate:50255:243031415:0",
+  "Data_flat_Metadata": {
+    "Machine": "LAW033",
+    "Classification": "Routine check(Daily SPC)",
+    "Operator": "30156566",
+    "Grade": ".",
+    "Package": "CIPOS MINI",
+    "WireSize": "125",
+    "ParameterClass": "PPAP",
+    "Segment": "IFPS",
+    "Module": "MiniFP",
+    "Device": "IKCM15F60GA",
+    "FourDReport": "*",
+    "SpecialCharacteristics": "ISC",
+    "WireType": "Al",
+    "MaterialType": "Schweizer",
+    "Lot": "2Z3490HU",
+    "ParameterName": "Force_WirePull_Gate",
+    "ParameterUnit": "g",
+    "SiteKey": "CJJ",
+    "ChannelId": "50255",
+    "SpaceInstanceName": "BE",
+    "CreatedTimestampUtc": "2023-12-10T13:55:15Z",
+    "CreatedTimestamp": "2023-12-10T22:55:15Z",
+    "UpdatedTimestamp": "2023-12-10T22:55:15Z",
+    "UpdatedTimestampUtc": "2023-12-10T13:55:15Z",
+    "ExportedTimestampUtc": "2023-12-10T22:55:15Z",
+    "ExportedTimestamp": "2023-12-10T22:55:15Z",
+    "SampleTimestampUtc": "2023-12-10T13:55:15Z",
+    "SampleTimestamp": "2023-12-10T22:55:15Z",
+    "SourceDataLevel": "C",
+    "ChannelName": "Wire_PullForce/MiniFP/Al/125/Gate",
+    "RvStoreFlag": "Y",
+    "CalcCreated": "09/17/2023 14:13:10",
+    "ILdsID": 0,
+    "AcceptFlag": "Y",
+    "UpdatedBy": " ",
+    "ClOrigin": 0,
+    "OutOfOrder": "N",
+    "Calc2ID": 601832,
+    "ViolCount": 0,
+    "CalculationStrategy": "ND",
+    "LdsID": "2300",
+    "IsCalcParam": 0,
+    "ChannelType": "N",
+    "ChState": "Online"
+  },
+  "Data_1list_RawValues": {
+    "Data_flat_Limits": {
+      "CkcId": "0",
+      "MeasurementSpecLimits": {
+        "SpecHighEnabled": "N",
+        "SpecLowEnabled": "Y",
+        "SpecLow": 50.0,
+        "SpecTarget": 100.0,
+        "SpecTargetOrigin": "V",
+        "ExtSpecLimEnable": "NN",
+        "ExtSpecUpper": 0.0,
+        "ExtSpecLower": 0.0,
+        "LimitEnable": "YYNYYNYNNYYYYYYYYYYNNNYYYNYYNNNYNNNNN"
+      },
+      "SpaceAggregates": {
+        "Mean": "105,857375",
+        "Median": "106,255",
+        "Sigma": "5,19604478528758",
+        "Min": "98,811",
+        "Max": "112,19",
+        "Q1": "102,7645",
+        "Q3": "109,6525"
+      },
+      "ControlLimits": {
+        "ctrl_mean_low": 75.4276375034499,
+        "CtrlMeanLowEnabled": "Y",
+        "ctrl_mean_target": 97.830633457734,
+        "CtrlMeanTargetEnabled": "Y",
+        "ctrl_mean_high": 120.233629412018,
+        "CtrlMeanHighEnabled": "Y",
+        "CtrlLowEnabled": "N",
+        "CtrlSigmaCenterEnabled": "N",
+        "CtrlRangeCenterEnabled": "N",
+        "CtrlCenterEnabled": "N",
+        "CtrlHighEnabled": "N",
+        "CtrlSigmaLowEnabled": "N",
+        "ctrl_sigma_high": 11.9282555006157,
+        "CtrlSigmaHighEnabled": "Y",
+        "CtrlRangeLowEnabled": "N",
+        "ctrl_range_high": 36.6942356412541,
+        "CtrlRangeHighEnabled": "Y",
+        "ExtMaMV": 99.0388392857143,
+        "ExtEwmaMV": 101.729937214161,
+        "ExtMsMV": 3.89386026729902,
+        "EwmaS": 3.75106927294499,
+        "EwmaR": 10.2238772698465,
+        "ExtEwmaMVLCL": 90.3617366975368,
+        "ExtEwmaMVCenter": 97.8303650034175,
+        "ExtEwmaMVUCL": 105.298993309298,
+        "ExtMaMVLCL": 92.1846126799495,
+        "ExtMaMVCenter": 97.8303650034175,
+        "ExtMaMVUCL": 103.476117326885,
+        "EwmaSLCL": 1.92430704303663,
+        "EwmaSCenter": 3.87077680512853,
+        "EwmaSUCL": 5.81724656722044,
+        "EwmaRLCL": 5.36599274248898,
+        "EwmaRCenter": 11.3528989764825,
+        "EwmaRUCL": 17.339805210476,
+        "ExtMSMVLCL": 0.00769513562641543,
+        "ExtMSMVCenter": 3.62879492846472,
+        "ExtMSMVUCL": 14.5770097589121,
+        "MVLal": 0.0,
+        "MVUal": 0.0,
+        "RawLal": 55.0,
+        "RawUal": 126.06009640299,
+        "SigmaLal": -3.16630411452271,
+        "SigmaUal": 20.1214918289326,
+        "RangeLal": -8.49059861414859,
+        "RangeUal": 62.5080518480644
+      }
+    },
+    "Data_1list_RawValues": [
+      {
+        "SampleId": 243031415,
+        "Seqnr": 7,
+        "Value": 108.09,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 243031415,
+        "Seqnr": 6,
+        "Value": 109.1,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 243031415,
+        "Seqnr": 5,
+        "Value": 104.06,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 243031415,
+        "Seqnr": 4,
+        "Value": 98.811,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 243031415,
+        "Seqnr": 2,
+        "Value": 111.31,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 243031415,
+        "Seqnr": 1,
+        "Value": 112.19,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 243031415,
+        "Seqnr": 8,
+        "Value": 104.42,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 243031415,
+        "Seqnr": 3,
+        "Value": 98.878,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      }
+    ],
+    "SampleSize": 8
+  },
+  "ProductionAction": {
+    "Id": "SPACEACT1:CJJ:BE:::Force_WirePull_Gate:50255",
+    "Type": "SpaceAction"
+  },
+  "Item": {
+    "Id": "Measlot:2Z3490HU",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "UniqueSourceKey": "CJJ:BE:2Z3490HU:::Force_WirePull_Gate:50255:243031415:0"
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "IdSource": "SPACEACT2:BAT:BE:VE348726B23:BE1I:Wire_Bond1:WedgeShearPad:50078:240186968:0",
+  "Data_flat_Metadata": {
+    "Device": "L2791R",
+    "ParameterClass": "PPAP",
+    "CFComment": "FOL",
+    "Segment": "WB",
+    "FourDReport": "*",
+    "ParameterName": "WedgeShearPad",
+    "ParameterUnit": "g",
+    "ParameterOper": "Wire_Bond1",
+    "ParameterFacility": "BE1I",
+    "SiteKey": "BAT",
+    "ChannelId": "50078",
+    "SpaceInstanceName": "BE",
+    "CreatedTimestampUtc": "2023-11-14T06:40:21Z",
+    "CreatedTimestamp": "2023-11-14T13:40:21Z",
+    "UpdatedTimestamp": "2023-11-14T13:40:21Z",
+    "UpdatedTimestampUtc": "2023-11-14T06:40:21Z",
+    "ExportedTimestampUtc": "2023-11-14T13:40:21Z",
+    "ExportedTimestamp": "2023-11-14T13:40:21Z",
+    "SampleTimestampUtc": "2023-11-14T06:40:21Z",
+    "SampleTimestamp": "2023-11-14T13:40:21Z",
+    "SourceDataLevel": "C",
+    "ChannelName": "Wedge_ShearForce/AL/250um/Pad_PG-DSO-28-22",
+    "RvStoreFlag": "Y",
+    "CalcCreated": "10/03/2022 08:34:02",
+    "ILdsID": 0,
+    "AcceptFlag": "Y",
+    "UpdatedBy": " ",
+    "ClOrigin": 0,
+    "OutOfOrder": "N",
+    "Calc2ID": 1917881,
+    "ViolCount": 0,
+    "CalculationStrategy": "ND",
+    "LdsID": "1010",
+    "IsCalcParam": 0,
+    "ChannelType": "N",
+    "ChState": "Online"
+  },
+  "Data_1list_RawValues": {
+    "Data_flat_Limits": {
+      "CkcId": "0",
+      "MeasurementSpecLimits": {
+        "SpecHighEnabled": "N",
+        "SpecLowEnabled": "Y",
+        "SpecLow": 300.0,
+        "SpecTarget": 600.0,
+        "SpecTargetOrigin": "V",
+        "ExtSpecLimEnable": "NN",
+        "ExtSpecUpper": 0.0,
+        "ExtSpecLower": 0.0,
+        "LimitEnable": "YYNYNNYNYYYYYYYYYYYYYYYYYYYYNNNNNNNNN"
+      },
+      "SpaceAggregates": {
+        "Mean": "611,675",
+        "Median": "621,05",
+        "Sigma": "42,2998058084026",
+        "Min": "541,2",
+        "Max": "672,6",
+        "Q1": "589,8",
+        "Q3": "632,875"
+      },
+      "ControlLimits": {
+        "ctrl_mean_low": 568.614681302455,
+        "CtrlMeanLowEnabled": "Y",
+        "ctrl_mean_target": 772.792517006803,
+        "CtrlMeanTargetEnabled": "Y",
+        "ctrl_mean_high": 976.97035271115,
+        "CtrlMeanHighEnabled": "Y",
+        "ctrl_low": 497.808427859395,
+        "CtrlLowEnabled": "Y",
+        "CtrlSigmaCenterEnabled": "N",
+        "CtrlRangeCenterEnabled": "Y",
+        "CtrlCenterEnabled": "Y",
+        "ctrl_target": 772.516913946588,
+        "ctrl_high": 1047.22540003378,
+        "CtrlHighEnabled": "Y",
+        "CtrlSigmaLowEnabled": "N",
+        "CtrlSigmaHighEnabled": "N",
+        "CtrlRangeLowEnabled": "N",
+        "ctrl_range_target": 157.841062024152,
+        "ctrl_range_high": 380.81077382755,
+        "CtrlRangeHighEnabled": "Y",
+        "ExtMaMV": 704.475347222222,
+        "ExtEwmaMV": 653.39764457461,
+        "ExtMsMV": 10.093949301438,
+        "EwmaS": 49.3851965696666,
+        "EwmaR": 151.267015087727,
+        "ExtEwmaMVLCL": 669.963711170386,
+        "ExtEwmaMVCenter": 772.516913946588,
+        "ExtEwmaMVUCL": 875.07011672279,
+        "ExtMaMVLCL": 700.000848831137,
+        "ExtMaMVCenter": 772.516913946588,
+        "ExtMaMVUCL": 845.03297906204,
+        "EwmaSLCL": 21.6086035952785,
+        "EwmaSCenter": 62.0870088013662,
+        "EwmaSUCL": 102.565414007454,
+        "EwmaRLCL": 63.2799358794678,
+        "EwmaRCenter": 162.398932384342,
+        "EwmaRUCL": 261.517928889216,
+        "ExtMSMVLCL": 0.0859186100818653,
+        "ExtMSMVCenter": 40.516636959009,
+        "ExtMSMVUCL": 162.756899740171,
+        "MVLal": 0.0,
+        "MVUal": 0.0,
+        "RawLal": 360.454184815799,
+        "RawUal": 1184.57964307738,
+        "SigmaLal": 0.0,
+        "SigmaUal": 0.0,
+        "RangeLal": 0.0,
+        "RangeUal": 0.0
+      }
+    },
+    "Data_1list_RawValues": [
+      {
+        "SampleId": 240186968,
+        "Seqnr": 8,
+        "Value": 541.2,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240186968,
+        "Seqnr": 2,
+        "Value": 566.1,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240186968,
+        "Seqnr": 3,
+        "Value": 672.6,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240186968,
+        "Seqnr": 4,
+        "Value": 628.9,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240186968,
+        "Seqnr": 5,
+        "Value": 644.8,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240186968,
+        "Seqnr": 6,
+        "Value": 619.6,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240186968,
+        "Seqnr": 7,
+        "Value": 622.5,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240186968,
+        "Seqnr": 1,
+        "Value": 597.7,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      }
+    ],
+    "SampleSize": 8
+  },
+  "ProductionAction": {
+    "Id": "SPACEACT1:BAT:BE:BE1I:Wire_Bond1:WedgeShearPad:50078",
+    "Type": "SpaceAction"
+  },
+  "Item": {
+    "Id": "Measlot:",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "UniqueSourceKey": "BAT:BE:VE348726B23:BE1I:Wire_Bond1:WedgeShearPad:50078:240186968:0"
+  }
+}

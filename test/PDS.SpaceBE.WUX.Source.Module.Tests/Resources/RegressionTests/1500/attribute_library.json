@@ -1,0 +1,441 @@
+{
+  "Equipment": [
+    "WEN",
+    "SRMS06",
+    "BTT01",
+    "SRM13",
+    "SRM-15",
+    "TTI-10",
+    "DS-S522",
+    "DS-S521",
+    "DS-S520",
+    "DS-S519",
+    "SRMS04",
+    "SRMS02",
+    "IXP-04",
+    "TF-21",
+    "SRMS05",
+    "DS-S56"
+  ],
+  "ParameterClass": [
+    "PPAP",
+    "E_SPC",
+    "NON_PPAP"
+  ],
+  "Segment": [
+    "TDSON8",
+    "DS"
+  ],
+  "Module": [
+    "M1_ASSY",
+    "M2_TEST"
+  ],
+  "Package": [
+    "PG-TDSON-8-39",
+    "PG-TDSON-8-40",
+    "PG-SOT363-6-1",
+    "PG-SOT223-4-21",
+    "PG-SOT23-3-5",
+    "PG-TDSON-8-45",
+    "PG-TDSON-8-66",
+    "PG-TDSON-8-65",
+    "PG-SOT23-3-15",
+    "PG-SOD323-2-1"
+  ],
+  "FourDReport": [
+    "*"
+  ],
+  "SpecialCharacteristics": [
+    "ISC"
+  ],
+  "SpaceRawValues.Tool": [
+    "Frontside lead",
+    "Backside lead",
+    "Heatsink"
+  ],
+  "SpaceRawValues.BreakPoint": [
+    "Rawvalueslist"
+  ],
+  "SpaceRawValues.ExternalFlagged": [
+    "N"
+  ],
+  "SpaceRawValues.InternalFlagged": [
+    "N"
+  ],
+  "SpaceRawValues.NumViolations": [
+    "0"
+  ],
+  "SalesName": [
+    "BSC047N08NS3 G",
+    "BSC160N10NS3 G",
+    "BFS 481 H6327",
+    "BSP170P H6327",
+    "BSS138N H6327",
+    "BSP171P H6327",
+    "BSS131 H6327",
+    "BSS308PE H6327",
+    "BSC0906NS",
+    "BSC093N15NS5",
+    "BSC019N06NS",
+    "BSC030N08NS5",
+    "TLE4964-6M",
+    "BSC520N15NS3 G",
+    "BAT 165 E6874"
+  ],
+  "BusinessSegment": [
+    "18",
+    "15",
+    "51",
+    "55"
+  ],
+  "Operator": [
+    "30082736",
+    "30040342",
+    "30075946",
+    "30073142"
+  ],
+  "Baunumber": [
+    "70012808",
+    "90042583",
+    "70012816",
+    "90042393",
+    "90042435",
+    "90042394",
+    "90042416",
+    "70012864",
+    "70013135",
+    "90043423",
+    "70013302",
+    "70013326",
+    "70013363",
+    "70013576",
+    "90042477",
+    "70012651"
+  ],
+  "Line": [
+    "TDSON8",
+    "SOT363-12UP",
+    "SOT223-6UP",
+    "SOT23",
+    "MATCON-8UP",
+    "SOT23-8UP",
+    "SOD323"
+  ],
+  "Shift": [
+    "C"
+  ],
+  "Process": [
+    "Plating",
+    "Testing",
+    "WireBond"
+  ],
+  "Tool": [
+    "Frontside lead",
+    "Backside lead",
+    "Heatsink"
+  ],
+  "ParameterName": [
+    "Plating Thickness",
+    "Peel_Of_Force",
+    "BTG",
+    "StitchPull",
+    "WirePull",
+    "Ball Diameter",
+    "Ball Height",
+    "LoopHeight",
+    "Wedge Length",
+    "Wedge Width",
+    "BallShear"
+  ],
+  "ParameterUnit": [
+    "um",
+    "N",
+    "UM",
+    "g"
+  ],
+  "SampleSize": [
+    "9",
+    "2",
+    "18",
+    "4",
+    "8"
+  ],
+  "LdsID": [
+    "1500"
+  ],
+  "IsCalcParam": [
+    "0"
+  ],
+  "CntrlLow": [
+    "9,38208120453714",
+    "8,8081085726494",
+    "7,68155245988489",
+    "0,545228027822357",
+    "8,83249669456121",
+    "17,5080622691884",
+    "27,7579340604472",
+    "81,9419966745928",
+    "15,2610875498599",
+    "58,8229174597623",
+    "58,2157825655712",
+    "24,0000978038884"
+  ],
+  "CntrlTarget": [
+    "11,3898619957537",
+    "10,4295691033964",
+    "9,41976114649681",
+    "0,772760751059963",
+    "9,91777142857143",
+    "28,3272942884802",
+    "40,41725275601",
+    "90,6588319088319",
+    "18,6511544585987",
+    "71,3824324324324",
+    "70,6823825503355",
+    "28,9570619469026"
+  ],
+  "CntrlHigh": [
+    "13,3976427869703",
+    "12,0510296341434",
+    "11,1579698331087",
+    "1,00029347429757",
+    "11,0030461625817",
+    "39,1465263077719",
+    "53,0765714515729",
+    "99,3756671430709",
+    "22,0412213673376",
+    "83,9419474051025",
+    "83,1489825350999",
+    "33,9140260899169"
+  ],
+  "SigmaCntrlTarget": [
+    "0,435001077839079",
+    "0,494599774910216",
+    "0,368463400866053",
+    "0,0363419972369961",
+    "0,330250882225711",
+    "0,0454639746793612",
+    "0,0339255750422926",
+    "1,76698688822979",
+    "2,50656013496724",
+    "1,41988325951891",
+    "0,441932594354835",
+    "3,12739257808287",
+    "1,72288074172099",
+    "1,67345183243337",
+    "1,99987145950978",
+    "0,583862693698425",
+    "5,75264267183504"
+  ],
+  "SigmaCntrlHigh": [
+    "0,971023760987962",
+    "0,880387599340185",
+    "0,822496162705432",
+    "0,168815409461328",
+    "0,538040893792818",
+    "0,211188709612872",
+    "0,157590674079557",
+    "5,42706800609763",
+    "6,71693402788839",
+    "3,82593474896845",
+    "1,49569073220969",
+    "11,7643004003111",
+    "4,00034817979825",
+    "3,88557944246787",
+    "4,74820031041451",
+    "2,15608484464821",
+    "19,4285338934954"
+  ],
+  "CtrlMeanHighEnabled": [
+    "Y"
+  ],
+  "CtrlMeanLowEnabled": [
+    "Y"
+  ],
+  "CtrlMeanTargetEnabled": [
+    "Y"
+  ],
+  "CtrlLowEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlHighEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlRangeLowEnabled": [
+    "N"
+  ],
+  "CtrlRangeHighEnabled": [
+    "Y"
+  ],
+  "CtrlSigmaLowEnabled": [
+    "N"
+  ],
+  "CtrlSigmaCenterEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlRangeCenterEnabled": [
+    "Y"
+  ],
+  "CtrlCenterEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlSigmaHighEnabled": [
+    "Y",
+    "N"
+  ],
+  "SpecLowEnabled": [
+    "Y"
+  ],
+  "SpecHighEnabled": [
+    "Y",
+    "N"
+  ],
+  "RvStoreFlag": [
+    "Y"
+  ],
+  "Operation": [
+    "P_BeforeMTF_Visual_Inspection",
+    "P_Test_Scan_Pack",
+    "D_Subcon_Incoming_Assy",
+    "D_Test",
+    "D_TnF_Test",
+    "D_WireBond_Mould",
+    "P_Wire_Bond1",
+    "D_TrimForm",
+    "D_WireBond"
+  ],
+  "Facility": [
+    "ACWUS",
+    "TCWUS"
+  ],
+  "Lot": [
+    "PF328438C01",
+    "PF338950C02",
+    "RU240140CG8",
+    "VC335260C04",
+    "VC337948C02",
+    "VC344168C12",
+    "VC346549C02",
+    "VE335969C03",
+    "VF334156C49",
+    "ZF323051C06",
+    "ZF328527C04",
+    "ZF329621C01",
+    "ZF338042C05",
+    "ZF341369C02",
+    "1E251892C05",
+    "PF339159C02",
+    "RU341224C04",
+    "VC327640C02"
+  ],
+  "CkcId": [
+    "0"
+  ],
+  "ChannelDescr": [
+    "Created from LDS \nexclude list by \naction 'Create SPC Channel'"
+  ],
+  "SpaceInstanceName": [
+    "BE"
+  ],
+  "Sitekey": [
+    "WUX"
+  ],
+  "ILdsID": [
+    "0"
+  ],
+  "AcceptFlag": [
+    "Y"
+  ],
+  "UpdatedBy": [
+    " "
+  ],
+  "SpecTargetOrigin": [
+    "V"
+  ],
+  "ViolCount": [
+    "0"
+  ],
+  "OutOfOrder": [
+    "N"
+  ],
+  "LimitEnable": [
+    "YYNYYNYYYYYYYYYYYYYYYYYYYYYYNNNNNNNNN",
+    "YYNYYNYYYYYYYYYYYYYNNNYYYYYYNNNNNNNNN",
+    "YYNYNNYNYYYYYYYYYYYNNNYYYYYYNNNNNNNNN"
+  ],
+  "ClOrigin": [
+    "0"
+  ],
+  "MVLal": [
+    "0"
+  ],
+  "MVUal": [
+    "0"
+  ],
+  "ExtSpecLower": [
+    "0"
+  ],
+  "ExtSpecUpper": [
+    "0"
+  ],
+  "ExtSpecLimEnable": [
+    "NN"
+  ],
+  "CalculationStrategy": [
+    "ND 4.5 Sigma",
+    "ND"
+  ],
+  "ChannelType": [
+    "N"
+  ],
+  "ChState": [
+    "Online"
+  ],
+  "ChipType": [
+    "L9171F59511",
+    "U9066C00111",
+    "L0914R50381",
+    "L8056Q62341",
+    "L0914S50381",
+    "L8052N64241",
+    "L8062B65221",
+    "P9222C21311",
+    "P9931S21311",
+    "E4962W00011",
+    "L9177S59311",
+    "D0327H00011"
+  ],
+  "Track": [
+    "T1"
+  ],
+  "SpaceRawValues.Wafer": [
+    "-"
+  ],
+  "WireSize": [
+    "Cu wire 43um",
+    "Au wire 30um",
+    "Au wire 38um"
+  ],
+  "SolderGlue": [
+    "null"
+  ],
+  "DieSize": [
+    "0.8",
+    "0.4"
+  ],
+  "CartridgeID": [
+    "DT0001",
+    "DT0002"
+  ],
+  "Grade": [
+    "."
+  ],
+  "GaugeID": [
+    "0.8",
+    "0.5"
+  ]
+}

@@ -1,0 +1,59 @@
+test_2023_11_14__10_00_27_771.json: [Device: U0163B, ParameterClass: PPAP, CFComment: FOL, Segment: WB, F56Parameter: N, FourDReport: *, SpaceRawValues.BreakPoint: Rawvalueslist, SpaceRawValues.ExternalFlagged: N, SpaceRawValues.InternalFlagged: N, SpaceRawValues.NumViolations: 0, ParameterName: WedgeBumpPullTest, ParameterUnit: g, SampleSize: 5, LdsID: 1010, IsCalcParam: 0, CntrlLow: 11,8281013302995, CntrlTarget: 16,636768, CntrlHigh: 21,4454346697005, CtrlMeanHighEnabled: Y, CtrlMeanLowEnabled: Y, CtrlMeanTargetEnabled: Y, CtrlLowEnabled: Y, CtrlHighEnabled: Y, CtrlRangeLowEnabled: N, CtrlRangeHighEnabled: Y, CtrlSigmaLowEnabled: N, CtrlSigmaCenterEnabled: N, CtrlRangeCenterEnabled: Y, CtrlCenterEnabled: Y, CtrlSigmaHighEnabled: N, SpecLowEnabled: Y, SpecHighEnabled: N, RvStoreFlag: Y, Operation: A2_Plating, Facility: BE1I, CkcId: 0, ChannelDescr: for chip to chip PG-DSO-36-21, SpaceInstanceName: BE, Sitekey: BAT, ILdsID: 0, AcceptFlag: Y, UpdatedBy:  , SpecTargetOrigin: V, ViolCount: 0, OutOfOrder: N, LimitEnable: YYNYNNYNYYYYYYYYYYYYYYYYYYYYNNNNNNNNN, ClOrigin: 0, MVLal: 0, MVUal: 0, ExtSpecLower: 0, ExtSpecUpper: 0, ExtSpecLimEnable: NN, CalculationStrategy: ND, ChannelType: N, ChState: Online]
+test_2023_11_14__10_00_27_824.json: [CntrlLow: 6,07986743002658, CntrlTarget: 11,1681178082192, CntrlHigh: 16,2563681864118, CalculationStrategy: ND 4.5 Sigma]
+test_2023_11_14__10_00_27_828.json: [ParameterName: WirePull, CtrlLowEnabled: N, CtrlHighEnabled: N, CtrlCenterEnabled: N, ChannelDescr: Created from ( I )LDS 
+exclude list by 
+action 'Create SPC Channel', LimitEnable: YYNYNNYNYYNNNNNNNNNNNNNNNNNNNNNNNNNNN]
+test_2023_11_14__10_00_27_847.json: [Device: U5435A, SpaceRawValues.NumViolations: 1, SpaceRawValues.ViolationList: 4, SpaceRawValues.PrimaryViolation: 4, ParameterName: BallBumpShearTest, Operation: Wire_Bond1, SpcComExtern: CA-Attributes started. Ticket id: c39c4752-743b-4f7b-b96e-4b92052c5b82
+CA triggered by violation 4 (Mean value below limit) in channel (53709/0)
+====
+TicketId=c39c4752-743b-4f7b-b96e-4b92052c5b82 state=PASS executed OCAP=General, HOLDLOT, STOPEQUIPMENTPROCESSING, QUALITYALARMTRIGGER
+CA triggered by violation -1 (Unknown violation description) in channel (-1/-1), UpdatedBy: pobtech, ViolCount: 1, LimitEnable: YYNYNNYNYYYYYYYYYYYNNNYYYYYYNNNNNNNNN]
+test_2023_11_14__10_00_27_865.json: [SpaceRawValues.NumViolations: 2, SpaceRawValues.ViolationList: 4,10, ParameterName: BallShear, CkcId: 4, SpcComExtern: CA-Attributes started. Ticket id: 5096fb1c-e1f5-4996-b939-0b25d3463008
+CA triggered by violation 4 (Mean value below limit) in channel (49185/4)
+====
+TicketId=5096fb1c-e1f5-4996-b939-0b25d3463008 state=PASS executed OCAP=General, HOLDLOT, STOPEQUIPMENTPROCESSING, QUALITYALARMTRIGGER
+CA triggered by violation -1 (Unknown violation description) in channel (-1/-1), ViolCount: 2]
+test_2023_11_14__10_00_27_881.json: [ParameterClass: NON_SPC, SpaceRawValues.ViolationList: 2,4, SpaceRawValues.PrimaryViolation: 2, ParameterName: GoldBallDiameter, ParameterUnit: um, SpecHighEnabled: Y, CkcId: 56, SpcComExtern: CA-Attributes started. Ticket id: b89a4d16-2928-4cce-83dd-e82bcc78ef50
+CA triggered by violation 2 (Raw value below specification) in channel (67983/56)
+====
+TicketId=b89a4d16-2928-4cce-83dd-e82bcc78ef50 state=PASS executed OCAP=General, HOLDLOT, STOPEQUIPMENTPROCESSING, QUALITYALARMTRIGGER
+CA triggered by violation -1 (Unknown violation description) in channel (-1/-1)]
+test_2023_11_14__10_00_27_899.json: [SpaceRawValues.ViolationList: 1,3, SpaceRawValues.PrimaryViolation: 1, ParameterName: GoldBallHeight, CkcId: 912, SpcComExtern: CA-Attributes started. Ticket id: 55b5b55f-ef31-48f5-8dcc-d3bdf7eecf89
+CA triggered by violation 1 (Raw value above specification) in channel (67999/912)
+====
+TicketId=55b5b55f-ef31-48f5-8dcc-d3bdf7eecf89 state=PASS executed OCAP=General, HOLDLOT, STOPEQUIPMENTPROCESSING, QUALITYALARMTRIGGER
+CA triggered by violation -1 (Unknown violation description) in channel (-1/-1)]
+test_2023_11_14__10_00_27_919.json: [ParameterName: GoldBallHeightBump, CkcId: 519, SpcComExtern: CA-Attributes started. Ticket id: 60f88852-d256-4977-b972-bb440088db09
+CA triggered by violation 1 (Raw value above specification) in channel (68003/519)
+====
+TicketId=60f88852-d256-4977-b972-bb440088db09 state=PASS executed OCAP=General, HOLDLOT, STOPEQUIPMENTPROCESSING, QUALITYALARMTRIGGER
+CA triggered by violation -1 (Unknown violation description) in channel (-1/-1)]
+test_2023_11_14__10_00_27_946.json: [Device: S0946S, Segment: A2PL, SpaceRawValues.ViolationList: 7,18, SpaceRawValues.PrimaryViolation: 7, ParameterName: A2PLBallShearTop, SampleSize: 6, SigmaCntrlLow: 2,78234550501781, CtrlRangeLowEnabled: Y, CtrlSigmaLowEnabled: Y, CkcId: 3, ChannelDescr: A2PLBallShearTop\PDS20\A2CU\50, UpdatedBy: iscw8cc2082mwr, LimitEnable: YYYYNNYNYYYYYYYYYYYNNNNNNNNNYNNNNNNNN]
+test_2023_11_14__10_00_27_949.json: [Device: U5880B, SpaceRawValues.ViolationList: 10, SpaceRawValues.PrimaryViolation: 10, CkcId: 42, UpdatedBy: iscw4ce02718gx]
+test_2023_11_14__10_00_27_964.json: [SpaceRawValues.ViolationList: 18, SpaceRawValues.PrimaryViolation: 18, Operation: FOL_Autovision]
+test_2023_11_14__10_00_27_984.json: [Device: S8803B, SigmaCntrlLow: 0,244502118600319, CkcId: 16, ChannelDescr: LSS, UpdatedBy: iscw8cc2082mw1, LimitEnable: YYYYNNYNYYNNNNNNNNNNNNNNNNNNYNNNNNNNN]
+test_2023_11_14__10_00_27_997.json: [Device: S1918E, SigmaCntrlLow: 5,77929693470142, ChannelDescr: A2PLBallShearTop\PDS36\A2CU7\65]
+test_2023_11_14__10_00_28_036.json: [Device: S0946T, ParameterName: CopperBallDiameter]
+test_2023_11_14__10_00_28_041.json: [ParameterName: CopperBallHeight]
+test_2023_11_14__10_00_28_059.json: [ParameterName: CopperLoopHeight]
+test_2023_11_14__10_00_28_086.json: [ParameterName: A2PLWirePullTop, SampleSize: 8, CkcId: 1, ChannelDescr: A2PLWirePullTop\DS20\A2CU\50 , LimitEnable: YYNYNNYNYYYYYYYYYYYNNNNNNNNNNNNNNNNNN]
+test_2023_11_14__10_00_28_092.json: [CkcId: 275, SpcComExtern: CA-Attributes started. Ticket id: 962d095c-48df-4c2d-a5a4-53eb58068805
+CA triggered by violation 1 (Raw value above specification) in channel (67621/275)
+====
+TicketId=962d095c-48df-4c2d-a5a4-53eb58068805 state=PASS executed OCAP=General, HOLDLOT, STOPEQUIPMENTPROCESSING, QUALITYALARMTRIGGER
+CA triggered by violation -1 (Unknown violation description) in channel (-1/-1)]
+test_2023_11_14__10_00_28_112.json: [Device: L2891S, SpaceRawValues.ViolationList: 8, SpaceRawValues.PrimaryViolation: 8, Operation: FOL_Autovision_SmartS, ChannelDescr: A2PLWirePullTop\DS20\A2AL\50 ]
+test_2023_11_14__10_00_28_169.json: [Device: L2791R, ParameterName: AluWirePullTest]
+test_2023_11_14__10_00_28_171.json: [ParameterName: WedgeShearLead, CntrlLow: 400,681692867696, CntrlTarget: 752,670068027211, CntrlHigh: 1104,65844318673]
+test_2023_11_14__10_00_28_185.json: [ParameterName: WedgeShearPad, CntrlLow: 497,808427859395, CntrlTarget: 772,516913946588, CntrlHigh: 1047,22540003378]
+test_2023_11_14__10_00_28_201.json: [Device: L8404F, ParameterClass: NON_PPAP, ParameterName: StitchPull, ChannelDescr: Created from LDS 
+exclude list by 
+action 'Create SPC Channel']
+test_2023_11_14__10_00_28_220.json: [Device: U5886B, ParameterName: Copper BallShearCTDownBond, ParameterUnit: gf, CntrlLow: 83,8630032980114, CntrlTarget: 133,4278, CntrlHigh: 182,992596701989, SigmaCntrlLow: 0,334410310243388, SigmaCntrlTarget: 5,81060606180569, SigmaCntrlHigh: 21,3186322126267, CtrlSigmaCenterEnabled: Y, CtrlSigmaHighEnabled: Y, LimitEnable: YYYYYNYYYYYYYYYYYYYYYYYYYYYYYNNNNNNNN]
+test_2023_11_14__10_00_28_239.json: [ParameterName: Copper BallShearCTShearPad, CntrlLow: 46,2560701685626, CntrlTarget: 77,8094214876033, CntrlHigh: 109,362772806644, SigmaCntrlTarget: 3,99201640778191, SigmaCntrlHigh: 8,42315462041983, ChannelDescr: PG-DSO-20-91, 16um imide, UTC 
+ShearPad, LimitEnable: YYNYYNYYYYYYYYYYYYYYYYYYYYYYNNNNNNNNN]
+test_2023_11_14__10_00_28_251.json: [ParameterName: Copper BallShearSPT10Bump, CntrlLow: 54,0792713270776, CntrlTarget: 95,7867972972973, CntrlHigh: 137,494323267517, SigmaCntrlLow: 0,42984568274696, SigmaCntrlTarget: 4,10054083871172, SigmaCntrlHigh: 14,8015490395163]
+test_2023_11_14__10_00_28_271.json: [ParameterName: Copper BallShearSPT10Normal, CntrlLow: 43,6498192613376, CntrlTarget: 72,4064935064935, CntrlHigh: 101,163167751649, SigmaCntrlLow: -0,443239125299664, SigmaCntrlTarget: 4,94041394034462, SigmaCntrlHigh: 13,086764947474]
+test_2023_11_14__10_00_28_290.json: [ParameterName: Copper WirePullSPT10Normal, CntrlLow: 12,9851979265002, CntrlTarget: 20,0847271477663, CntrlHigh: 27,1842563690324, SigmaCntrlLow: 0,0791885121492654, SigmaCntrlTarget: 1,22019036420208, SigmaCntrlHigh: 3,1453261882761]
+test_2023_11_14__10_00_28_312.json: [ParameterName: CopperBallDiameterCTDownbond, CtrlMeanHighEnabled: N, CtrlMeanLowEnabled: N, CtrlMeanTargetEnabled: N, CtrlRangeHighEnabled: N, CtrlRangeCenterEnabled: N, ChannelDescr: Bump Diameter, Downbond, LimitEnable: YYNYNNYNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN]
+test_2023_11_14__10_00_28_332.json: [ParameterName: CopperBallDiameterCTNormal, ChannelDescr: Ball Diameter, CT Chips]

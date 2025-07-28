@@ -1,0 +1,202 @@
+{
+  "Data_flat_Metadata": {
+    "Classification": "Capillary change",
+    "MeasLot": "2Z3490JN",
+    "SiteKey": "CJJ",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-12-11T14:08:37Z",
+    "BeginTimestamp": "2023-12-11T23:08:37Z",
+    "EndTimestampUtc": "2023-12-11T14:08:37Z",
+    "EndTimestamp": "2023-12-11T23:08:37Z"
+  },
+  "Data_flat_StrangeMetadata": {
+    "WireSize": "30",
+    "WireType": "Gold",
+    "Operator": "30156566",
+    "Grade": ".",
+    "Package": "CIPOS TINY",
+    "Device": "IM393-M6F"
+  },
+  "Data_1list_Parameters": [
+    {
+      "Data_1list_RawValues": [
+        {
+          "Seqnr": 1,
+          "SampleId": 243042505,
+          "Value": 83.58,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-12-11T23:08:37Z",
+          "SampleTimestampUtc": "2023-12-11T14:08:37Z",
+          "CreatedTimestamp": "2023-12-11T23:08:37Z",
+          "CreatedTimestampUtc": "2023-12-11T14:08:37Z",
+          "UpdatedTimestamp": "2023-12-11T23:08:37Z",
+          "UpdatedTimestampUtc": "2023-12-11T14:08:37Z",
+          "NumViolations": 0,
+          "SampleMean": 85.985,
+          "SampleMin": 82.92,
+          "SampleMax": 94.43,
+          "SampleMedian": 83.295,
+          "SampleStdev": 5.6375792677354,
+          "SampleQ1": 82.9875,
+          "SampleQ3": 86.2925,
+          "SampleSize": 4
+        },
+        {
+          "Seqnr": 2,
+          "SampleId": 243042505,
+          "Value": 83.01,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-12-11T23:08:37Z",
+          "SampleTimestampUtc": "2023-12-11T14:08:37Z",
+          "CreatedTimestamp": "2023-12-11T23:08:37Z",
+          "CreatedTimestampUtc": "2023-12-11T14:08:37Z",
+          "UpdatedTimestamp": "2023-12-11T23:08:37Z",
+          "UpdatedTimestampUtc": "2023-12-11T14:08:37Z",
+          "NumViolations": 0,
+          "SampleMean": 85.985,
+          "SampleMin": 82.92,
+          "SampleMax": 94.43,
+          "SampleMedian": 83.295,
+          "SampleStdev": 5.6375792677354,
+          "SampleQ1": 82.9875,
+          "SampleQ3": 86.2925,
+          "SampleSize": 4
+        },
+        {
+          "Seqnr": 3,
+          "SampleId": 243042505,
+          "Value": 94.43,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-12-11T23:08:37Z",
+          "SampleTimestampUtc": "2023-12-11T14:08:37Z",
+          "CreatedTimestamp": "2023-12-11T23:08:37Z",
+          "CreatedTimestampUtc": "2023-12-11T14:08:37Z",
+          "UpdatedTimestamp": "2023-12-11T23:08:37Z",
+          "UpdatedTimestampUtc": "2023-12-11T14:08:37Z",
+          "NumViolations": 0,
+          "SampleMean": 85.985,
+          "SampleMin": 82.92,
+          "SampleMax": 94.43,
+          "SampleMedian": 83.295,
+          "SampleStdev": 5.6375792677354,
+          "SampleQ1": 82.9875,
+          "SampleQ3": 86.2925,
+          "SampleSize": 4
+        },
+        {
+          "Seqnr": 4,
+          "SampleId": 243042505,
+          "Value": 82.92,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-12-11T23:08:37Z",
+          "SampleTimestampUtc": "2023-12-11T14:08:37Z",
+          "CreatedTimestamp": "2023-12-11T23:08:37Z",
+          "CreatedTimestampUtc": "2023-12-11T14:08:37Z",
+          "UpdatedTimestamp": "2023-12-11T23:08:37Z",
+          "UpdatedTimestampUtc": "2023-12-11T14:08:37Z",
+          "NumViolations": 0,
+          "SampleMean": 85.985,
+          "SampleMin": 82.92,
+          "SampleMax": 94.43,
+          "SampleMedian": 83.295,
+          "SampleStdev": 5.6375792677354,
+          "SampleQ1": 82.9875,
+          "SampleQ3": 86.2925,
+          "SampleSize": 4
+        }
+      ],
+      "ParameterClass": "PPAP",
+      "Segment": "IFPS",
+      "Module": "Tiny",
+      "FourDReport": "*",
+      "SpecialCharacteristics": "ISC",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "N",
+          "SpecLowEnabled": "Y",
+          "spec_low": 31.0,
+          "target": 60.0
+        },
+        "ControlLimits": {
+          "ctrl_mean_low": 66.9154001773292,
+          "CtrlMeanLowEnabled": "Y",
+          "ctrl_mean_target": 85.6086370967741,
+          "CtrlMeanTargetEnabled": "Y",
+          "ctrl_mean_high": 104.301874016219,
+          "CtrlMeanHighEnabled": "Y",
+          "CtrlLowEnabled": "N",
+          "CtrlHighEnabled": "N",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "N",
+          "CtrlRangeCenterEnabled": "N",
+          "CtrlCenterEnabled": "N",
+          "ctrl_stdev_high": 19.9270053244038,
+          "CtrlStdevHighEnabled": "Y",
+          "CtrlRangeLowEnabled": "N",
+          "ctrl_range_high": 43.3951268203011,
+          "CtrlRangeHighEnabled": "Y"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 4,
+        "base_count": 4,
+        "flagged_count": 0,
+        "mean": 85.985,
+        "median": 83.295,
+        "stdev": 4.882286861707331,
+        "range": 11.510000000000005,
+        "min": 82.92,
+        "max": 94.43,
+        "q02": 82.9254,
+        "q05": 82.93350000000001,
+        "q25": 82.98750000000001,
+        "q75": 86.2925,
+        "q95": 92.80250000000001,
+        "q98": 93.77900000000001,
+        "NumViolations": 0,
+        "Samples": "243042505"
+      },
+      "ParameterName": "Force_ShearOnBump",
+      "ParameterUnit": "g",
+      "ChannelId": "54212",
+      "SourceDataLevel": "C",
+      "channel_name": "Bump_ShearForce Tiny Au 30",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-12-11T14:08:37Z",
+      "created_timestamp": "2023-12-11T23:08:37Z",
+      "updated_timestamp_utc": "2023-12-11T14:08:37Z",
+      "updated_timestamp": "2023-12-11T23:08:37Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-12-11T14:08:37Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED2:CJJ:BE:::",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "Measlot:2Z3490JN",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "CJJ:BE:2Z3490JN:::Force_ShearOnBump:54212:243042505:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-12-11T23:08:37Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "Measlot:2Z3490JN:SPACEAGGED2:CJJ:BE::::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "CJJ"
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "Machine": [
+    "LTF004",
+    "LED008",
+    "LAW033",
+    "LGW003",
+    "LGW021",
+    "LAW016",
+    "LGW020",
+    "LAW053",
+    "LAW046",
+    "LLC002",
+    "LAW026",
+    "LAW020"
+  ],
+  "Operator": [
+    "30156566",
+    "30101807",
+    "30101669",
+    "30108995"
+  ],
+  "Shift": [
+    "GY"
+  ],
+  "ParameterClass": [
+    "E_SPC",
+    "PPAP"
+  ],
+  "Segment": [
+    "IFPS"
+  ],
+  "Module": [
+    "MiniFP",
+    "Tiny",
+    "MiniDCB"
+  ],
+  "Package": [
+    "CIPOS MINI",
+    "CIPOS MINI DCB PLUS",
+    "CIPOS MINI DCB",
+    "CIPOS TINY"
+  ],
+  "Device": [
+    "IKCM15F60GA",
+    "IM828-XCC",
+    "IKCM30F60GD",
+    "IKCM15H60GA",
+    "IM818-MCC",
+    "IM818-LCC",
+    "IM393-M6F"
+  ],
+  "SpaceRawValues.BreakPoint": [
+    "Rawvalueslist"
+  ],
+  "SpaceRawValues.ExternalFlagged": [
+    "N"
+  ],
+  "SpaceRawValues.InternalFlagged": [
+    "N"
+  ],
+  "SpaceRawValues.NumViolations": [
+    "0"
+  ],
+  "ParameterName": [
+    "Lead_Length",
+    "TipToTip_DistanceIn",
+    "TipToTip_DistanceOut",
+    "Die_ShearForce",
+    "Force_ShearOnDiode",
+    "Force_ShearOnIGBT",
+    "Force_ShearOnIGBTGate",
+    "Force_ShearOnPCB",
+    "Force_ShearOnPCBGate",
+    "Force_ShearOnPower",
+    "Force_ShearOnSignal",
+    "Force_WirePull_Gate",
+    "Force_WirePull_Signal"
+  ],
+  "ParameterUnit": [
+    "mm",
+    "gf",
+    "g"
+  ],
+  "SampleSize": [
+    "3",
+    "1",
+    "5",
+    "2",
+    "8",
+    "7",
+    "4"
+  ],
+  "LdsID": [
+    "2300"
+  ],
+  "IsCalcParam": [
+    "0"
+  ],
+  "CtrlMeanHighEnabled": [
+    "Y"
+  ],
+  "CtrlMeanLowEnabled": [
+    "Y"
+  ],
+  "CtrlMeanTargetEnabled": [
+    "Y"
+  ],
+  "CtrlLowEnabled": [
+    "N"
+  ],
+  "CtrlHighEnabled": [
+    "N"
+  ],
+  "CtrlRangeLowEnabled": [
+    "N"
+  ],
+  "CtrlRangeHighEnabled": [
+    "Y"
+  ],
+  "CtrlSigmaLowEnabled": [
+    "N"
+  ],
+  "CtrlSigmaCenterEnabled": [
+    "N"
+  ],
+  "CtrlRangeCenterEnabled": [
+    "N"
+  ],
+  "CtrlCenterEnabled": [
+    "N",
+    "Y"
+  ],
+  "CtrlSigmaHighEnabled": [
+    "N",
+    "Y"
+  ],
+  "SpecLowEnabled": [
+    "Y"
+  ],
+  "SpecHighEnabled": [
+    "Y",
+    "N"
+  ],
+  "RvStoreFlag": [
+    "Y"
+  ],
+  "Lot": [
+    "2Z34902B",
+    "2Z349024",
+    "2Z3490FM",
+    "2Z3490HU",
+    "2Z35000B",
+    "2Z3490GW",
+    "2Z3490FP",
+    "2Z3490AO",
+    "2Z3490B7",
+    "2Z3490JN",
+    "2Z34907J",
+    "2Z3490IF",
+    "2Z3490I1"
+  ],
+  "CkcId": [
+    "0"
+  ],
+  "SpaceInstanceName": [
+    "BE"
+  ],
+  "Sitekey": [
+    "CJJ"
+  ],
+  "ILdsID": [
+    "0"
+  ],
+  "AcceptFlag": [
+    "Y"
+  ],
+  "UpdatedBy": [
+    " "
+  ],
+  "SpecTargetOrigin": [
+    "V"
+  ],
+  "ViolCount": [
+    "0"
+  ],
+  "OutOfOrder": [
+    "N"
+  ],
+  "LimitEnable": [
+    "YYNYNNYNNYYYYYYYYYYNNNYYYYYYNYYYYYYYY",
+    "YYNYYNYNNYYYYYYYYYYNNNYYYNYYNNNYNNNNN",
+    "YYNYYNYNNYYYYYYYYYYNNNYYYNYYNNNNNNNNN",
+    "YYNYYNYNNYYYYYYYYYYNNNYYYYYYNNNYNNNNN",
+    "YYNYYNYNNYYYYYYYYYYNNNYYYYYYNNNYNYYYY",
+    "YYNYYNYNNYYYYYYYYYYNYNYYYYYYNNNYNNNNN",
+    "YYNYYNYNNYYYYYYYYYYNNNYYYYYYNYYYYYYYY"
+  ],
+  "ClOrigin": [
+    "0"
+  ],
+  "MVLal": [
+    "0"
+  ],
+  "MVUal": [
+    "0"
+  ],
+  "ExtSpecLower": [
+    "0"
+  ],
+  "ExtSpecUpper": [
+    "0"
+  ],
+  "ExtSpecLimEnable": [
+    "NN"
+  ],
+  "CalculationStrategy": [
+    "ND"
+  ],
+  "ChannelType": [
+    "N"
+  ],
+  "ChState": [
+    "Online"
+  ],
+  "ChipType": [
+    "NTC_E0.675",
+    "IC",
+    "NTC_Sintering"
+  ],
+  "Classification": [
+    "Routine check(Daily SPC)",
+    "Capillary change",
+    "ESR - Normal"
+  ],
+  "FourDReport": [
+    "*"
+  ],
+  "MaterialType": [
+    "Schweizer"
+  ],
+  "WireSize": [
+    "350",
+    "125",
+    "30"
+  ],
+  "WireType": [
+    "Al",
+    "Gold"
+  ],
+  "SpecialCharacteristics": [
+    "ISC"
+  ],
+  "SigmaCntrlHigh": [
+    "403,93",
+    "76,5964231636219",
+    "381,989616791615",
+    "58,4973699402583",
+    "43,8801104401609",
+    "56,7536767242204",
+    "330,270024777181",
+    "77,4217262980133",
+    "11,9282555006157",
+    "32,1573274694144"
+  ],
+  "Grade": [
+    "."
+  ],
+  "CntrlTarget": [
+    "347,18223880597"
+  ],
+  "ChannelDescr": [
+    "W/B",
+    "LeadCover"
+  ]
+}

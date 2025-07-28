@@ -1,0 +1,12 @@
+﻿{
+    "LdsPKeyMappings": [
+        {
+            "LdsId": 1500,
+            "PKeyAttributesMappings": {
+                "Daval_10": "ParameterFacility",
+                "Daval_09": "ParameterOper"
+            }
+        }
+
+    ]   
+}

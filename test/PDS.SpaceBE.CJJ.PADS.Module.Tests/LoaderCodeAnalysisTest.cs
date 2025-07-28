@@ -1,0 +1,12 @@
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using PDS.SpaceBE.Common.PADS.Module.Tests;
+
+namespace PDS.SpaceBE.CJJ.PADS.Module.Tests
+{
+    [TestClass]
+    public class LoaderCodeAnalysisTest : LoaderPropertyEvaluatorTest
+    {
+        protected override string SiteKey => "CJJ";
+        protected override string SiteType => "SpaceBE";
+    }
+}

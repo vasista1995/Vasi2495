@@ -1,0 +1,171 @@
+{
+  "Data_flat_Metadata": {
+    "Baunumber": "90042477",
+    "Line": "TDSON8",
+    "Shift": "C",
+    "Process": "Testing",
+    "MeasLot": "RU341224C04",
+    "ParameterOper": "P_Test_Scan_Pack",
+    "ParameterFacility": "TCWUS",
+    "SiteKey": "WUX",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-10-06T07:19:48Z",
+    "BeginTimestamp": "2023-10-06T15:19:48Z",
+    "EndTimestampUtc": "2023-10-06T07:19:48Z",
+    "EndTimestamp": "2023-10-06T15:19:48Z",
+    "Equipment": "SRMS05"
+  },
+  "Data_flat_StrangeMetadata": {
+    "Package": "PG-TDSON-8-40",
+    "SalesName": "BSC520N15NS3 G",
+    "Track": "T1",
+    "ChipType": "L9177S59311",
+    "Operator": "30040342"
+  },
+  "Data_1list_Parameters": [
+    {
+      "Data_1list_RawValues": [
+        {
+          "Seqnr": 2,
+          "SampleId": 200697954,
+          "Value": 0.863,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-10-06T15:19:48Z",
+          "SampleTimestampUtc": "2023-10-06T07:19:48Z",
+          "CreatedTimestamp": "2023-10-06T15:19:48Z",
+          "CreatedTimestampUtc": "2023-10-06T07:19:48Z",
+          "UpdatedTimestamp": "2023-10-06T15:19:48Z",
+          "UpdatedTimestampUtc": "2023-10-06T07:19:48Z",
+          "NumViolations": 0,
+          "SampleMean": 0.846,
+          "SampleMin": 0.829,
+          "SampleMax": 0.863,
+          "SampleMedian": 0.846,
+          "SampleStdev": 0.0240416305603426,
+          "SampleQ1": 0.8375,
+          "SampleQ3": 0.8545,
+          "SampleSize": 2
+        },
+        {
+          "Seqnr": 1,
+          "SampleId": 200697954,
+          "Value": 0.829,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-10-06T15:19:48Z",
+          "SampleTimestampUtc": "2023-10-06T07:19:48Z",
+          "CreatedTimestamp": "2023-10-06T15:19:48Z",
+          "CreatedTimestampUtc": "2023-10-06T07:19:48Z",
+          "UpdatedTimestamp": "2023-10-06T15:19:48Z",
+          "UpdatedTimestampUtc": "2023-10-06T07:19:48Z",
+          "NumViolations": 0,
+          "SampleMean": 0.846,
+          "SampleMin": 0.829,
+          "SampleMax": 0.863,
+          "SampleMedian": 0.846,
+          "SampleStdev": 0.0240416305603426,
+          "SampleQ1": 0.8375,
+          "SampleQ3": 0.8545,
+          "SampleSize": 2
+        }
+      ],
+      "ParameterClass": "E_SPC",
+      "Segment": "TDSON8",
+      "Module": "M2_TEST",
+      "FourDReport": "*",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "Y",
+          "SpecLowEnabled": "Y",
+          "spec_high": 1.1,
+          "spec_low": 0.4,
+          "target": 0.75
+        },
+        "ControlLimits": {
+          "ctrl_mean_low": 0.576785692454335,
+          "CtrlMeanLowEnabled": "Y",
+          "ctrl_mean_target": 0.772760751059963,
+          "CtrlMeanTargetEnabled": "Y",
+          "ctrl_mean_high": 0.968735809665591,
+          "CtrlMeanHighEnabled": "Y",
+          "ctrl_low": 0.545228027822357,
+          "CtrlLowEnabled": "Y",
+          "ctrl_target": 0.772760751059963,
+          "ctrl_high": 1.00029347429757,
+          "CtrlHighEnabled": "Y",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "Y",
+          "CtrlRangeCenterEnabled": "Y",
+          "CtrlCenterEnabled": "Y",
+          "ctrl_stdev_target": 0.0363419972369961,
+          "ctrl_stdev_high": 0.168815409461328,
+          "CtrlStdevHighEnabled": "Y",
+          "CtrlRangeLowEnabled": "N",
+          "ctrl_range_target": 0.0480181708055726,
+          "ctrl_range_high": 0.2796513136687,
+          "CtrlRangeHighEnabled": "Y"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 2,
+        "base_count": 2,
+        "flagged_count": 0,
+        "mean": 0.846,
+        "median": 0.846,
+        "stdev": 0.017000000000000015,
+        "range": 0.03400000000000003,
+        "min": 0.829,
+        "max": 0.863,
+        "q02": 0.82968,
+        "q05": 0.8307,
+        "q25": 0.8375,
+        "q75": 0.8545,
+        "q95": 0.8613,
+        "q98": 0.86232,
+        "NumViolations": 0,
+        "Samples": "200697954"
+      },
+      "ParameterName": "Peel_Of_Force",
+      "ParameterUnit": "N",
+      "ChannelId": "50614",
+      "SourceDataLevel": "C",
+      "channel_name": "Tape_PeelOffForce TDSON8",
+      "channel_description": "Created from LDS  exclude list by  action 'Create SPC Channel'",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-10-06T07:19:48Z",
+      "created_timestamp": "2023-10-06T15:19:48Z",
+      "updated_timestamp_utc": "2023-10-06T07:19:48Z",
+      "updated_timestamp": "2023-10-06T15:19:48Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-10-06T07:19:48Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED2:WUX:BE:TCWUS:P_Test_Scan_Pack:",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "Measlot:RU341224C04",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "WUX:BE:RU341224C04:TCWUS:P_Test_Scan_Pack:Peel_Of_Force:50614:200697954:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-10-06T15:19:48Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "Measlot:RU341224C04:SPACEAGGED2:WUX:BE:TCWUS:P_Test_Scan_Pack::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "WUX"
+  }
+}

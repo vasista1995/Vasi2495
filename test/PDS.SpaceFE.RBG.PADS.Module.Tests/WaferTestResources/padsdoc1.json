@@ -1,0 +1,112 @@
+{
+
+    "_id": "MotherlotWafer:3A110879:01:SPACEAGG1:RBG:FE:WLADR:8667:WARPAGE:161310:ProcessControl:1.0",
+    "Document": {
+        "Version": "1.0",
+        "Type": "ProcessControl",
+        "Repetition": {
+            "_id": "0",
+            "IdBaseValue": "1/8/2021 7:42:40 AM"
+        }
+    },
+    "ProductionAction": {
+        "Type": "SpaceAggregation",
+        "_id": "SPACEAGG1:RBG:FE:WLADR:8667:WARPAGE:161310"
+    },
+    "Item": {
+        "_id": "MotherlotWafer:3A110879:01",
+        "IdSystemName": "MotherlotWafer",
+        "Type": "Wafer"
+    },
+    "Data_flat_Metadata": {
+        "Motherlot": "3A110879",
+        "Wafer": ":01",
+        "ParameterOper": "8667",
+        "ParameterFacility": "WLADR",
+        "SiteKey": "RBG",
+        "SpaceInstanceName": "FE",
+        "CreatedTimestampUtc": "2021-01-08T07:42:40.000Z" ,
+        "UpdatedTimestampUtc": "2021-01-08T07:42:40.000Z" ,
+        "ExportedTimestampUtc":  "2021-03-16T12:47:22.166Z" ,
+        "BeginTimestampUtc":  "2021-01-08T07:42:40.000Z" ,
+        "EndTimestampUtc": "2021-01-08T07:42:40.000Z" ,
+        "DocUpdatedTimestampUtc":  "2021-03-16T12:51:58.804Z" ,
+        "DocCreatedTimestampUtc":  "2021-03-16T12:51:58.698Z" ,
+        "BasicType": "W1350D",
+        "ProductType": "W1350D00012",
+        "Product": "67090914",
+        "Route": "WLERP002A0",
+        "Design": "-",
+        "Layer": "-",
+        "MeasurementBatch": "0",
+        "SPS_Number": "K84002",
+        "Equipment": "MET984-02",
+        "Recipe": "WLERP002A0",
+        "ProcessGroup": "EWLBA_FO",
+        "EquipmentType": "NIKON_VMR",
+        "ProcessLine": "08FIWLBA01",
+        "RvStoreFlag": "Y"
+    },
+    "Data_1list_Parameters": [
+
+        {
+            "ParameterName": "WARPAGE",
+            "ParameterUnit": "s",
+            "SourceDataLevel": "C",
+            "ChannelId": 161310,
+            "ProcessBatch": "0",
+            "ProcessEquipment": "509-681",
+            "Data_flat_Limits": {
+                "CKC_ID": "0",
+                "MeasurementSpecLimits": {
+                    "SpecHighEnabled": "Y",
+                    "SpecLowEnabled": "Y",
+                    "spec_high": 3,
+                    "spec_low": -3,
+                    "spec_target": 0,
+                    "RemovalDue2Ambiguity": ""
+                },
+                "ControlLimitsCKCID0": {
+                    "CtrlMeanLowEnabled": "N",
+                    "CtrlMeanTargetEnabled": "N",
+                    "CtrlMeanHighEnabled": "N",
+                    "CtrlLowEnabled": "N",
+                    "CtrlHighEnabled": "N",
+                    "CtrlSigmaLowEnabled": "N",
+                    "CtrlSigmaHighEnabled": "N",
+                    "CtrlRangeLowEnabled": "N",
+                    "CtrlRangeHighEnabled": "N",
+                    "RemovalDue2Ambiguity": ""
+                },
+                "ControlLimitsAlternateCKCID>0": {
+                    "CtrlMeanLowEnabled": "N",
+                    "CtrlMeanTargetEnabled": "N",
+                    "CtrlMeanHighEnabled": "N",
+                    "CtrlLowEnabled": "N",
+                    "CtrlHighEnabled": "N",
+                    "CtrlSigmaLowEnabled": "N",
+                    "CtrlSigmaHighEnabled": "N",
+                    "CtrlRangeLowEnabled": "N",
+                    "CtrlRangeHighEnabled": "N",
+                    "RemovalDue2Ambiguity": ""
+                }
+            },
+            "Data_flat_MeasurementAggregates": {
+                "exec_count": 13,
+                "mean": -0.000007692307692289765,
+                "median": -0.1636,
+                "sigma": 0.28317834136415077,
+                "min": -0.2884,
+                "max": 0.3647,
+                "q2": -0.28096,
+                "q5": -0.2698,
+                "q25": -0.2333,
+                "q75": 0.3501,
+                "q95": 0.36373999999999995,
+                "q98": 0.364316
+            },
+            "ChannelName": "8667_WARPAGE_RADAR",
+            "ChannelDescr": "Rohdatensammelkarte RADAR"
+        }
+    ]
+}

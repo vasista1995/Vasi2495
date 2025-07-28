@@ -1,0 +1,150 @@
+{
+    "Data_flat_Metadata": {
+        "Line": "62mm",
+        "ProductionOrder": "81771705",
+        "Batch": "UZ38277P0",
+        "MaterialNumber": "42814",
+        "ProductGroup": "M-62MM3.GEN",
+        "MeasurementRecipe": "1",
+        "OrderType": "2100",
+        "QrkGroup": "2100",
+        "ProcessGroup": "system_soldering",
+        "SpcClass": "2100",
+        "CustomComment": "system soldering",
+        "Segment": "HPS",
+        "MeasLot": "81771705",
+        "ParameterOper": "system soldering",
+        "SiteKey": "CEG",
+        "SpaceInstanceName": "BE",
+        "BeginTimestampUtc": "2023-10-27T09:58:31Z",
+        "BeginTimestamp": "2023-10-27T11:58:31Z",
+        "EndTimestampUtc": "2023-10-27T09:58:31Z",
+        "EndTimestamp": "2023-10-27T11:58:31Z",
+        "Equipment": "VADU10"
+    },
+    "Data_flat_StrangeMetadata": {
+        "MaterialNumberText": "2100",
+        "Operator": "2100",
+        "ParameterClass": "NON_SPC",
+        "Package": "62mm",
+        "Module": "11 substrate-baseplate interconnect",
+        "PosName": "2100"
+    },
+    "Data_1list_Parameters": [
+        {
+            "process_equipment": "10000973",
+            "ProcessEquipmentName": "VADU10",
+            "LongParameterName": "K2-Massflow",
+            "Data_1list_RawValues": [
+                {
+                    "process_equipment": "10000973",
+                    "MeasurementEquipment": "VADU10",
+                    "ProcessEquipmentName": "VADU10",
+                    "Seqnr": 1,
+                    "SampleId": 332713726,
+                    "Value": 14.9,
+                    "is_flagged": "N",
+                    "SampleTimestamp": "2023-10-27T11:58:31Z",
+                    "SampleTimestampUtc": "2023-10-27T09:58:31Z",
+                    "CreatedTimestamp": "2023-10-27T12:04:17Z",
+                    "CreatedTimestampUtc": "2023-10-27T10:04:17Z",
+                    "UpdatedTimestamp": "2023-10-27T12:04:17Z",
+                    "UpdatedTimestampUtc": "2023-10-27T10:04:17Z",
+                    "NumViolations": 0,
+                    "SampleMean": 14.9,
+                    "SampleMin": 14.9,
+                    "SampleMax": 14.9,
+                    "SampleMedian": 14.9,
+                    "SampleStdev": 0.0,
+                    "SampleQ1": 14.9,
+                    "SampleQ3": 14.9,
+                    "SampleSize": 1
+                }
+            ],
+            "ParameterType": "2100",
+            "Data_flat_Limits": {
+                "CKC_ID": "0",
+                "MeasurementSpecLimits": {
+                    "SpecHighEnabled": "Y",
+                    "SpecLowEnabled": "Y",
+                    "spec_high": 17.1,
+                    "spec_low": 12.9,
+                    "target": 15.0
+                },
+                "ControlLimits": {
+                    "CtrlMeanLowEnabled": "N",
+                    "CtrlMeanTargetEnabled": "N",
+                    "CtrlMeanHighEnabled": "N",
+                    "CtrlLowEnabled": "N",
+                    "CtrlHighEnabled": "N",
+                    "CtrlStdevLowEnabled": "N",
+                    "CtrlSigmaCenterEnabled": "N",
+                    "CtrlRangeCenterEnabled": "N",
+                    "CtrlCenterEnabled": "N",
+                    "CtrlStdevHighEnabled": "N",
+                    "CtrlRangeLowEnabled": "N",
+                    "CtrlRangeHighEnabled": "N"
+                }
+            },
+            "Data_flat_MeasurementAggregates": {
+                "exec_count": 1,
+                "base_count": 1,
+                "flagged_count": 0,
+                "mean": 14.9,
+                "median": 14.9,
+                "stdev": 0.0,
+                "range": 0.0,
+                "min": 14.9,
+                "max": 14.9,
+                "q02": 14.9,
+                "q05": 14.9,
+                "q25": 14.9,
+                "q75": 14.9,
+                "q95": 14.9,
+                "q98": 14.9,
+                "NumViolations": 0,
+                "Samples": "332713726"
+            },
+            "ParameterName": "K2-MFC",
+            "ParameterUnit": "SDL",
+            "ChannelId": "101002",
+            "SourceDataLevel": "C",
+            "channel_name": "K2-MFC",
+            "RvStoreFlag": "Y",
+            "created_timestamp_utc": "2023-10-27T10:04:17Z",
+            "created_timestamp": "2023-10-27T12:04:17Z",
+            "updated_timestamp_utc": "2023-10-27T10:04:17Z",
+            "updated_timestamp": "2023-10-27T12:04:17Z"
+        }
+    ],
+    "Document": {
+        "Version": "1.0",
+        "Type": "ProcessControl",
+        "Repetition": {
+            "Id": "0",
+            "IdBaseValue": "2023-10-27T10:04:17Z"
+        }
+    },
+    "ProductionAction": {
+        "Id": "SPACEAGGED3:CEG:BE:62mm:system soldering:",
+        "Type": "SpaceAggregation"
+    },
+    "Item": {
+        "Id": "HPSModFAUF:81771705",
+        "IdSystemName": "HPSModFAUF",
+        "Type": "Fauf"
+    },
+    "SystemLog": {
+        "UniqueSourceKey": "CEG:BE:81771705:62mm:system soldering:K2-MFC:101002:332713726:0",
+        "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+        "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+        "DocCreatedTimestampUtc": "2023-10-27T11:58:31Z",
+        "QueueOffset": 0,
+        "QueuePartition": 0
+    },
+    "SearchPatterns": {
+        "SpaceKey": "HPSModFAUF:81771705:SPACEAGGED3:CEG:BE:62mm:system soldering::ProcessControl:1.0",
+        "TimeGroup": "0",
+        "SiteKey": "CEG"
+    }
+}

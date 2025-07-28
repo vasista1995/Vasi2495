@@ -1,0 +1,152 @@
+{
+  "Data_flat_Metadata": {
+    "Line": "Econo",
+    "ProductionOrder": "81774350",
+    "Batch": "H916992P0",
+    "MaterialNumber": "43842",
+    "ProductGroup": "M-ECONOPIM",
+    "MeasurementRecipe": "5",
+    "OrderType": "2100",
+    "QrkGroup": "2100",
+    "ProcessGroup": "system_soldering",
+    "SpcClass": "2100",
+    "CustomComment": "system soldering",
+    "Segment": "HPS",
+    "MeasLot": "81774350",
+    "ParameterOper": "system soldering",
+    "SiteKey": "CEG",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-10-27T09:15:33Z",
+    "BeginTimestamp": "2023-10-27T11:15:33Z",
+    "EndTimestampUtc": "2023-10-27T09:15:33Z",
+    "EndTimestamp": "2023-10-27T11:15:33Z"
+  },
+  "Data_flat_StrangeMetadata": {
+    "MaterialNumberText": "2100",
+    "Operator": "2100",
+    "ParameterClass": "NON_PPAP",
+    "Package": "ECONO",
+    "Module": "11 substrate-baseplate interconnect",
+    "PosName": "2100"
+  },
+  "Data_1list_Parameters": [
+    {
+      "process_equipment": "10001215",
+      "ProcessEquipmentName": "VADU13",
+      "LongParameterName": "K2-Löttemp",
+      "Data_1list_RawValues": [
+        {
+          "process_equipment": "10001215",
+          "ProcessEquipmentName": "VADU13",
+          "Seqnr": 1,
+          "SampleId": 332712303,
+          "Value": 287.58,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-10-27T11:15:33Z",
+          "SampleTimestampUtc": "2023-10-27T09:15:33Z",
+          "CreatedTimestamp": "2023-10-27T11:20:50Z",
+          "CreatedTimestampUtc": "2023-10-27T09:20:50Z",
+          "UpdatedTimestamp": "2023-10-27T11:20:50Z",
+          "UpdatedTimestampUtc": "2023-10-27T09:20:50Z",
+          "NumViolations": 0,
+          "SampleMean": 287.58,
+          "SampleMin": 287.58,
+          "SampleMax": 287.58,
+          "SampleMedian": 287.58,
+          "SampleStdev": 0.0,
+          "SampleQ1": 287.58,
+          "SampleQ3": 287.58,
+          "SampleSize": 1
+        }
+      ],
+      "ParameterType": "2100",
+      "FourDReport": "*",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "Y",
+          "SpecLowEnabled": "Y",
+          "spec_high": 290.0,
+          "spec_low": 285.0,
+          "target": 287.5
+        },
+        "ControlLimits": {
+          "ctrl_mean_low": 286.364587211049,
+          "CtrlMeanLowEnabled": "Y",
+          "ctrl_mean_target": 287.576391474033,
+          "CtrlMeanTargetEnabled": "Y",
+          "ctrl_mean_high": 288.788195737016,
+          "CtrlMeanHighEnabled": "Y",
+          "CtrlLowEnabled": "N",
+          "CtrlHighEnabled": "N",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "N",
+          "CtrlRangeCenterEnabled": "N",
+          "CtrlCenterEnabled": "N",
+          "CtrlStdevHighEnabled": "N",
+          "CtrlRangeLowEnabled": "N",
+          "CtrlRangeHighEnabled": "N"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 1,
+        "base_count": 1,
+        "flagged_count": 0,
+        "mean": 287.58,
+        "median": 287.58,
+        "stdev": 0.0,
+        "range": 0.0,
+        "min": 287.58,
+        "max": 287.58,
+        "q02": 287.58,
+        "q05": 287.58,
+        "q25": 287.58,
+        "q75": 287.58,
+        "q95": 287.58,
+        "q98": 287.58,
+        "NumViolations": 0,
+        "Samples": "332712303"
+      },
+      "ParameterName": "K2-T-Loettemp",
+      "ParameterUnit": "°C",
+      "ChannelId": "101255",
+      "SourceDataLevel": "C",
+      "channel_name": "K2-T-Loettemp  Recipe05 VADU>5",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-10-27T09:20:50Z",
+      "created_timestamp": "2023-10-27T11:20:50Z",
+      "updated_timestamp_utc": "2023-10-27T09:20:50Z",
+      "updated_timestamp": "2023-10-27T11:20:50Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-10-27T09:20:50Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED3:CEG:BE:Econo:system soldering:",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "HPSModFAUF:81774350",
+    "IdSystemName": "HPSModFAUF",
+    "Type": "Fauf"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "CEG:BE:81774350:Econo:system soldering:K2-T-Loettemp:101255:332712303:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-10-27T11:15:33Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "HPSModFAUF:81774350:SPACEAGGED3:CEG:BE:Econo:system soldering::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "CEG"
+  }
+}

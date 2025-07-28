@@ -1,0 +1,24 @@
+﻿//Naming Convention Exception for WAR and CEG Sites Although the values for Exval_01 and Cf_value_01 differ,
+//the naming convention used to identify these parameters within the application will remain unchanged.
+//However, an exception will be made for the WAR and CEG sites,
+//where the term "Line" will be replaced with "Parameter Facility" to maintain consistency and clarity.
+{
+    "LdsPKeyMappings": [
+        {
+            "LdsId": 2200,
+            "PKeyAttributesMappings": {
+                "Exval_01": "ParameterFacility",
+                "Cf_value_01": "ParameterOper"
+            }
+        },
+        {
+            "LdsId": 2202,
+            "PKeyAttributesMappings": {
+                "Exval_01": "ParameterFacility",
+                "Cf_value_01": "ParameterOper"
+            }
+
+        }
+
+    ]
+}

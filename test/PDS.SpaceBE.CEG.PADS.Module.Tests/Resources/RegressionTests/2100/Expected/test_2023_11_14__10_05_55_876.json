@@ -1,0 +1,152 @@
+{
+  "Data_flat_Metadata": {
+    "Line": "Econo",
+    "ProductionOrder": "81770052",
+    "Batch": "HK4919P0",
+    "MaterialNumber": "43784",
+    "ProductGroup": "M-ECONO",
+    "MeasurementRecipe": "5",
+    "OrderType": "2100",
+    "QrkGroup": "2100",
+    "ProcessGroup": "system_soldering",
+    "SpcClass": "2100",
+    "CustomComment": "system soldering",
+    "Segment": "HPS",
+    "MeasLot": "81770052",
+    "ParameterOper": "system soldering",
+    "SiteKey": "CEG",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-10-27T09:16:54Z",
+    "BeginTimestamp": "2023-10-27T11:16:54Z",
+    "EndTimestampUtc": "2023-10-27T09:16:54Z",
+    "EndTimestamp": "2023-10-27T11:16:54Z"
+  },
+  "Data_flat_StrangeMetadata": {
+    "MaterialNumberText": "2100",
+    "Operator": "2100",
+    "ParameterClass": "NON_PPAP",
+    "Package": "ECONO",
+    "Module": "11 substrate-baseplate interconnect",
+    "PosName": "2100"
+  },
+  "Data_1list_Parameters": [
+    {
+      "process_equipment": "10000570",
+      "ProcessEquipmentName": "VADU7",
+      "LongParameterName": "K2-Flutzeit HCOOH",
+      "Data_1list_RawValues": [
+        {
+          "process_equipment": "10000570",
+          "ProcessEquipmentName": "VADU7",
+          "Seqnr": 1,
+          "SampleId": 332712354,
+          "Value": 57.7,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-10-27T11:16:54Z",
+          "SampleTimestampUtc": "2023-10-27T09:16:54Z",
+          "CreatedTimestamp": "2023-10-27T11:22:09Z",
+          "CreatedTimestampUtc": "2023-10-27T09:22:09Z",
+          "UpdatedTimestamp": "2023-10-27T11:22:09Z",
+          "UpdatedTimestampUtc": "2023-10-27T09:22:09Z",
+          "NumViolations": 0,
+          "SampleMean": 57.7,
+          "SampleMin": 57.7,
+          "SampleMax": 57.7,
+          "SampleMedian": 57.7,
+          "SampleStdev": 0.0,
+          "SampleQ1": 57.7,
+          "SampleQ3": 57.7,
+          "SampleSize": 1
+        }
+      ],
+      "ParameterType": "2100",
+      "FourDReport": "*",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "Y",
+          "SpecLowEnabled": "Y",
+          "spec_high": 68.0,
+          "spec_low": 42.0,
+          "target": 55.0
+        },
+        "ControlLimits": {
+          "ctrl_mean_low": 50.2064100451012,
+          "CtrlMeanLowEnabled": "Y",
+          "ctrl_mean_target": 57.5775070290534,
+          "CtrlMeanTargetEnabled": "Y",
+          "ctrl_mean_high": 64.9486040130056,
+          "CtrlMeanHighEnabled": "Y",
+          "CtrlLowEnabled": "N",
+          "CtrlHighEnabled": "N",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "N",
+          "CtrlRangeCenterEnabled": "N",
+          "CtrlCenterEnabled": "N",
+          "CtrlStdevHighEnabled": "N",
+          "CtrlRangeLowEnabled": "N",
+          "CtrlRangeHighEnabled": "N"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 1,
+        "base_count": 1,
+        "flagged_count": 0,
+        "mean": 57.7,
+        "median": 57.7,
+        "stdev": 0.0,
+        "range": 0.0,
+        "min": 57.7,
+        "max": 57.7,
+        "q02": 57.7,
+        "q05": 57.7,
+        "q25": 57.7,
+        "q75": 57.7,
+        "q95": 57.7,
+        "q98": 57.7,
+        "NumViolations": 0,
+        "Samples": "332712354"
+      },
+      "ParameterName": "K2-t-HCOOH",
+      "ParameterUnit": "s",
+      "ChannelId": "101065",
+      "SourceDataLevel": "C",
+      "channel_name": "K2-t-HCOOH  Activation_target_55 VADU7",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-10-27T09:22:09Z",
+      "created_timestamp": "2023-10-27T11:22:09Z",
+      "updated_timestamp_utc": "2023-10-27T09:22:09Z",
+      "updated_timestamp": "2023-10-27T11:22:09Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-10-27T09:22:09Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED3:CEG:BE:Econo:system soldering:",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "HPSModFAUF:81770052",
+    "IdSystemName": "HPSModFAUF",
+    "Type": "Fauf"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "CEG:BE:81770052:Econo:system soldering:K2-t-HCOOH:101065:332712354:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-10-27T11:16:54Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "HPSModFAUF:81770052:SPACEAGGED3:CEG:BE:Econo:system soldering::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "CEG"
+  }
+}

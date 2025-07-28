@@ -1,0 +1,173 @@
+{
+  "IdSource": "SPACEACT2:BAT:BE:VE347303B11:BE1I:Die_Bond2:GlueDieTilt:26887:240189285:0",
+  "Data_flat_Metadata": {
+    "Device": "L2891S",
+    "Module": "DS-TS-RB",
+    "ParameterClass": "NON_SPC",
+    "CFComment": "FOL",
+    "Segment": "DA",
+    "F56Parameter": "N",
+    "FourDReport": "*",
+    "ParameterName": "GlueDieTilt",
+    "ParameterUnit": "um",
+    "ParameterOper": "Die_Bond2",
+    "ParameterFacility": "BE1I",
+    "SiteKey": "BAT",
+    "ChannelId": "26887",
+    "SpaceInstanceName": "BE",
+    "CreatedTimestampUtc": "2023-11-14T07:23:22Z",
+    "CreatedTimestamp": "2023-11-14T14:23:22Z",
+    "UpdatedTimestamp": "2023-11-14T14:23:22Z",
+    "UpdatedTimestampUtc": "2023-11-14T07:23:22Z",
+    "ExportedTimestampUtc": "2023-11-14T14:23:22Z",
+    "ExportedTimestamp": "2023-11-14T14:23:22Z",
+    "SampleTimestampUtc": "2023-11-14T07:23:22Z",
+    "SampleTimestamp": "2023-11-14T14:23:22Z",
+    "SourceDataLevel": "C",
+    "ChannelName": "Die_Tiltness",
+    "ChannelDescr": "Created from LDS \nexclude list by \naction 'Create SPC Channel'",
+    "RvStoreFlag": "Y",
+    "CalcCreated": "01/03/2023 12:01:50",
+    "ILdsID": 0,
+    "AcceptFlag": "Y",
+    "UpdatedBy": " ",
+    "ClOrigin": 0,
+    "OutOfOrder": "N",
+    "Calc2ID": 2112895,
+    "ViolCount": 0,
+    "CalculationStrategy": "ND",
+    "LdsID": "1400",
+    "IsCalcParam": 0,
+    "ChannelType": "N",
+    "ChState": "Online"
+  },
+  "Data_1list_RawValues": {
+    "Data_flat_Limits": {
+      "CkcId": "0",
+      "MeasurementSpecLimits": {
+        "SpecHighEnabled": "Y",
+        "SpecLowEnabled": "N",
+        "SpecHigh": 30.0,
+        "SpecTarget": 0.0,
+        "SpecTargetOrigin": "V",
+        "ExtSpecLimEnable": "NN",
+        "ExtSpecUpper": 0.0,
+        "ExtSpecLower": 0.0,
+        "LimitEnable": "YYNYNNYNYYYYYYYYYYYNNNYYYYYYNNNNNNNNN"
+      },
+      "SpaceAggregates": {
+        "Mean": "11,8",
+        "Median": "12",
+        "Sigma": "3,70472671056854",
+        "Min": "7,9",
+        "Max": "15,6",
+        "Q1": "8,2",
+        "Q3": "15,3"
+      },
+      "ControlLimits": {
+        "ctrl_mean_low": -0.5,
+        "CtrlMeanLowEnabled": "Y",
+        "ctrl_mean_target": 12.5,
+        "CtrlMeanTargetEnabled": "Y",
+        "ctrl_mean_high": 25.0,
+        "CtrlMeanHighEnabled": "Y",
+        "CtrlLowEnabled": "N",
+        "CtrlSigmaCenterEnabled": "N",
+        "CtrlRangeCenterEnabled": "Y",
+        "CtrlCenterEnabled": "N",
+        "CtrlHighEnabled": "N",
+        "CtrlSigmaLowEnabled": "N",
+        "CtrlSigmaHighEnabled": "N",
+        "CtrlRangeLowEnabled": "N",
+        "ctrl_range_target": 5.33547859543973,
+        "ctrl_range_high": 18.5937519367413,
+        "CtrlRangeHighEnabled": "Y",
+        "ExtMaMV": 6.99375,
+        "ExtEwmaMV": 8.62567269532313,
+        "ExtMsMV": 3.80423448278363,
+        "EwmaS": 2.81213597210826,
+        "EwmaR": 6.52099783814762,
+        "ExtEwmaMVLCL": 1.91463300486522,
+        "ExtEwmaMVCenter": 7.76078787878788,
+        "ExtEwmaMVUCL": 13.6069427527105,
+        "ExtMaMVLCL": 3.62693212357038,
+        "ExtMaMVCenter": 7.76078787878788,
+        "ExtMaMVUCL": 11.8946436340054,
+        "EwmaSLCL": 0.45988694055181,
+        "EwmaSCenter": 2.5150294023217,
+        "EwmaSUCL": 4.57017186409159,
+        "EwmaRLCL": 1.43002256964616,
+        "EwmaRCenter": 6.10080808080808,
+        "EwmaRUCL": 10.77159359197,
+        "ExtMSMVLCL": 0.00573325301974135,
+        "ExtMSMVCenter": 2.70362999324208,
+        "ExtMSMVUCL": 10.8605863855336,
+        "MVLal": 0.0,
+        "MVUal": 0.0,
+        "RawLal": -13.1294318706453,
+        "RawUal": 28.6510076282211,
+        "SigmaLal": 0.0,
+        "SigmaUal": 0.0,
+        "RangeLal": 0.0,
+        "RangeUal": 0.0
+      }
+    },
+    "Data_1list_RawValues": [
+      {
+        "SampleId": 240189285,
+        "Seqnr": 4,
+        "Value": 7.9,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240189285,
+        "Seqnr": 3,
+        "Value": 12.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240189285,
+        "Seqnr": 1,
+        "Value": 15.3,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240189285,
+        "Seqnr": 2,
+        "Value": 15.6,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240189285,
+        "Seqnr": 5,
+        "Value": 8.2,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      }
+    ],
+    "SampleSize": 5
+  },
+  "ProductionAction": {
+    "Id": "SPACEACT1:BAT:BE:BE1I:Die_Bond2:GlueDieTilt:26887",
+    "Type": "SpaceAction"
+  },
+  "Item": {
+    "Id": "Measlot:",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "UniqueSourceKey": "BAT:BE:VE347303B11:BE1I:Die_Bond2:GlueDieTilt:26887:240189285:0"
+  }
+}

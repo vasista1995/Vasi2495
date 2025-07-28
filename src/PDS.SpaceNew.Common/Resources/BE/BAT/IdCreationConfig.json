@@ -1,0 +1,40 @@
+﻿{
+    // Each of these sections define in which order a specific key is created
+    // E.g. the "GetLotAggregationId" section defines how the lotaggregationId
+    // is created:
+    // Attributes: "ItemId", "SPACEAGGED2", "SiteKey", "SpaceInstanceName", "ParameterFacility", "ParameterOper", "ProcessControl:1.0"
+    // Result: $"{ItemId}:SPACEAGGED2:{siteKey}:{spaceInstanceName}:{ParameterFacility}:{ParameterOper}:ProcessControl:1.0"
+    // Note: For each parameter in this list the parameterValue with ":" at the end is inserted in the Id
+    //       in the same order as it is defined
+    "IdCreationMappings": {
+        "GetLotAggregationId": {
+            "Parts": [
+                "ItemId",
+                "SPACEAGGED2",
+                "SiteKey",
+                "SpaceInstanceName",
+                "ParameterFacility",
+                "ParameterOper",
+                "",
+                "ProcessControl:1.0"
+            ],
+            "ConstantParts": [
+                "SPACEAGGED2",
+                "ProcessControl:1.0"
+            ]
+        },
+        "GetProductionActionId": {
+            "Parts": [
+                "SPACEAGGED2",
+                "SiteKey",
+                "SpaceInstanceName",
+                "ParameterFacility",
+                "ParameterOper",
+                ""
+            ],
+            "ConstantParts": [
+                "SPACEAGGED2"
+            ]
+        }
+    }
+}

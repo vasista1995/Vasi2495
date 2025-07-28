@@ -1,0 +1,277 @@
+{
+  "IdSource": "SPACEACT2:BAT:BE:VE349073B05:BE1I:Plating:Thickness:70404:240187722:0",
+  "Data_flat_Metadata": {
+    "Device": "L2791T",
+    "Module": "None",
+    "ParameterClass": "PPAP",
+    "CFComment": "EOL",
+    "Segment": "SNPL",
+    "FourDReport": "*",
+    "ParameterName": "Thickness",
+    "ParameterUnit": "um",
+    "ParameterOper": "Plating",
+    "ParameterFacility": "BE1I",
+    "SiteKey": "BAT",
+    "ChannelId": "70404",
+    "SpaceInstanceName": "BE",
+    "CreatedTimestampUtc": "2023-11-14T06:53:26Z",
+    "CreatedTimestamp": "2023-11-14T13:53:26Z",
+    "UpdatedTimestamp": "2023-11-14T13:53:26Z",
+    "UpdatedTimestampUtc": "2023-11-14T06:53:26Z",
+    "ExportedTimestampUtc": "2023-11-14T13:53:26Z",
+    "ExportedTimestamp": "2023-11-14T13:53:26Z",
+    "SampleTimestampUtc": "2023-11-14T06:53:26Z",
+    "SampleTimestamp": "2023-11-14T13:53:26Z",
+    "SourceDataLevel": "C",
+    "ChannelName": "SnPlating_Thickness/Ni/300-LSS/FISCHER",
+    "ChannelDescr": "Created from LDS \nexclude list by \naction 'Create SPC Channel'",
+    "RvStoreFlag": "Y",
+    "CalcCreated": "09/15/2022 20:37:31",
+    "ILdsID": 0,
+    "AcceptFlag": "Y",
+    "UpdatedBy": " ",
+    "ClOrigin": 0,
+    "OutOfOrder": "N",
+    "Calc2ID": 1879899,
+    "ViolCount": 0,
+    "CalculationStrategy": "ND 4.5 Sigma",
+    "LdsID": "1400",
+    "IsCalcParam": 0,
+    "ChannelType": "N",
+    "ChState": "Online"
+  },
+  "Data_1list_RawValues": {
+    "Data_flat_Limits": {
+      "CkcId": "0",
+      "MeasurementSpecLimits": {
+        "SpecHighEnabled": "Y",
+        "SpecLowEnabled": "Y",
+        "SpecHigh": 15.0,
+        "SpecLow": 7.0,
+        "SpecTarget": 11.0,
+        "SpecTargetOrigin": "V",
+        "ExtSpecLimEnable": "NN",
+        "ExtSpecUpper": 0.0,
+        "ExtSpecLower": 0.0,
+        "LimitEnable": "YYNNYNYYNYYYYYYYYYYNNNYYYYYYNNNNNNNNN"
+      },
+      "SpaceAggregates": {
+        "Mean": "11,3191222222222",
+        "Median": "11,39515",
+        "Sigma": ",425477728117681",
+        "Min": "10,2088",
+        "Max": "11,7974",
+        "Q1": "11,0523",
+        "Q3": "11,68055"
+      },
+      "ControlLimits": {
+        "ctrl_mean_low": 7.86767950190079,
+        "CtrlMeanLowEnabled": "Y",
+        "ctrl_mean_target": 11.0,
+        "CtrlMeanTargetEnabled": "Y",
+        "ctrl_mean_high": 14.1323204980992,
+        "CtrlMeanHighEnabled": "Y",
+        "CtrlLowEnabled": "N",
+        "CtrlSigmaCenterEnabled": "Y",
+        "CtrlRangeCenterEnabled": "N",
+        "CtrlCenterEnabled": "N",
+        "CtrlHighEnabled": "N",
+        "CtrlSigmaLowEnabled": "N",
+        "ctrl_sigma_target": 0.610879491594937,
+        "ctrl_sigma_high": 2.03348369450807,
+        "CtrlSigmaHighEnabled": "Y",
+        "CtrlRangeLowEnabled": "N",
+        "CtrlRangeHighEnabled": "N",
+        "ExtMaMV": 11.3304763888889,
+        "ExtEwmaMV": 11.4388591062654,
+        "ExtMsMV": 0.444719096543252,
+        "EwmaS": 0.415359487856984,
+        "EwmaR": 1.45836734426218,
+        "ExtEwmaMVLCL": 10.0601648054284,
+        "ExtEwmaMVCenter": 11.1151933333333,
+        "ExtEwmaMVUCL": 12.1702218612382,
+        "ExtMaMVLCL": 10.3691755069065,
+        "ExtMaMVCenter": 11.1151933333333,
+        "ExtMaMVUCL": 11.8612111597601,
+        "EwmaSLCL": 0.274318921936953,
+        "EwmaSCenter": 0.680449117744473,
+        "EwmaSUCL": 1.08657931355199,
+        "EwmaRLCL": 0.955225256008282,
+        "EwmaRCenter": 2.38638,
+        "EwmaRUCL": 3.81753474399172,
+        "ExtMSMVLCL": 0.00115470756207371,
+        "ExtMSMVCenter": 0.544525418204334,
+        "ExtMSMVUCL": 2.18737969260184,
+        "MVLal": 0.0,
+        "MVUal": 0.0,
+        "RawLal": 6.56562501809377,
+        "RawUal": 15.4343749819062,
+        "SigmaLal": 0.086290259663553,
+        "SigmaUal": 3.45608789742119,
+        "RangeLal": -2.94825398194617,
+        "RangeUal": 8.9677952435951
+      }
+    },
+    "Data_1list_RawValues": [
+      {
+        "SampleId": 240187722,
+        "Seqnr": 6,
+        "Value": 10.99,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187722,
+        "Seqnr": 7,
+        "Value": 11.0462,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187722,
+        "Seqnr": 8,
+        "Value": 11.5807,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187722,
+        "Seqnr": 9,
+        "Value": 10.8742,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187722,
+        "Seqnr": 10,
+        "Value": 11.5913,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187722,
+        "Seqnr": 11,
+        "Value": 11.3815,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187722,
+        "Seqnr": 12,
+        "Value": 10.834,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187722,
+        "Seqnr": 13,
+        "Value": 11.7974,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187722,
+        "Seqnr": 14,
+        "Value": 11.0706,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187722,
+        "Seqnr": 15,
+        "Value": 11.1798,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187722,
+        "Seqnr": 16,
+        "Value": 11.2441,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187722,
+        "Seqnr": 17,
+        "Value": 11.6726,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187722,
+        "Seqnr": 18,
+        "Value": 11.7118,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187722,
+        "Seqnr": 1,
+        "Value": 11.7056,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187722,
+        "Seqnr": 2,
+        "Value": 11.7636,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187722,
+        "Seqnr": 3,
+        "Value": 10.2088,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187722,
+        "Seqnr": 4,
+        "Value": 11.6832,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187722,
+        "Seqnr": 5,
+        "Value": 11.4088,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      }
+    ],
+    "SampleSize": 18
+  },
+  "ProductionAction": {
+    "Id": "SPACEACT1:BAT:BE:BE1I:Plating:Thickness:70404",
+    "Type": "SpaceAction"
+  },
+  "Item": {
+    "Id": "Measlot:",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "UniqueSourceKey": "BAT:BE:VE349073B05:BE1I:Plating:Thickness:70404:240187722:0"
+  }
+}

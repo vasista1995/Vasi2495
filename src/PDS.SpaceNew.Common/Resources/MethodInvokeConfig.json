@@ -1,0 +1,166 @@
+﻿{
+    // This is a simple method and attribute definition in the abbreviated form
+    // e.g. AbbreviatedMethodInvokeMapping.TwoInputParameters.JoinStrings.Equipment translates to
+    // x.Equipment = JoinStrings(t.Equipment, u.Equipment)
+    // By using this definition attributes will be dynamically assigned if class
+    // object x has your property. If x has the property then the method will be invoked
+    // by reflection using the defined attributes in the same order. The result will be
+    // assigned to object x
+    "AbbreviatedMethodInvokeMapping": {
+        "InputParameterCountMethodInvokeMapping": {
+            "2": {
+                "JoinStrings": [
+                    "Equipment",
+                    "Route",
+                    "ChannelId",
+                    "Shift",
+                    "Process",
+                    "ProcessEquipment",
+                    "ProcessTool",
+                    "Machine",
+                    "CFComment",
+                    "FourDReport",
+                    "SpecialCharacteristics",
+                    "CKCId",
+                    "RvStoreFlag",
+                    "PackageType",
+                    "DieCategory",
+                    "GaugeId",
+                    "Operator",
+                    "PackageClass",
+                    "Product",
+                    "ProductType",
+                    "SawStreet",
+                    "Track",
+                    "Device",
+                    "DieSet",
+                    "PackageFamily",
+                    "Package",
+                    "PadMetal",
+                    "WaferThickness",
+                    "WireSize",
+                    "Classification",
+                    "Submission",
+                    "Reserve2",
+                    "ChipType",
+                    "Area",
+                    "Capilary",
+                    "McPlatform",
+                    "OperatorId",
+                    "MeasurementEquipment",
+                    "BladeCategory",
+                    "SolderGlue",
+                    "SubmissionType",
+                    "DieSize",
+                    "Grade",
+                    "CartridgeID",
+                    "Module",
+                    "ParameterClass",
+                    "TargetCpk",
+                    "ProcessOwner",
+                    "Segment",
+                    "F56Parameter",
+                    "Published",
+                    "GroupId",
+                    "BasicType"
+                ],
+                "MinDate": [
+                    "BeginTimestamp",
+                    "BeginTimestampUtc"
+                ],
+                "MaxDate": [
+                    "EndTimestamp",
+                    "EndTimestampUtc"
+                ],
+                "UpdateLimit": [
+                    "SpecHigh",
+                    "SpecLow",
+                    "SpecTarget",
+                    "CntrlHigh",
+                    "CntrlLow",
+                    "CntrlTarget",
+                    "RangeCntrlHigh",
+                    "RangeCntrlLow",
+                    "RangeCntrlTarget",
+                    "MeanCntrlHigh",
+                    "MeanCntrlLow",
+                    "MeanCntrlTarget",
+                    "SigmaCntrlHigh",
+                    "SigmaCntrlLow",
+                    "SigmaCntrlTarget"
+                ],
+                "UpdateLimitEnabled": [
+                    "SpecHighEnabled",
+                    "SpecLowEnabled",
+                    "CtrlHighEnabled",
+                    "CtrlLowEnabled",
+                    "CtrlSigmaCenterEnabled",
+                    "CtrlRangeCenterEnabled",
+                    "CtrlCenterEnabled",
+                    "CtrlRangeHighEnabled",
+                    "CtrlRangeLowEnabled",
+                    "CtrlMeanHighEnabled",
+                    "CtrlMeanLowEnabled",
+                    "CtrlMeanTargetEnabled",
+                    "CtrlSigmaHighEnabled",
+                    "CtrlSigmaLowEnabled"
+                ]
+            }
+        }
+    },
+    // This is a simple method and attribute definition
+    // e.g. x.ChannelName = Normalize(ChannelName, SiteKey)
+    // By using this definition attributes will be dynamically assigned if class
+    // object x has your property. If x has the property then the method will be invoked
+    // by reflection using the defined attributes in the same order. The result will be
+    // assigned to object x
+    "MethodInvokeMapping": {
+        "InputParameterCountMethodInvokeMapping": {
+            "1": {
+                "DoubleParse": {
+                    "SampleMax": [
+                        "Max"
+                    ],
+                    "SampleMin": [
+                        "Min"
+                    ],
+                    "SampleMean": [
+                        "Mean"
+                    ],
+                    "SampleStdev": [
+                        "Sigma"
+                    ],
+                    "SampleMedian": [
+                        "Median"
+                    ],
+                    "SampleQ1": [
+                        "Q1"
+                    ],
+                    "SampleQ3": [
+                        "Q3"
+                    ]
+                }
+            },
+            "2": {
+                "Normalize": {
+                    "ChannelName": [
+                        "ChannelName",
+                        "SiteKey"
+                    ],
+                    "ViolationComments": [
+                        "ViolationComments",
+                        "SiteKey"
+                    ],
+                    "PrimaryViolationComments": [
+                        "PrimaryViolationComments",
+                        "SiteKey"
+                    ],
+                    "InternalComment": [
+                        "InternalComment",
+                        "SiteKey"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,212 @@
+{
+  "IdSource": "SPACEACT2:BAT:BE:VE347303B11:BE1I:Die_Bond2:GlueVoidTotal:7903:240191194:0",
+  "Data_flat_Metadata": {
+    "Device": "L2891S",
+    "Module": "GLUE VOID",
+    "ParameterClass": "E_SPC",
+    "CFComment": "FOL",
+    "Segment": "DA",
+    "F56Parameter": "N",
+    "FourDReport": "*",
+    "ParameterName": "GlueVoidTotal",
+    "ParameterUnit": "%",
+    "ParameterOper": "Die_Bond2",
+    "ParameterFacility": "BE1I",
+    "SiteKey": "BAT",
+    "ChannelId": "7903",
+    "SpaceInstanceName": "BE",
+    "CreatedTimestampUtc": "2023-11-14T07:46:13Z",
+    "CreatedTimestamp": "2023-11-14T14:46:13Z",
+    "UpdatedTimestamp": "2023-11-14T14:46:13Z",
+    "UpdatedTimestampUtc": "2023-11-14T07:46:13Z",
+    "ExportedTimestampUtc": "2023-11-14T14:46:13Z",
+    "ExportedTimestamp": "2023-11-14T14:46:13Z",
+    "SampleTimestampUtc": "2023-11-14T07:46:13Z",
+    "SampleTimestamp": "2023-11-14T14:46:13Z",
+    "SourceDataLevel": "C",
+    "ChannelName": "Void_TotalPercentage",
+    "ChannelDescr": "Created from LDS \nexclude list by \naction 'Create SPC Channel'",
+    "RvStoreFlag": "Y",
+    "CalcCreated": "09/14/2022 14:26:17",
+    "ILdsID": 0,
+    "AcceptFlag": "Y",
+    "UpdatedBy": " ",
+    "ClOrigin": 0,
+    "OutOfOrder": "N",
+    "Calc2ID": 1875390,
+    "ViolCount": 0,
+    "CalculationStrategy": "ND 4.5 Sigma",
+    "LdsID": "1400",
+    "IsCalcParam": 0,
+    "ChannelType": "N",
+    "ChState": "Online"
+  },
+  "Data_1list_RawValues": {
+    "Data_flat_Limits": {
+      "CkcId": "0",
+      "MeasurementSpecLimits": {
+        "SpecHighEnabled": "Y",
+        "SpecLowEnabled": "N",
+        "SpecHigh": 20.0,
+        "SpecTarget": 0.0,
+        "SpecTargetOrigin": "V",
+        "ExtSpecLimEnable": "NN",
+        "ExtSpecUpper": 0.0,
+        "ExtSpecLower": 0.0,
+        "LimitEnable": "NYNYNNYNYYYYYYYYYYYNNNYYYYYYNNNNNNNNN"
+      },
+      "SpaceAggregates": {
+        "Mean": "0",
+        "Median": "0",
+        "Sigma": "0",
+        "Min": "0",
+        "Max": "0",
+        "Q1": "0",
+        "Q3": "0"
+      },
+      "ControlLimits": {
+        "CtrlMeanLowEnabled": "N",
+        "ctrl_mean_target": 0.0,
+        "CtrlMeanTargetEnabled": "Y",
+        "ctrl_mean_high": 7.0,
+        "CtrlMeanHighEnabled": "Y",
+        "CtrlLowEnabled": "N",
+        "CtrlSigmaCenterEnabled": "N",
+        "CtrlRangeCenterEnabled": "Y",
+        "CtrlCenterEnabled": "N",
+        "CtrlHighEnabled": "N",
+        "CtrlSigmaLowEnabled": "N",
+        "CtrlSigmaHighEnabled": "N",
+        "CtrlRangeLowEnabled": "N",
+        "ctrl_range_target": 0.404575137579586,
+        "ctrl_range_high": 7.0,
+        "CtrlRangeHighEnabled": "Y",
+        "ExtMaMV": 0.0425,
+        "ExtEwmaMV": 0.00462157304056229,
+        "ExtMsMV": 0.0,
+        "EwmaS": 0.00626270272574366,
+        "EwmaR": 0.0147866702956238,
+        "ExtEwmaMVLCL": -0.950291017032391,
+        "ExtEwmaMVCenter": 1.17552,
+        "ExtEwmaMVUCL": 3.30133101703239,
+        "ExtMaMVLCL": -0.327655385664675,
+        "ExtMaMVCenter": 1.17552,
+        "ExtMaMVUCL": 2.67869538566467,
+        "EwmaSLCL": -0.29159681090458,
+        "EwmaSCenter": 0.399017576322221,
+        "EwmaSUCL": 1.08963196354902,
+        "EwmaRLCL": -0.79360817579357,
+        "EwmaRCenter": 1.11996197718631,
+        "EwmaRUCL": 3.03353213016619,
+        "ExtMSMVLCL": 0.00139389851749231,
+        "ExtMSMVCenter": 0.65732069149076,
+        "ExtMSMVUCL": 2.64048267358264,
+        "MVLal": 0.0,
+        "MVUal": 0.0,
+        "RawLal": -5.6361107942315,
+        "RawUal": 7.9871507942315,
+        "SigmaLal": 0.0,
+        "SigmaUal": 0.0,
+        "RangeLal": 0.0,
+        "RangeUal": 0.0
+      }
+    },
+    "Data_1list_RawValues": [
+      {
+        "SampleId": 240191194,
+        "Seqnr": 2,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240191194,
+        "Seqnr": 1,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240191194,
+        "Seqnr": 3,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240191194,
+        "Seqnr": 10,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240191194,
+        "Seqnr": 9,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240191194,
+        "Seqnr": 8,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240191194,
+        "Seqnr": 7,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240191194,
+        "Seqnr": 6,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240191194,
+        "Seqnr": 5,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240191194,
+        "Seqnr": 4,
+        "Value": 0.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      }
+    ],
+    "SampleSize": 10
+  },
+  "ProductionAction": {
+    "Id": "SPACEACT1:BAT:BE:BE1I:Die_Bond2:GlueVoidTotal:7903",
+    "Type": "SpaceAction"
+  },
+  "Item": {
+    "Id": "Measlot:",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "UniqueSourceKey": "BAT:BE:VE347303B11:BE1I:Die_Bond2:GlueVoidTotal:7903:240191194:0"
+  }
+}

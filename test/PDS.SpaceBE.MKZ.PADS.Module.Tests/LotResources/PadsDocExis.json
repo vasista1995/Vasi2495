@@ -1,0 +1,138 @@
+{
+    "SearchPatterns": {
+        "SpaceKey": "Measlot:3A140739:SPACEAGGED2:RBG:BE:HFICR:::ProcessControl:1.0",
+        "TimeGroup": "0",
+        "SiteKey": "RBG"
+    },
+    "Document": {
+        "Version": "1.0",
+        "Type": "ProcessControl",
+        "Repetition": {
+            "_id": "0",
+            "IdBaseValue": "2021-08-05T22:58:37.000Z"
+        }
+    },
+    "ProductionAction": {
+        "Type": "SpaceAggregation",
+        "_id": "SPACEAGGED2:RBG:BE:HFICR::"
+    },
+    "Item": {
+        "_id": "Measlot:3A140739",
+        "IdSystemName": "Measlot",
+        "Type": "Lot"
+    },
+    "SystemLog": {
+        "SiteKey": "RBG",
+        "Environment": "DEV",
+        "App": "SpaceBE",
+        "Job": "RBG",
+        "JobRunId": "61b87b31b72202829cc695b1",
+        "UniqueSourceKey": "RBG:BE:3A140739:HFICR:-:bumpdiameter_All_bumps:49689:219254689:0",
+        "ExtractedTimestampUtc": "2021-12-14T11:08:33.965Z",
+        "EnqueuedTimestampUtc": "2021-12-14T11:09:05.708Z",
+        "DocCreatedTimestampUtc": "2021-12-14T11:56:48.764Z",
+        "DocUpdatedTimestampUtc": "2021-12-14T11:58:28.364Z",
+        "QueueTopic": "rbg.dev.spacebe",
+        "QueueOffset": "860393",
+        "QueuePartition": 1
+    },
+    "Data_flat_Metadata": {
+        "MeasLot": "3A140739",
+        "ParameterFacility": "HFICR",
+        "SiteKey": "RBG",
+        "Wafer": "15",
+        "SpaceInstanceName": "BE",
+        "created_timestamp_utc": "0001-01-01T00:00:00.000Z",
+        "created_timestamp": "0001-01-01T00:00:00.000Z",
+        "updated_timestamp_utc": "2021-08-05T22:58:38.000Z",
+        "updated_timestamp": "2021-08-06T00:58:38.000Z",
+        "BeginTimestampUtc": "0001-01-01T00:00:00.000Z",
+        "BeginTimestamp": "0001-01-01T00:00:00.000Z",
+        "EndTimestampUtc": "2021-08-05T22:55:03.000Z",
+        "EndTimestamp": "2021-08-06T00:55:03.000Z"
+    },
+    "Data_flat_StrangeMetadata": {
+        "ProductType": "W1350-1C",
+        "Segment": "SCCM",
+        "GroupId": "RBGEW273"
+    },
+    "Data_1list_Parameters": [
+        {
+            "Data_flat_Limits": {
+                "CKC_ID": "0",
+                "MeasurementSpecLimits": {
+                    "SpecHighEnabled": "Y",
+                    "SpecLowEnabled": "Y",
+                    "spec_high": 350,
+                    "spec_low": 250,
+                    "target": 300
+                },
+                "ControlLimits": {
+                    "CtrlMeanLowEnabled": "N",
+                    "CtrlMeanTargetEnabled": "N",
+                    "CtrlMeanHighEnabled": "N",
+                    "CtrlLowEnabled": "N",
+                    "CtrlHighEnabled": "N",
+                    "CtrlStdevLowEnabled": "N",
+                    "CtrlStdevHighEnabled": "N",
+                    "CtrlRangeLowEnabled": "N",
+                    "CtrlRangeHighEnabled": "N"
+                }
+            },
+            "Data_flat_MeasurementAggregates": {
+                "exec_count": 4072475,
+                "base_count": 4072475,
+                "flagged_count": 0,
+                "mean": 0.0018335459395085298,
+                "min": 274.109,
+                "max": 354.096,
+                "NumViolations": 0
+            },
+            "ParameterName": "bumpdiameter_All_bumps",
+            "ParameterUnit": "µm",
+            "ChannelId": "49689",
+            "SourceDataLevel": "W",
+            "channel_name": "diameter_All_Rudolph",
+            "channel_description": "Created from LDS  exclude list by  action 'Create SPC Channel'",
+            "RvStoreFlag": "N",
+            "Data_1list_RawValues": [
+                {
+                    "Seqnr": "0",
+                    "SampleId": 219254689,
+                    "Value": 0,
+                    "is_flagged": "N",
+                    "SampleTimestamp": "2021-08-06T00:36:42.000Z",
+                    "SampleTimestampUtc": "2021-08-05T22:36:42.000Z",
+                    "CreatedTimestamp": "0001-01-01T00:00:00.000Z",
+                    "CreatedTimestampUtc": "0001-01-01T00:00:00.000Z",
+                    "UpdatedTimestamp": "0001-01-01T00:00:00.000Z",
+                    "UpdatedTimestampUtc": "0001-01-01T00:00:00.000Z",
+                    "NumViolations": 0,
+                    "SampleMean": 298.622,
+                    "SampleMin": 275.246,
+                    "SampleMax": 332.184,
+                    "SampleSize": 162899,
+                    "WaferLot": "22"
+                },
+                {
+                    "Seqnr": "0",
+                    "SampleId": 219254629,
+                    "Value": 0,
+                    "is_flagged": "N",
+                    "SampleTimestamp": "2021-08-06T00:36:42.000Z",
+                    "SampleTimestampUtc": "2021-08-05T22:36:42.000Z",
+                    "CreatedTimestamp": "0001-01-01T00:00:00.000Z",
+                    "CreatedTimestampUtc": "0001-01-01T00:00:00.000Z",
+                    "UpdatedTimestamp": "0001-01-01T00:00:00.000Z",
+                    "UpdatedTimestampUtc": "0001-01-01T00:00:00.000Z",
+                    "NumViolations": 0,
+                    "SampleMean": 298.735,
+                    "SampleMin": 275.742,
+                    "SampleMax": 332.195,
+                    "SampleSize": 162899,
+                    "WaferLot": "15"
+                }
+            ]
+        }
+    ]
+}

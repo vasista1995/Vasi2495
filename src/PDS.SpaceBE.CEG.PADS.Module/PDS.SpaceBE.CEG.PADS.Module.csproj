@@ -1,0 +1,7 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\PDS.SpaceBE.CEG.Common\PDS.SpaceBE.CEG.Common.csproj" />
+  </ItemGroup>
+
+</Project>

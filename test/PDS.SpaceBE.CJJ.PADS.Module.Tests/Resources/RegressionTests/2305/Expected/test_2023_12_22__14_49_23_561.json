@@ -1,0 +1,138 @@
+{
+  "Data_flat_Metadata": {
+    "Baunumber": "95077244",
+    "OperatorId": "CHEMFOPS1",
+    "MeasLot": "2Z34901R",
+    "ParameterOper": "Test1",
+    "ParameterFacility": "BE1KOR",
+    "SiteKey": "CJJ",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-12-10T15:02:30Z",
+    "BeginTimestamp": "2023-12-11T00:02:30Z",
+    "EndTimestampUtc": "2023-12-10T15:02:30Z",
+    "EndTimestamp": "2023-12-11T00:02:30Z",
+    "Equipment": "LTE014"
+  },
+  "Data_flat_StrangeMetadata": {
+    "PackageFamily": "MDIP",
+    "Package": "PG-MDIP-24-12",
+    "Device": "K9039A57531",
+    "SpecName": "Test1",
+    "SalesName": "IGCM10F60GA",
+    "DeviceFamily": "K9039",
+    "PackageGroup": "MDIP-FP-24",
+    "PackageClass": "MDIP-FP",
+    "BusinessSegment": "59",
+    "MoveInQuantity": "896",
+    "MoveOutQuantity": "892",
+    "ProcessOwner": "PTE",
+    "BeSegmentName": "CHE",
+    "ManufacturingWipLevel": "ASSY",
+    "BasicType": "K9039A"
+  },
+  "Data_1list_Parameters": [
+    {
+      "Data_1list_RawValues": [
+        {
+          "Seqnr": 0,
+          "SampleId": 243031838,
+          "Value": "NaN",
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-12-11T00:02:30Z",
+          "SampleTimestampUtc": "2023-12-10T15:02:30Z",
+          "CreatedTimestamp": "2023-12-11T00:02:30Z",
+          "CreatedTimestampUtc": "2023-12-10T15:02:30Z",
+          "UpdatedTimestamp": "2023-12-11T00:02:30Z",
+          "UpdatedTimestampUtc": "2023-12-10T15:02:30Z",
+          "NumViolations": 0,
+          "SampleMean": 0.0,
+          "SampleMin": 0.0,
+          "SampleMax": 0.0,
+          "SampleMedian": 0.0,
+          "SampleStdev": 0.0,
+          "SampleQ1": "NaN",
+          "SampleQ3": "NaN",
+          "SampleSize": 1
+        }
+      ],
+      "ParameterClass": "NON_KEY",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "Y",
+          "SpecLowEnabled": "N",
+          "spec_high": 100.0,
+          "target": 0.0
+        },
+        "ControlLimits": {
+          "CtrlMeanLowEnabled": "N",
+          "CtrlMeanTargetEnabled": "N",
+          "CtrlMeanHighEnabled": "N",
+          "CtrlLowEnabled": "N",
+          "CtrlHighEnabled": "N",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "N",
+          "CtrlRangeCenterEnabled": "N",
+          "CtrlCenterEnabled": "N",
+          "CtrlStdevHighEnabled": "N",
+          "CtrlRangeLowEnabled": "N",
+          "CtrlRangeHighEnabled": "N"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 1,
+        "base_count": 1,
+        "flagged_count": 0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "NumViolations": 0,
+        "ViolationComments": "",
+        "PrimaryViolation": "",
+        "PrimaryViolationComments": "",
+        "Samples": "243031838"
+      },
+      "ParameterName": "CO",
+      "ParameterUnit": "%",
+      "ChannelId": "58471",
+      "SourceDataLevel": "L",
+      "channel_name": "CO TEST1 MDIP_FP All",
+      "channel_description": "CO TEST1 MDIP_FP All",
+      "RvStoreFlag": "N",
+      "created_timestamp_utc": "2023-12-10T15:02:30Z",
+      "created_timestamp": "2023-12-11T00:02:30Z",
+      "updated_timestamp_utc": "2023-12-10T15:02:30Z",
+      "updated_timestamp": "2023-12-11T00:02:30Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-12-10T15:02:30Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED2:CJJ:BE:BE1KOR:Test1:",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "Measlot:2Z34901R",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "CJJ:BE:2Z34901R:BE1KOR:Test1:CO:58471:243031838:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-12-11T00:02:30Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "Measlot:2Z34901R:SPACEAGGED2:CJJ:BE:BE1KOR:Test1::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "CJJ"
+  }
+}

@@ -1,0 +1,60 @@
+test_2023_11_14__10_00_27_931.json: [Device: U5880B, ParameterClass: E_SPC, CFComment: EOL, Segment: MOLD, FourDReport: *, SpaceRawValues.BreakPoint: Rawvalueslist, SpaceRawValues.ExternalFlagged: N, SpaceRawValues.InternalFlagged: N, SpaceRawValues.NumViolations: 0, ParameterName: MoldTemperature, ParameterUnit: deg, SampleSize: 10, LdsID: 1400, IsCalcParam: 0, CtrlMeanHighEnabled: Y, CtrlMeanLowEnabled: Y, CtrlMeanTargetEnabled: Y, CtrlLowEnabled: N, CtrlHighEnabled: N, CtrlRangeLowEnabled: N, CtrlRangeHighEnabled: Y, CtrlSigmaLowEnabled: N, CtrlSigmaCenterEnabled: N, CtrlRangeCenterEnabled: Y, CtrlCenterEnabled: N, CtrlSigmaHighEnabled: N, SpecLowEnabled: Y, SpecHighEnabled: Y, RvStoreFlag: Y, Operation: Mould, Facility: BE1I, CkcId: 0, ChannelDescr: Created from LDS 
+exclude list by 
+action 'Create SPC Channel', SpaceInstanceName: BE, Sitekey: BAT, ILdsID: 0, AcceptFlag: Y, UpdatedBy:  , SpecTargetOrigin: V, ViolCount: 0, OutOfOrder: N, LimitEnable: YYNYNNYNYYYYYYYYYYYNNNYYYYYYNNNNNNNNN, ClOrigin: 0, MVLal: 0, MVUal: 0, ExtSpecLower: 0, ExtSpecUpper: 0, ExtSpecLimEnable: NN, CalculationStrategy: ND, ChannelType: N, ChState: Online]
+test_2023_11_14__10_00_27_937.json: [Module: DSO 300-LSS, ParameterClass: NON_SPC, ParameterName: PreheatTemperature, SampleSize: 6, CtrlMeanLowEnabled: N, LimitEnable: NYNYNNYNYYYYYYYYYYYNNNYYYYYYNNNNNNNNN]
+test_2023_11_14__10_00_28_014.json: [Device: S8803E, Module: None, ParameterClass: PPAP, Segment: SNPL, ParameterName: Thickness, ParameterUnit: um, SampleSize: 9, SigmaCntrlTarget: 0,478096466574241, SigmaCntrlHigh: 1,27255032870345, CtrlRangeHighEnabled: N, CtrlSigmaCenterEnabled: Y, CtrlRangeCenterEnabled: N, CtrlSigmaHighEnabled: Y, Operation: Post_Plate_Baking, LimitEnable: YYNNYNYYNYYYYYYYYYYNNNYYYYYYNNNNNNNNN, CalculationStrategy: ND 4.5 Sigma]
+test_2023_11_14__10_00_28_019.json: [F56Parameter: N, SampleSize: 18, SigmaCntrlTarget: 0,436920407077527, SigmaCntrlHigh: 2,06410796722227]
+test_2023_11_14__10_00_28_122.json: [Device: L2891S, Module: DS-TS-RB, CFComment: FOL, Segment: DA, ParameterName: GlueBondLineThicknessAverage, SampleSize: 5, Operation: Die_Bond2]
+test_2023_11_14__10_00_28_124.json: [ParameterName: GlueDieTilt, SpecLowEnabled: N]
+test_2023_11_14__10_00_28_141.json: [Module: GLUE VOID, ParameterName: GlueVoidSingle, ParameterUnit: %]
+test_2023_11_14__10_00_28_160.json: [ParameterName: GlueVoidTotal]
+test_2023_11_14__10_00_28_198.json: [Device: L2791T, SigmaCntrlTarget: 0,610879491594937, SigmaCntrlHigh: 2,03348369450807, Operation: Plating]
+test_2023_11_14__10_00_28_348.json: [Device: L8406J]
+test_2023_11_14__10_00_28_352.json: [Module: DSO 150-SSS, CtrlMeanHighEnabled: N, CtrlMeanTargetEnabled: N, LimitEnable: NYNYNNYNYNYYYYYYYYYNNNYYYYYYNNNNNNNNN]
+test_2023_11_14__10_00_28_367.json: [Device: L8420J]
+test_2023_11_14__10_00_28_382.json: [Device: L8408J]
+test_2023_11_14__10_00_28_394.json: [Module: DSO 150-LSS]
+test_2023_11_14__10_19_03_799.json: [Device: S7185C, Module: DSO 300-EPAD-LSS, ParameterName: EjectorPinDepth-Molding, ParameterUnit: mm, SampleSize: 4, Operation: 1700]
+test_2023_11_14__10_19_03_804.json: [ParameterName: OffCenter-X]
+test_2023_11_14__10_19_03_817.json: [ParameterName: OffCenter-Y]
+test_2023_11_14__10_19_03_837.json: [SpaceRawValues.NumViolations: 1, SpaceRawValues.ViolationComments: F/D 	: OFFCENTER Y RAW ABOVE SPECIFICATION
+R/C 	: UNBALANCE DIESET
+C/A 	: REALIGMENT DIESET
+TYPE 	: ENGINEERING
+PCDF 	: NA
+TECH 	: BONDOR
+PC 	: 30045812, SpaceRawValues.ViolationList: 1, SpaceRawValues.PrimaryViolation: 1, SpaceRawValues.PrimaryViolationComments: F/D 	: OFFCENTER Y RAW ABOVE SPECIFICATION
+R/C 	: UNBALANCE DIESET
+C/A 	: REALIGMENT DIESET
+TYPE 	: ENGINEERING
+PCDF 	: NA
+TECH 	: BONDOR
+PC 	: 30045812, CkcId: 60, UpdatedBy: iscw4ce01954pz, ViolCount: 1]
+test_2023_11_14__10_19_03_864.json: [ParameterName: OffSet-X]
+test_2023_11_14__10_19_03_875.json: [SpaceRawValues.NumViolations: 2, SpaceRawValues.ViolationComments: F/D 	: OFFSET X RAW ABOVE SPECIFICATION
+R/C 	: UNBALANCE DIESET
+C/A 	: REALIGMENT DIESET
+TYPE 	: ENGINEERING
+PCDF 	: NA
+TECH 	: BONDOR
+PC 	: 30045812, SpaceRawValues.ViolationList: 1,3, SpaceRawValues.PrimaryViolationComments: F/D 	: OFFSET X RAW ABOVE SPECIFICATION
+R/C 	: UNBALANCE DIESET
+C/A 	: REALIGMENT DIESET
+TYPE 	: ENGINEERING
+PCDF 	: NA
+TECH 	: BONDOR
+PC 	: 30045812, CkcId: 61, ViolCount: 2]
+test_2023_11_14__10_19_03_895.json: [SpaceRawValues.ViolationComments: F/D 	: OFFSET Y RAW ABOVE SPECIFICATION
+R/C 	: UNBALANCE DIESET
+C/A 	: REALIGMENT DIESET
+TYPE 	: ENGINEERING
+PCDF 	: NA
+TECH 	: BONDOR
+PC 	: 30045812, SpaceRawValues.ViolationList: 1,6, SpaceRawValues.PrimaryViolationComments: F/D 	: OFFSET Y RAW ABOVE SPECIFICATION
+R/C 	: UNBALANCE DIESET
+C/A 	: REALIGMENT DIESET
+TYPE 	: ENGINEERING
+PCDF 	: NA
+TECH 	: BONDOR
+PC 	: 30045812, ParameterName: OffSet-Y]
+test_2023_11_14__10_59_04_095.json: [SpaceRawValues.ViolationList: 8, SpaceRawValues.PrimaryViolation: 8, CkcId: 1]

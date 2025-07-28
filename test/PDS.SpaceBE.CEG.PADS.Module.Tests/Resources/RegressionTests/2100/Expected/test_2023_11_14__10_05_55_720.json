@@ -1,0 +1,147 @@
+{
+  "Data_flat_Metadata": {
+    "Line": "IHM",
+    "ProductionOrder": "81771429",
+    "Batch": "HR05865P0",
+    "MaterialNumber": "42812",
+    "ProductGroup": "M-IHM-B190",
+    "MeasurementRecipe": "9",
+    "OrderType": "2100",
+    "QrkGroup": "2100",
+    "ProcessGroup": "system_soldering",
+    "SpcClass": "2100",
+    "Segment": "HPS",
+    "MeasLot": "81771429",
+    "SiteKey": "CEG",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-10-27T09:21:34Z",
+    "BeginTimestamp": "2023-10-27T11:21:34Z",
+    "EndTimestampUtc": "2023-10-27T09:21:34Z",
+    "EndTimestamp": "2023-10-27T11:21:34Z",
+    "Equipment": "VADU22"
+  },
+  "Data_flat_StrangeMetadata": {
+    "MaterialNumberText": "2100",
+    "Operator": "2100",
+    "ParameterClass": "NON_SPC",
+    "Package": "IHM",
+    "PosName": "2100"
+  },
+  "Data_1list_Parameters": [
+    {
+      "process_equipment": "132013101092",
+      "ProcessEquipmentName": "VADU22",
+      "LongParameterName": "K1-Aufheizzeit",
+      "Data_1list_RawValues": [
+        {
+          "process_equipment": "132013101092",
+          "MeasurementEquipment": "VADU22",
+          "ProcessEquipmentName": "VADU22",
+          "Seqnr": 1,
+          "SampleId": 332712508,
+          "Value": 89.9,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-10-27T11:21:34Z",
+          "SampleTimestampUtc": "2023-10-27T09:21:34Z",
+          "CreatedTimestamp": "2023-10-27T11:26:32Z",
+          "CreatedTimestampUtc": "2023-10-27T09:26:32Z",
+          "UpdatedTimestamp": "2023-10-27T11:26:32Z",
+          "UpdatedTimestampUtc": "2023-10-27T09:26:32Z",
+          "NumViolations": 0,
+          "SampleMean": 89.9,
+          "SampleMin": 89.9,
+          "SampleMax": 89.9,
+          "SampleMedian": 89.9,
+          "SampleStdev": 0.0,
+          "SampleQ1": 89.9,
+          "SampleQ3": 89.9,
+          "SampleSize": 1
+        }
+      ],
+      "ParameterType": "2100",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "Y",
+          "SpecLowEnabled": "Y",
+          "spec_high": 110.0,
+          "spec_low": 70.0,
+          "target": 90.0
+        },
+        "ControlLimits": {
+          "CtrlMeanLowEnabled": "N",
+          "CtrlMeanTargetEnabled": "N",
+          "CtrlMeanHighEnabled": "N",
+          "CtrlLowEnabled": "N",
+          "CtrlHighEnabled": "N",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "N",
+          "CtrlRangeCenterEnabled": "N",
+          "CtrlCenterEnabled": "N",
+          "CtrlStdevHighEnabled": "N",
+          "CtrlRangeLowEnabled": "N",
+          "CtrlRangeHighEnabled": "N"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 1,
+        "base_count": 1,
+        "flagged_count": 0,
+        "mean": 89.9,
+        "median": 89.9,
+        "stdev": 0.0,
+        "range": 0.0,
+        "min": 89.9,
+        "max": 89.9,
+        "q02": 89.9,
+        "q05": 89.9,
+        "q25": 89.9,
+        "q75": 89.9,
+        "q95": 89.9,
+        "q98": 89.9,
+        "NumViolations": 0,
+        "Samples": "332712508"
+      },
+      "ParameterName": "K1-T-t-auf",
+      "ParameterUnit": "s",
+      "ChannelId": "101144",
+      "SourceDataLevel": "C",
+      "channel_name": "K1-T-t-auf",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-10-27T09:26:32Z",
+      "created_timestamp": "2023-10-27T11:26:32Z",
+      "updated_timestamp_utc": "2023-10-27T09:26:32Z",
+      "updated_timestamp": "2023-10-27T11:26:32Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-10-27T09:26:32Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED3:CEG:BE:IHM::",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "ERROR:81771429",
+    "IdSystemName": "ERROR",
+    "Type": "Fauf"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "CEG:BE:81771429:IHM::K1-T-t-auf:101144:332712508:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-10-27T11:21:34Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "ERROR:81771429:SPACEAGGED3:CEG:BE:IHM:::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "CEG"
+  }
+}

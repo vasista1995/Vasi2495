@@ -1,0 +1,87 @@
+{
+"IdSource":"SPACEACT3:WAR:BE:88888888:HD:Paste Printer:Parameter:49689:219254629:0",
+    "Data_flat_Metadata": {
+        "ProductionOrder": "88888888",
+        "ChannelId": 49689,
+        "SourceDataLevel": "C",
+        "ChannelName": "diameter_All_Rudolph",
+        "ChannelDescr": "Created from LDS \nexclude list by \naction 'Create SPC Channel'",
+        "RvStoreFlag": "Y",
+        "SiteKey": "WAR",
+        "ParameterOper": "Paste Printer",
+        "Line": "HD",
+        "Plant": "Hybrid"
+    },
+    "Data_1list_RawValues":
+    {
+        "Data_flat_Limits": {
+            "Ckc_id": "0",
+            "MeasurementSpecLimits": {
+                "SpecHighEnabled": "Y",
+                "SpecLowEnabled": "Y",
+                "SpecHigh": 350.0,
+                "SpecLow": 250.0,
+                "SpecTarget": 300.0
+            },
+            "SpaceAggregates": {
+                "Mean": "298.735",
+                "Median": "298.735",
+                "Sigma": "7.5778",
+                "Min": "275.742",
+                "Max": "332.195"
+            },
+            "ControlLimits": {
+                "CtrlMeanLowEnabled": "N",
+                "CtrlMeanTargetEnabled": "N",
+                "CtrlMeanHighEnabled": "N",
+                "CtrlLowEnabled": "N",
+                "CtrlHighEnabled": "N",
+                "CtrlSigmaLowEnabled": "N",
+                "CtrlSigmaHighEnabled": "N",
+                "CtrlRangeLowEnabled": "N",
+                "CtrlRangeHighEnabled": "N"
+            }
+        },
+        "Data_1list_RawValues": [
+            {
+                "SampleId": 219254629,
+                "Seqnr": 1,
+                "Value": 1.0,
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N",
+                "NumViolations": 0
+            },
+            {
+                "SampleId": 219254629,
+                "Seqnr": 2,
+                "Value": 2.0,
+                "InternalFlagged": "N",
+                "ExternalFlagged": "N",
+                "NumViolations": 0
+            }
+        ],
+        "SampleSize": 162899
+    },
+    "ProductionAction":
+    {
+        "Type": "SpaceAction",
+        "Id": "SPACEACT3:WAR:BE:HD:Paste Printer:Parameter:49689"
+    },
+    "Item":
+    {
+        "Id": "Measlot:3A140739",
+        "IdSystemName": "Measlot",
+        "Type": "Lot"
+    },
+    "SystemLog":
+    {
+        "JobRunId": "61b87b31b72202829cc695b1",
+        "SiteKey": "WAR",
+        "Environment": "DEV",
+        "App": "SpaceBE",
+        "Job": "WAR",
+        "ExtractedTimestampUtc": "2021-12-14T12:08:33.9655113+01:00",
+        "EnqueuedTimestampUtc": "2021-12-14T12:09:05.7086896+01:00",
+        "UniqueSourceKey": "WAR:BE:88888888:HD:Paste Printer:Parameter:49689:219254629:0"
+    }
+}

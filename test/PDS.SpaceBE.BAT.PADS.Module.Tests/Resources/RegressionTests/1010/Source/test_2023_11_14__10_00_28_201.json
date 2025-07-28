@@ -1,0 +1,171 @@
+{
+  "IdSource": "SPACEACT2:BAT:BE:VF329123B05:BE1I:Wire_Bond1:StitchPull:70656:240186695:0",
+  "Data_flat_Metadata": {
+    "Device": "L8404F",
+    "ParameterClass": "NON_PPAP",
+    "CFComment": "FOL",
+    "Segment": "WB",
+    "F56Parameter": "N",
+    "FourDReport": "*",
+    "ParameterName": "StitchPull",
+    "ParameterOper": "Wire_Bond1",
+    "ParameterFacility": "BE1I",
+    "SiteKey": "BAT",
+    "ChannelId": "70656",
+    "SpaceInstanceName": "BE",
+    "CreatedTimestampUtc": "2023-11-14T06:37:38Z",
+    "CreatedTimestamp": "2023-11-14T13:37:38Z",
+    "UpdatedTimestamp": "2023-11-14T13:37:38Z",
+    "UpdatedTimestampUtc": "2023-11-14T06:37:38Z",
+    "ExportedTimestampUtc": "2023-11-14T13:37:38Z",
+    "ExportedTimestamp": "2023-11-14T13:37:38Z",
+    "SampleTimestampUtc": "2023-11-14T06:37:38Z",
+    "SampleTimestamp": "2023-11-14T13:37:38Z",
+    "SourceDataLevel": "C",
+    "ChannelName": "Stitch_PullForce/TSDSO14/65/Cu/150MIL/UTC",
+    "ChannelDescr": "Created from LDS \nexclude list by \naction 'Create SPC Channel'",
+    "RvStoreFlag": "Y",
+    "CalcCreated": "09/23/2022 20:21:24",
+    "ILdsID": 0,
+    "AcceptFlag": "Y",
+    "UpdatedBy": " ",
+    "ClOrigin": 0,
+    "OutOfOrder": "N",
+    "Calc2ID": 1897419,
+    "ViolCount": 0,
+    "CalculationStrategy": "ND",
+    "LdsID": "1010",
+    "IsCalcParam": 0,
+    "ChannelType": "N",
+    "ChState": "Online"
+  },
+  "Data_1list_RawValues": {
+    "Data_flat_Limits": {
+      "CkcId": "0",
+      "MeasurementSpecLimits": {
+        "SpecHighEnabled": "N",
+        "SpecLowEnabled": "Y",
+        "SpecLow": 12.0,
+        "SpecTarget": 24.0,
+        "SpecTargetOrigin": "V",
+        "ExtSpecLimEnable": "NN",
+        "ExtSpecUpper": 0.0,
+        "ExtSpecLower": 0.0,
+        "LimitEnable": "YYNYNNYNYYNNNNNNNNNNNNNNNNNNNNNNNNNNN"
+      },
+      "SpaceAggregates": {
+        "Mean": "55,2878",
+        "Median": "55,887",
+        "Sigma": "4,22533450746802",
+        "Min": "48,831",
+        "Max": "60,603",
+        "Q1": "54,864",
+        "Q3": "56,254"
+      },
+      "ControlLimits": {
+        "ctrl_mean_low": 34.032,
+        "CtrlMeanLowEnabled": "Y",
+        "ctrl_mean_target": 54.7459608343712,
+        "CtrlMeanTargetEnabled": "Y",
+        "ctrl_mean_high": 75.4599,
+        "CtrlMeanHighEnabled": "Y",
+        "CtrlLowEnabled": "N",
+        "CtrlSigmaCenterEnabled": "N",
+        "CtrlRangeCenterEnabled": "Y",
+        "CtrlCenterEnabled": "N",
+        "CtrlHighEnabled": "N",
+        "CtrlSigmaLowEnabled": "N",
+        "CtrlSigmaHighEnabled": "N",
+        "CtrlRangeLowEnabled": "N",
+        "ctrl_range_target": 7.2871976586086,
+        "ctrl_range_high": 26.5717119103382,
+        "CtrlRangeHighEnabled": "Y",
+        "ExtMaMV": 52.0433,
+        "ExtEwmaMV": 54.3568089136595,
+        "ExtMsMV": 0.561442784262122,
+        "EwmaS": 3.55509685940743,
+        "EwmaR": 9.23103203578386,
+        "ExtEwmaMVLCL": 47.1726896053263,
+        "ExtEwmaMVCenter": 54.7451331257783,
+        "ExtEwmaMVUCL": 62.3175766462303,
+        "ExtMaMVLCL": 49.3906069623146,
+        "ExtMaMVCenter": 54.7451331257783,
+        "ExtMaMVUCL": 60.099659289242,
+        "EwmaSLCL": 1.17982580337671,
+        "EwmaSCenter": 3.12132304544016,
+        "EwmaSUCL": 5.06282028750362,
+        "EwmaRLCL": 2.90747992302158,
+        "EwmaRCenter": 7.66692138854296,
+        "EwmaRUCL": 12.4263628540643,
+        "ExtMSMVLCL": 0.00754251736169089,
+        "ExtMSMVCenter": 3.55682473691639,
+        "ExtMSMVUCL": 14.2879027122941,
+        "MVLal": 0.0,
+        "MVUal": 0.0,
+        "RawLal": 28.2754489271385,
+        "RawUal": 81.214817324418,
+        "SigmaLal": -3.33574736208449,
+        "SigmaUal": 20.2014183290924,
+        "RangeLal": -7.28838983035235,
+        "RangeUal": 45.8562261620678
+      }
+    },
+    "Data_1list_RawValues": [
+      {
+        "SampleId": 240186695,
+        "Seqnr": 4,
+        "Value": 56.254,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240186695,
+        "Seqnr": 3,
+        "Value": 60.603,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240186695,
+        "Seqnr": 2,
+        "Value": 55.887,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240186695,
+        "Seqnr": 1,
+        "Value": 54.864,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240186695,
+        "Seqnr": 5,
+        "Value": 48.831,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      }
+    ],
+    "SampleSize": 5
+  },
+  "ProductionAction": {
+    "Id": "SPACEACT1:BAT:BE:BE1I:Wire_Bond1:StitchPull:70656",
+    "Type": "SpaceAction"
+  },
+  "Item": {
+    "Id": "Measlot:",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "UniqueSourceKey": "BAT:BE:VF329123B05:BE1I:Wire_Bond1:StitchPull:70656:240186695:0"
+  }
+}

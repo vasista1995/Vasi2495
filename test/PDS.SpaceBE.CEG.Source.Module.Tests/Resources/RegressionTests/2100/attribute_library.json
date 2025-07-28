@@ -1,0 +1,440 @@
+{
+  "Plant": [
+    "0600"
+  ],
+  "IdSystemName": [
+    "HPSModFAUF",
+    "ERROR",
+    "HPSSubFAUF"
+  ],
+  "Line": [
+    "62mm",
+    "HD",
+    "IHM",
+    "Econo"
+  ],
+  "ProductionOrder": [
+    "81771432",
+    "81773909",
+    "81771429",
+    "81771705",
+    "81768891",
+    "81773323",
+    "81770052",
+    "81770078",
+    "81774350",
+    "81773577",
+    "81773609",
+    "81771317",
+    "81755470",
+    "81773528",
+    "81773913",
+    "81771347",
+    "81775195"
+  ],
+  "ProductGroup": [
+    "Dow_Corning_Sylgard_527",
+    "M-IHM-B190",
+    "M-62MM3.GEN",
+    "M-ECONOSTECK",
+    "M-ECONO",
+    "M-ECONOPACK",
+    "M-ECONOPIM",
+    "SUBECONOPIM3",
+    "CL-ECONO",
+    "MODHYBRIDDRIVE",
+    "SUBHYBRIDPACKDRIVE"
+  ],
+  "MeasurementRecipe": [
+    "DC527AB_2K-AB",
+    "Abart 14 Hybrid Pack Drive",
+    "9",
+    "1",
+    "5",
+    "2",
+    "14",
+    "3"
+  ],
+  "ProcessEquipment": [
+    "10002224",
+    "10123714",
+    "132013101092",
+    "10000973",
+    "10029787",
+    "10000317",
+    "10000570",
+    "10001862",
+    "10001215",
+    "132016102467",
+    "10001834",
+    "10001997",
+    "132013101041",
+    "10058044",
+    "10121730",
+    "10001996",
+    "10010504",
+    "10035402"
+  ],
+  "OrderType": [
+    "2100"
+  ],
+  "QrkGroup": [
+    "2100"
+  ],
+  "ProcessGroup": [
+    "gel_potting",
+    "Frame_Assembly",
+    "system_soldering",
+    "System_Soldering",
+    "Chip_Soldering"
+  ],
+  "SpcClass": [
+    "2100"
+  ],
+  "ParameterType": [
+    "2100"
+  ],
+  "LongParameterName": [
+    "gel_weight",
+    "Klebemenge",
+    "K1-Massflow",
+    "K1-Druck nach HCOOH fluten",
+    "K1-Flutzeit HCOOH",
+    "K1-Löttemp",
+    "K1-Aufheizzeit",
+    "K2-Massflow",
+    "K2-Druck nach HCOOH fluten",
+    "K2-Abpumpzeit",
+    "K2-Flutzeit HCOOH",
+    "K2-Löttemp"
+  ],
+  "MaterialNumberText": [
+    "2100"
+  ],
+  "ProcessEquipmentName": [
+    "K4072",
+    "ZBV5 -RM",
+    "VADU22",
+    "VADU10",
+    "VADU40",
+    "VADU5",
+    "VADU7",
+    "VADU17",
+    "VADU13",
+    "VADU37",
+    "VADU16",
+    "VADU20",
+    "VADU25",
+    "VADU49",
+    "VADU52",
+    "VADU18",
+    "VADU34",
+    "VADU113"
+  ],
+  "Operator": [
+    "2100"
+  ],
+  "ParameterClass": [
+    "NON_SPC",
+    "NON_PPAP"
+  ],
+  "Segment": [
+    "HPS"
+  ],
+  "Package": [
+    "62mm",
+    "HD",
+    "IHM",
+    "ECONO"
+  ],
+  "Module": [
+    "14 potting",
+    "13 assembly",
+    "11 substrate-baseplate interconnect",
+    "02 chip-DCB interconnect"
+  ],
+  "PosName": [
+    "2100"
+  ],
+  "VariableExtr4": [
+    "A+B",
+    "induction",
+    "VADU>5",
+    "VADU<5",
+    "VADU7"
+  ],
+  "SpaceRawValues.BreakPoint": [
+    "Rawvalueslist"
+  ],
+  "SpaceRawValues.ExternalFlagged": [
+    "N"
+  ],
+  "SpaceRawValues.InternalFlagged": [
+    "N"
+  ],
+  "SpaceRawValues.NumViolations": [
+    "0"
+  ],
+  "ParameterName": [
+    "gel_weight",
+    "glue_weight",
+    "K1-MFC",
+    "K1-P-HCOOH",
+    "K1-t-HCOOH",
+    "K1-T-Loettemp",
+    "K1-T-t-auf",
+    "K2-MFC",
+    "K2-P-HCOOH",
+    "K2-P-t-ab",
+    "K2-t-HCOOH",
+    "K2-T-Loettemp"
+  ],
+  "ParameterUnit": [
+    "g",
+    "[g]",
+    "SDL",
+    "mBar",
+    "s",
+    "°C",
+    "Bar",
+    "[°C]"
+  ],
+  "SampleSize": [
+    "1",
+    "8",
+    "4"
+  ],
+  "LdsID": [
+    "2100"
+  ],
+  "IsCalcParam": [
+    "0"
+  ],
+  "CntrlLow": [
+    "65,4817616813593",
+    "0,469302041546872",
+    "295,675488537118"
+  ],
+  "CntrlTarget": [
+    "66",
+    "0,49829531914894",
+    "300,350977074236",
+    "250,363333710792"
+  ],
+  "CntrlHigh": [
+    "66,5182383186407",
+    "0,527288596751008",
+    "305,026465611354"
+  ],
+  "SigmaCntrlLow": [
+    "0",
+    "0,0421030442732633"
+  ],
+  "SigmaCntrlTarget": [
+    "0",
+    "3,11934016080579"
+  ],
+  "SigmaCntrlHigh": [
+    "0",
+    "3,04505306761789",
+    "0,509698232159969",
+    "2,67224630918083",
+    "9,55319759627899"
+  ],
+  "CtrlMeanHighEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlMeanLowEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlMeanTargetEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlLowEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlHighEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlRangeLowEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlRangeHighEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlSigmaLowEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlSigmaCenterEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlRangeCenterEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlCenterEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlSigmaHighEnabled": [
+    "Y",
+    "N"
+  ],
+  "SpecLowEnabled": [
+    "Y"
+  ],
+  "SpecHighEnabled": [
+    "Y"
+  ],
+  "RvStoreFlag": [
+    "Y"
+  ],
+  "MeasurementEquipment": [
+    "K4072",
+    "VADU22",
+    "VADU10",
+    "VADU40",
+    "VADU18"
+  ],
+  "CkcId": [
+    "0"
+  ],
+  "SpaceInstanceName": [
+    "BE"
+  ],
+  "Sitekey": [
+    "CEG"
+  ],
+  "ILdsID": [
+    "0"
+  ],
+  "AcceptFlag": [
+    "Y"
+  ],
+  "UpdatedBy": [
+    " "
+  ],
+  "SpecTargetOrigin": [
+    "V"
+  ],
+  "ViolCount": [
+    "0"
+  ],
+  "OutOfOrder": [
+    "N",
+    "Y"
+  ],
+  "LimitEnable": [
+    "YYYYYNYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY",
+    "YYNNYNYNNNYYYYYYYYYNNNYYYYYYNNNNNNNNN",
+    "YYYYYNYYYNYYYYYYYYYYYYYYYYYYYYYYYYYYY",
+    "YYNNNNYNNNYYYYYYYYYNNNYYYYYYNNNNNNNNN",
+    "YYNNNNYNNYYYYYYYYYYNNNYYYYYYNNNNNNNNN",
+    "YYNNYNYNNYYYYYYYYYYNNNYYYYYYNNNNNNNNN",
+    "YYNYYNYNYYYYYYYYYYYYYYYYYYYYYYYYYYYYY",
+    "YYYYYNYYYYYYYYYYYNYNYNYYYYYYYYYYYYYYY"
+  ],
+  "ClOrigin": [
+    "0"
+  ],
+  "MVLal": [
+    "0"
+  ],
+  "MVUal": [
+    "0"
+  ],
+  "ExtSpecLower": [
+    "0"
+  ],
+  "ExtSpecUpper": [
+    "0"
+  ],
+  "ExtSpecLimEnable": [
+    "NN"
+  ],
+  "CalculationStrategy": [
+    "ND",
+    "ND 4.5 Sigma",
+    "Economic"
+  ],
+  "ChannelType": [
+    "N"
+  ],
+  "ChState": [
+    "Online",
+    "Offline"
+  ],
+  "MaterialNumber": [
+    "564",
+    "42812",
+    "42814",
+    "22904",
+    "43873",
+    "43784",
+    "50187",
+    "43842",
+    "47873",
+    "46850",
+    "37188",
+    "46964",
+    "51143",
+    "43536",
+    "42784",
+    "45983"
+  ],
+  "GroupId": [
+    "glue_weight",
+    "K2-t-HCOOH # HP-Standard",
+    "K2-T-Loettemp # HP-Drive",
+    "K2-T-Loettemp # HybridPack"
+  ],
+  "FourDReport": [
+    "*"
+  ],
+  "VariableExtr1": [
+    "564"
+  ],
+  "Operation": [
+    "gluing",
+    "system soldering",
+    "chip soldering"
+  ],
+  "Batch": [
+    "HR05865P0",
+    "UZ38277P0",
+    "HA11671P0",
+    "H510649P0",
+    "HK4919P0",
+    "HF9651P0",
+    "H916992P0",
+    "HV1965P0",
+    "9H16982P1",
+    "KH4942P2",
+    "H27421P0",
+    "CW7442P0",
+    "UD8096P0",
+    "HQ1219P0",
+    "DU8152P1"
+  ],
+  "VariableExtr3": [
+    "50",
+    "55",
+    "93"
+  ],
+  "ChannelDescr": [
+    "HD-Drive",
+    "VADU"
+  ],
+  "VariableExtr6": [
+    "FrameID-8"
+  ]
+}

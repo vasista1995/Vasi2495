@@ -1,0 +1,196 @@
+{
+  "IdSource": "SPACEACT2:BAT:BE:VE348726B23:BE1I:Wire_Bond1:AluWirePullTest:7213:240187964:0",
+  "Data_flat_Metadata": {
+    "Device": "L2791R",
+    "ParameterClass": "PPAP",
+    "CFComment": "FOL",
+    "Segment": "WB",
+    "F56Parameter": "N",
+    "FourDReport": "*",
+    "ParameterName": "AluWirePullTest",
+    "ParameterUnit": "g",
+    "ParameterOper": "Wire_Bond1",
+    "ParameterFacility": "BE1I",
+    "SiteKey": "BAT",
+    "ChannelId": "7213",
+    "SpaceInstanceName": "BE",
+    "CreatedTimestampUtc": "2023-11-14T07:02:46Z",
+    "CreatedTimestamp": "2023-11-14T14:02:46Z",
+    "UpdatedTimestamp": "2023-11-14T14:02:46Z",
+    "UpdatedTimestampUtc": "2023-11-14T07:02:46Z",
+    "ExportedTimestampUtc": "2023-11-14T14:02:46Z",
+    "ExportedTimestamp": "2023-11-14T14:02:46Z",
+    "SampleTimestampUtc": "2023-11-14T07:02:46Z",
+    "SampleTimestamp": "2023-11-14T14:02:46Z",
+    "SourceDataLevel": "C",
+    "ChannelName": "Wire_PullForce/AL/50um/DS28/RRB",
+    "ChannelDescr": "Created from ( I )LDS \nexclude list by \naction 'Create SPC Channel'",
+    "RvStoreFlag": "Y",
+    "CalcCreated": "11/02/2023 16:32:12",
+    "ILdsID": 0,
+    "AcceptFlag": "Y",
+    "UpdatedBy": " ",
+    "ClOrigin": 0,
+    "OutOfOrder": "N",
+    "Calc2ID": 2507772,
+    "ViolCount": 0,
+    "CalculationStrategy": "ND",
+    "LdsID": "1010",
+    "IsCalcParam": 0,
+    "ChannelType": "N",
+    "ChState": "Online"
+  },
+  "Data_1list_RawValues": {
+    "Data_flat_Limits": {
+      "CkcId": "0",
+      "MeasurementSpecLimits": {
+        "SpecHighEnabled": "N",
+        "SpecLowEnabled": "Y",
+        "SpecLow": 8.0,
+        "SpecTarget": 16.0,
+        "SpecTargetOrigin": "V",
+        "ExtSpecLimEnable": "NN",
+        "ExtSpecUpper": 0.0,
+        "ExtSpecLower": 0.0,
+        "LimitEnable": "YYNYNNYNYYNNNNNNNNNNNNNNNNNNNNNNNNNNN"
+      },
+      "SpaceAggregates": {
+        "Mean": "31,699375",
+        "Median": "31,492",
+        "Sigma": "1,88254743347564",
+        "Min": "29,391",
+        "Max": "33,935",
+        "Q1": "30,10025",
+        "Q3": "33,364"
+      },
+      "ControlLimits": {
+        "ctrl_mean_low": 22.2425,
+        "CtrlMeanLowEnabled": "Y",
+        "ctrl_mean_target": 28.91395,
+        "CtrlMeanTargetEnabled": "Y",
+        "ctrl_mean_high": 35.6365,
+        "CtrlMeanHighEnabled": "Y",
+        "CtrlLowEnabled": "N",
+        "CtrlSigmaCenterEnabled": "N",
+        "CtrlRangeCenterEnabled": "Y",
+        "CtrlCenterEnabled": "N",
+        "CtrlHighEnabled": "N",
+        "CtrlSigmaLowEnabled": "N",
+        "CtrlSigmaHighEnabled": "N",
+        "CtrlRangeLowEnabled": "N",
+        "ctrl_range_target": 3.71054324033158,
+        "ctrl_range_high": 18.8362058576029,
+        "CtrlRangeHighEnabled": "Y",
+        "ExtMaMV": 29.624125,
+        "ExtEwmaMV": 30.0327281122384,
+        "ExtMsMV": 2.07067382035716,
+        "EwmaS": 1.32910659167143,
+        "EwmaR": 3.55374546798554,
+        "ExtEwmaMVLCL": 26.4925332967965,
+        "ExtEwmaMVCenter": 28.9047129082426,
+        "ExtEwmaMVUCL": 31.3168925196887,
+        "ExtMaMVLCL": 27.1990443475492,
+        "ExtMaMVCenter": 28.9047129082426,
+        "ExtMaMVUCL": 30.6103814689361,
+        "EwmaSLCL": 0.540730283362019,
+        "EwmaSCenter": 1.3852156037587,
+        "EwmaSUCL": 2.22970092415538,
+        "EwmaRLCL": 1.53801739261743,
+        "EwmaRCenter": 4.00268823320299,
+        "EwmaRUCL": 6.46735907378855,
+        "ExtMSMVLCL": 0.00245980949264777,
+        "ExtMSMVCenter": 1.15997230526625,
+        "ExtMSMVUCL": 4.65965367215937,
+        "MVLal": 0.0,
+        "MVUal": 0.0,
+        "RawLal": 19.3236935077113,
+        "RawUal": 38.4857323087739,
+        "SigmaLal": -0.927929723011428,
+        "SigmaUal": 12.014626596757,
+        "RangeLal": -2.43824841593248,
+        "RangeUal": 33.9618684748742
+      }
+    },
+    "Data_1list_RawValues": [
+      {
+        "SampleId": 240187964,
+        "Seqnr": 1,
+        "Value": 30.098,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187964,
+        "Seqnr": 2,
+        "Value": 32.546,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187964,
+        "Seqnr": 3,
+        "Value": 33.901,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187964,
+        "Seqnr": 4,
+        "Value": 33.935,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187964,
+        "Seqnr": 5,
+        "Value": 33.185,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187964,
+        "Seqnr": 6,
+        "Value": 30.101,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187964,
+        "Seqnr": 7,
+        "Value": 29.391,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 240187964,
+        "Seqnr": 8,
+        "Value": 30.438,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      }
+    ],
+    "SampleSize": 8
+  },
+  "ProductionAction": {
+    "Id": "SPACEACT1:BAT:BE:BE1I:Wire_Bond1:AluWirePullTest:7213",
+    "Type": "SpaceAction"
+  },
+  "Item": {
+    "Id": "Measlot:",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "UniqueSourceKey": "BAT:BE:VE348726B23:BE1I:Wire_Bond1:AluWirePullTest:7213:240187964:0"
+  }
+}

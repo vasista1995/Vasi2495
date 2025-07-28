@@ -1,0 +1,158 @@
+{
+  "Data_flat_Metadata": {
+    "Line": "62mm",
+    "ProductionOrder": "81771432",
+    "ProductGroup": "Dow_Corning_Sylgard_527",
+    "MeasurementRecipe": "DC527AB_2K-AB",
+    "OrderType": "2100",
+    "QrkGroup": "2100",
+    "ProcessGroup": "gel_potting",
+    "SpcClass": "2100",
+    "Segment": "HPS",
+    "MeasLot": "81771432",
+    "SiteKey": "CEG",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-10-27T09:56:40Z",
+    "BeginTimestamp": "2023-10-27T11:56:40Z",
+    "EndTimestampUtc": "2023-10-27T09:56:40Z",
+    "EndTimestamp": "2023-10-27T11:56:40Z",
+    "Equipment": "K4072"
+  },
+  "Data_flat_StrangeMetadata": {
+    "MaterialNumberText": "2100",
+    "Operator": "2100",
+    "ParameterClass": "NON_SPC",
+    "Package": "62mm",
+    "Module": "14 potting",
+    "PosName": "2100"
+  },
+  "Data_1list_Parameters": [
+    {
+      "process_equipment": "10002224",
+      "ProcessEquipmentName": "K4072",
+      "LongParameterName": "gel_weight",
+      "Data_1list_RawValues": [
+        {
+          "process_equipment": "10002224",
+          "MeasurementEquipment": "K4072",
+          "ProcessEquipmentName": "K4072",
+          "Seqnr": 1,
+          "SampleId": 332713505,
+          "Value": 65.727,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-10-27T11:56:40Z",
+          "SampleTimestampUtc": "2023-10-27T09:56:40Z",
+          "CreatedTimestamp": "2023-10-27T11:56:51Z",
+          "CreatedTimestampUtc": "2023-10-27T09:56:51Z",
+          "UpdatedTimestamp": "2023-10-27T11:56:51Z",
+          "UpdatedTimestampUtc": "2023-10-27T09:56:51Z",
+          "NumViolations": 0,
+          "SampleMean": 65.727,
+          "SampleMin": 65.727,
+          "SampleMax": 65.727,
+          "SampleMedian": 65.727,
+          "SampleStdev": 0.0,
+          "SampleQ1": 65.727,
+          "SampleQ3": 65.727,
+          "SampleSize": 1
+        }
+      ],
+      "ParameterType": "2100",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "Y",
+          "SpecLowEnabled": "Y",
+          "spec_high": 67.0,
+          "spec_low": 65.0,
+          "target": 66.0
+        },
+        "ControlLimits": {
+          "ctrl_mean_low": 65.4817616813593,
+          "CtrlMeanLowEnabled": "Y",
+          "ctrl_mean_target": 66.0,
+          "CtrlMeanTargetEnabled": "Y",
+          "ctrl_mean_high": 66.5182383186407,
+          "CtrlMeanHighEnabled": "Y",
+          "ctrl_low": 65.4817616813593,
+          "CtrlLowEnabled": "Y",
+          "ctrl_target": 66.0,
+          "ctrl_high": 66.5182383186407,
+          "CtrlHighEnabled": "Y",
+          "ctrl_stdev_low": 0.0,
+          "CtrlStdevLowEnabled": "Y",
+          "CtrlSigmaCenterEnabled": "Y",
+          "CtrlRangeCenterEnabled": "Y",
+          "CtrlCenterEnabled": "Y",
+          "ctrl_stdev_target": 0.0,
+          "ctrl_stdev_high": 0.0,
+          "CtrlStdevHighEnabled": "Y",
+          "ctrl_range_low": 0.0,
+          "CtrlRangeLowEnabled": "Y",
+          "ctrl_range_target": 0.0,
+          "ctrl_range_high": 0.0,
+          "CtrlRangeHighEnabled": "Y"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 1,
+        "base_count": 1,
+        "flagged_count": 0,
+        "mean": 65.727,
+        "median": 65.727,
+        "stdev": 0.0,
+        "range": 0.0,
+        "min": 65.727,
+        "max": 65.727,
+        "q02": 65.727,
+        "q05": 65.727,
+        "q25": 65.727,
+        "q75": 65.727,
+        "q95": 65.727,
+        "q98": 65.727,
+        "NumViolations": 0,
+        "Samples": "332713505"
+      },
+      "ParameterName": "gel_weight",
+      "ParameterUnit": "g",
+      "ChannelId": "104537",
+      "SourceDataLevel": "C",
+      "channel_name": "gel_weight    A+B   K4072",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-10-27T09:56:51Z",
+      "created_timestamp": "2023-10-27T11:56:51Z",
+      "updated_timestamp_utc": "2023-10-27T09:56:51Z",
+      "updated_timestamp": "2023-10-27T11:56:51Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-10-27T09:56:51Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED3:CEG:BE:62mm::",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "HPSModFAUF:81771432",
+    "IdSystemName": "HPSModFAUF",
+    "Type": "Fauf"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "CEG:BE:81771432:62mm::gel_weight:104537:332713505:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-10-27T11:56:40Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "HPSModFAUF:81771432:SPACEAGGED3:CEG:BE:62mm:::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "CEG"
+  }
+}

@@ -1,0 +1,33 @@
+using System;
+using FluentAssertions.Json;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
+using Newtonsoft.Json.Linq;
+using PDS.Common.ExtractionLog;
+using PDS.Common.Utils;
+using PDS.SpaceBE.Common.Source.Module.Tests;
+using PDS.SpaceBE.TIJ.Source.Module.Data.SpaceModel;
+
+namespace PDS.SpaceBE.TIJ.Source.Module.Tests
+{
+    [TestClass]
+    public class SpaceE4AConverterTest
+    {
+        [TestMethod]
+        public void TestGetSourceDataLevel()
+        {
+            Assert.AreEqual("C", SpaceE4AConverter.GetSourceDataLevel("Y", null));
+            Assert.AreEqual("L", SpaceE4AConverter.GetSourceDataLevel("N", null));
+            Assert.AreEqual("L", SpaceE4AConverter.GetSourceDataLevel("N", "LT8C"));
+            Assert.AreEqual("L", SpaceE4AConverter.GetSourceDataLevel("N", "GreaterThan8Charcters"));
+            Assert.AreEqual("C", SpaceE4AConverter.GetSourceDataLevel("Y", "GreaterThan8Charcters"));
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(InvalidOperationException), "Not Valid RVStoreFlag: N, Y, corresponding IdSource is ")]
+        public void TestGetSourceDataLevelException()
+        {
+            SpaceE4AConverter.GetSourceDataLevel("LT8C", "N, Y");
+        }
+    }
+}

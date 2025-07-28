@@ -1,0 +1,18 @@
+﻿<Project>
+
+	<PropertyGroup>
+        <Version>1.4.42</Version>
+        <TargetFramework>net8.0</TargetFramework>
+		<Description>PADS/PODS Space application</Description>
+		<Authors>PADS/PODS developer team</Authors>
+		<Company>Infineon Technologies</Company>
+		<Product>PADS/PODS Server</Product>
+		<Copyright>Copyright © Infineon Technologies. All rights reserved.</Copyright>
+
+		<EnableNETAnalyzers>true</EnableNETAnalyzers>
+
+		<IsPackable>false</IsPackable>
+		<IsPublishable>false</IsPublishable>
+	</PropertyGroup>
+
+</Project>

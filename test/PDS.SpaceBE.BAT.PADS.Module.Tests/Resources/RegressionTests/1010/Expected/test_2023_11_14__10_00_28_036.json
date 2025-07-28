@@ -1,0 +1,218 @@
+{
+  "Data_flat_Metadata": {
+    "ParameterOper": "Wire_Bond1",
+    "ParameterFacility": "BE1I",
+    "SiteKey": "BAT",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-11-14T06:37:20Z",
+    "BeginTimestamp": "2023-11-14T13:37:20Z",
+    "EndTimestampUtc": "2023-11-14T06:37:20Z",
+    "EndTimestamp": "2023-11-14T13:37:20Z"
+  },
+  "Data_flat_StrangeMetadata": {
+    "Device": "S0946T",
+    "ParameterClass": "NON_SPC",
+    "Segment": "WB"
+  },
+  "Data_1list_Parameters": [
+    {
+      "Data_1list_RawValues": [
+        {
+          "Seqnr": 1,
+          "SampleId": 240186690,
+          "Value": 131.78,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T13:37:20Z",
+          "SampleTimestampUtc": "2023-11-14T06:37:20Z",
+          "CreatedTimestamp": "2023-11-14T13:37:20Z",
+          "CreatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "UpdatedTimestamp": "2023-11-14T13:37:20Z",
+          "UpdatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "NumViolations": 0,
+          "SampleMean": 130.94,
+          "SampleMin": 127.74,
+          "SampleMax": 132.22,
+          "SampleMedian": 131.78,
+          "SampleStdev": 1.87696563633968,
+          "SampleQ1": 130.8,
+          "SampleQ3": 132.16,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 2,
+          "SampleId": 240186690,
+          "Value": 132.22,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T13:37:20Z",
+          "SampleTimestampUtc": "2023-11-14T06:37:20Z",
+          "CreatedTimestamp": "2023-11-14T13:37:20Z",
+          "CreatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "UpdatedTimestamp": "2023-11-14T13:37:20Z",
+          "UpdatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "NumViolations": 0,
+          "SampleMean": 130.94,
+          "SampleMin": 127.74,
+          "SampleMax": 132.22,
+          "SampleMedian": 131.78,
+          "SampleStdev": 1.87696563633968,
+          "SampleQ1": 130.8,
+          "SampleQ3": 132.16,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 5,
+          "SampleId": 240186690,
+          "Value": 132.16,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T13:37:20Z",
+          "SampleTimestampUtc": "2023-11-14T06:37:20Z",
+          "CreatedTimestamp": "2023-11-14T13:37:20Z",
+          "CreatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "UpdatedTimestamp": "2023-11-14T13:37:20Z",
+          "UpdatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "NumViolations": 0,
+          "SampleMean": 130.94,
+          "SampleMin": 127.74,
+          "SampleMax": 132.22,
+          "SampleMedian": 131.78,
+          "SampleStdev": 1.87696563633968,
+          "SampleQ1": 130.8,
+          "SampleQ3": 132.16,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 4,
+          "SampleId": 240186690,
+          "Value": 127.74,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T13:37:20Z",
+          "SampleTimestampUtc": "2023-11-14T06:37:20Z",
+          "CreatedTimestamp": "2023-11-14T13:37:20Z",
+          "CreatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "UpdatedTimestamp": "2023-11-14T13:37:20Z",
+          "UpdatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "NumViolations": 0,
+          "SampleMean": 130.94,
+          "SampleMin": 127.74,
+          "SampleMax": 132.22,
+          "SampleMedian": 131.78,
+          "SampleStdev": 1.87696563633968,
+          "SampleQ1": 130.8,
+          "SampleQ3": 132.16,
+          "SampleSize": 5
+        },
+        {
+          "Seqnr": 3,
+          "SampleId": 240186690,
+          "Value": 130.8,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T13:37:20Z",
+          "SampleTimestampUtc": "2023-11-14T06:37:20Z",
+          "CreatedTimestamp": "2023-11-14T13:37:20Z",
+          "CreatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "UpdatedTimestamp": "2023-11-14T13:37:20Z",
+          "UpdatedTimestampUtc": "2023-11-14T06:37:20Z",
+          "NumViolations": 0,
+          "SampleMean": 130.94,
+          "SampleMin": 127.74,
+          "SampleMax": 132.22,
+          "SampleMedian": 131.78,
+          "SampleStdev": 1.87696563633968,
+          "SampleQ1": 130.8,
+          "SampleQ3": 132.16,
+          "SampleSize": 5
+        }
+      ],
+      "CFComment": "FOL",
+      "FourDReport": "*",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "Y",
+          "SpecLowEnabled": "Y",
+          "spec_high": 170.0,
+          "spec_low": 120.0,
+          "target": 145.0
+        },
+        "ControlLimits": {
+          "ctrl_mean_low": 125.0,
+          "CtrlMeanLowEnabled": "Y",
+          "ctrl_mean_target": 145.0,
+          "CtrlMeanTargetEnabled": "Y",
+          "ctrl_mean_high": 165.0,
+          "CtrlMeanHighEnabled": "Y",
+          "CtrlLowEnabled": "N",
+          "CtrlHighEnabled": "N",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "N",
+          "CtrlRangeCenterEnabled": "Y",
+          "CtrlCenterEnabled": "N",
+          "CtrlStdevHighEnabled": "N",
+          "CtrlRangeLowEnabled": "N",
+          "ctrl_range_target": 0.0,
+          "ctrl_range_high": 50.0,
+          "CtrlRangeHighEnabled": "Y"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 5,
+        "base_count": 5,
+        "flagged_count": 0,
+        "mean": 130.94,
+        "median": 131.78,
+        "stdev": 1.678809101714666,
+        "range": 4.480000000000004,
+        "min": 127.74,
+        "max": 132.22,
+        "q02": 127.98479999999999,
+        "q05": 128.352,
+        "q25": 130.8,
+        "q75": 132.16,
+        "q95": 132.208,
+        "q98": 132.2152,
+        "NumViolations": 0,
+        "Samples": "240186690"
+      },
+      "ParameterName": "CopperBallDiameter",
+      "ParameterUnit": "um",
+      "ChannelId": "67614",
+      "SourceDataLevel": "C",
+      "channel_name": "Ball_Diameter CU 50um",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-11-14T06:37:20Z",
+      "created_timestamp": "2023-11-14T13:37:20Z",
+      "updated_timestamp_utc": "2023-11-14T06:37:20Z",
+      "updated_timestamp": "2023-11-14T13:37:20Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-11-14T06:37:20Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED2:BAT:BE:BE1I:Wire_Bond1:",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "Measlot:",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "BAT:BE:RU342051B01:BE1I:Wire_Bond1:CopperBallDiameter:67614:240186690:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-11-14T13:37:20Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "Measlot::SPACEAGGED2:BAT:BE:BE1I:Wire_Bond1::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "BAT"
+  }
+}

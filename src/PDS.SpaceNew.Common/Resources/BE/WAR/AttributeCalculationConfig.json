@@ -1,0 +1,385 @@
+﻿{
+    // First block translates to
+    //        if (entry.Label4Extr1 == "ProcessStep")
+    //            e4a.ProcessStep = entry.VariableExtr1;
+    //        else if (entry.Label4Extr3 == "ProcessStep")
+    //            e4a.ProcessStep = entry.VariableExtr3;
+    "AttributeAssignmentConfig": [
+        [
+
+            {
+                "condition": "true",
+                "attribute": "MeasLot",
+                "value": "ProductionOrder"
+            },
+
+            {
+                "condition": "true",
+                "attribute": "ParameterOper",
+                "value": "CustomComment"
+            }
+        ],
+        [
+            {
+                "condition": "{Label4Extr1} == 'ProcessStep'",
+                "attribute": "ProcessStep",
+                "value": "VariableExtr1"
+            },
+            {
+                "condition": "{Label4Extr3} == 'ProcessStep'",
+                "attribute": "ProcessStep",
+                "value": "VariableExtr3"
+            }
+        ],
+        [
+            {
+                "condition": "{Label4Extr1} == 'CleaningType'",
+                "attribute": "CleaningType",
+                "value": "VariableExtr1"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "CleaningType",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr1} == 'Robot'",
+                "attribute": "Robot",
+                "value": "VariableExtr1"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "Robot",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr1} == 'CuringProcess'",
+                "attribute": "CuringProcess",
+                "value": "VariableExtr1"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "CuringProcess",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr1} == 'BasePlatePosition'",
+                "attribute": "BasePlatePosition",
+                "value": "VariableExtr1"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "BasePlatePosition",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr1} == 'CleaningChamber'",
+                "attribute": "CleaningChamber",
+                "value": "VariableExtr1"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "CleaningChamber",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr1} == 'USPower'",
+                "attribute": "USPower",
+                "value": "VariableExtr1"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "USPower",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr1} == 'ChipSolderingLine'",
+                "attribute": "ChipSolderingLine",
+                "value": "VariableExtr1"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "ChipSolderingLine",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr2} == 'ShearSurface'",
+                "attribute": "ShearSurface",
+                "value": "VariableExtr2"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "ShearSurface",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr2} == 'StencilThickness'",
+                "attribute": "StencilThickness",
+                "value": "VariableExtr2"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "StencilThickness",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr2} == 'ProcessType'",
+                "attribute": "ProcessType",
+                "value": "VariableExtr2"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "ProcessType",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr2} == 'CarrierID'",
+                "attribute": "CarrierID",
+                "value": "VariableExtr2"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "CarrierID",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr2} == 'Surface'",
+                "attribute": "Surface",
+                "value": "VariableExtr2"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "Surface",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr2} == 'SonotrodeNumber'",
+                "attribute": "SonotrodeNumber",
+                "value": "VariableExtr2"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "SonotrodeNumber",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr2} == 'DataType'",
+                "attribute": "DataType",
+                "value": "VariableExtr2"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "DataType",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr3} == 'FootPosition'",
+                "attribute": "FootPosition",
+                "value": "VariableExtr3"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "FootPosition",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr3} == 'Zone'",
+                "attribute": "Zone",
+                "value": "VariableExtr3"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "Zone",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr3} == 'CarrierFamily'",
+                "attribute": "CarrierFamily",
+                "value": "VariableExtr3"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "CarrierFamily",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr3} == 'BondParameter'",
+                "attribute": "BondParameter",
+                "value": "VariableExtr3"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "BondParameter",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr4} == 'PadSize'",
+                "attribute": "PadSize",
+                "value": "VariableExtr4"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "PadSize",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr4} == 'WireDiameter'",
+                "attribute": "WireDiameter",
+                "value": "VariableExtr4"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "WireDiameter",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr4} == 'TerminalConnector'",
+                "attribute": "TerminalConnector",
+                "value": "VariableExtr4"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "TerminalConnector",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr5} == 'TerminalType'",
+                "attribute": "TerminalType",
+                "value": "VariableExtr5"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "TerminalType",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr5} == 'WireMaterial'",
+                "attribute": "WireMaterial",
+                "value": "VariableExtr5"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "WireMaterial",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr5} == 'Material'",
+                "attribute": "Material",
+                "value": "VariableExtr5"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "Material",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr6} == 'Identifier'",
+                "attribute": "Identifier",
+                "value": "VariableExtr6"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "Identifier",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr6} == 'CarrierAnvilPosition'",
+                "attribute": "CarrierAnvilPosition",
+                "value": "VariableExtr6"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "CarrierAnvilPosition",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr6} == 'PastePrinter'",
+                "attribute": "PastePrinter",
+                "value": "VariableExtr6"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "PastePrinter",
+            //    "value": "null"
+            //}
+        ],
+        [
+            {
+                "condition": "{Label4Extr6} == 'VaduFrameID'",
+                "attribute": "VaduFrameID",
+                "value": "VariableExtr6"
+            }
+            //{
+            //    "condition": "true", // default condition
+            //    "attribute": "VaduFrameID",
+            //    "value": "null"
+            //}
+        ]
+    ],
+    "AttributesToDelete": [
+        "Label4Extr1",
+        "VariableExtr1",
+        "Label4Extr2",
+        "VariableExtr2",
+        "Label4Extr3",
+        "VariableExtr3",
+        "Label4Extr4",
+        "VariableExtr4",
+        "Label4Extr5",
+        "VariableExtr5",
+        "Label4Extr6",
+        "VariableExtr6"
+    ]
+}

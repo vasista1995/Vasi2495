@@ -1,0 +1,291 @@
+{
+  "IdSource": "SPACEACT2:WUX:BE:RU240140CG8:ACWUS:D_Subcon_Incoming_Assy:Plating Thickness:34564:200696899:0",
+  "Data_flat_Metadata": {
+    "Package": "PG-SOT363-6-1",
+    "ParameterClass": "PPAP",
+    "Segment": "DS",
+    "Module": "M1_ASSY",
+    "FourDReport": "*",
+    "SpecialCharacteristics": "ISC",
+    "ChipType": "U9066C00111",
+    "SalesName": "BFS 481 H6327",
+    "Operator": "30082736",
+    "Baunumber": "70012816",
+    "Line": "SOT363-12UP",
+    "Shift": "C",
+    "Process": "Plating",
+    "Lot": "RU240140CG8",
+    "ParameterName": "Plating Thickness",
+    "ParameterUnit": "um",
+    "ParameterOper": "D_Subcon_Incoming_Assy",
+    "ParameterFacility": "ACWUS",
+    "SiteKey": "WUX",
+    "ChannelId": "34564",
+    "SpaceInstanceName": "BE",
+    "CreatedTimestampUtc": "2023-10-06T07:00:50Z",
+    "CreatedTimestamp": "2023-10-06T15:00:50Z",
+    "UpdatedTimestamp": "2023-10-06T15:00:50Z",
+    "UpdatedTimestampUtc": "2023-10-06T07:00:50Z",
+    "ExportedTimestampUtc": "2023-10-06T15:00:50Z",
+    "ExportedTimestamp": "2023-10-06T15:00:50Z",
+    "SampleTimestampUtc": "2023-10-06T07:00:50Z",
+    "SampleTimestamp": "2023-10-06T15:00:50Z",
+    "SourceDataLevel": "C",
+    "Equipment": "WEN",
+    "ChannelName": "SnPlating_Thickness/SOT363-12UP",
+    "ChannelDescr": "Created from LDS \nexclude list by \naction 'Create SPC Channel'",
+    "RvStoreFlag": "Y",
+    "CalcCreated": "10/23/2022 02:11:50",
+    "ILdsID": 0,
+    "AcceptFlag": "Y",
+    "UpdatedBy": " ",
+    "ClOrigin": 0,
+    "OutOfOrder": "N",
+    "Calc2ID": 4222664,
+    "ViolCount": 0,
+    "CalculationStrategy": "ND",
+    "LdsID": "1500",
+    "IsCalcParam": 0,
+    "ChannelType": "N",
+    "ChState": "Online"
+  },
+  "Data_1list_RawValues": {
+    "Data_flat_Limits": {
+      "CkcId": "0",
+      "MeasurementSpecLimits": {
+        "SpecHighEnabled": "Y",
+        "SpecLowEnabled": "Y",
+        "SpecHigh": 15.0,
+        "SpecLow": 7.0,
+        "SpecTarget": 11.0,
+        "SpecTargetOrigin": "V",
+        "ExtSpecLimEnable": "NN",
+        "ExtSpecUpper": 0.0,
+        "ExtSpecLower": 0.0,
+        "LimitEnable": "YYNYYNYYYYYYYYYYYYYYYYYYYYYYNNNNNNNNN"
+      },
+      "SpaceAggregates": {
+        "Mean": "9,95944444444445",
+        "Median": "9,9",
+        "Sigma": ",387092817904443",
+        "Min": "9,03",
+        "Max": "10,7",
+        "Q1": "9,7925",
+        "Q3": "9,9825"
+      },
+      "ControlLimits": {
+        "ctrl_mean_low": 9.53656835648679,
+        "CtrlMeanLowEnabled": "Y",
+        "ctrl_mean_target": 9.91768330475579,
+        "CtrlMeanTargetEnabled": "Y",
+        "ctrl_mean_high": 10.2987982530248,
+        "CtrlMeanHighEnabled": "Y",
+        "ctrl_low": 8.83249669456121,
+        "CtrlLowEnabled": "Y",
+        "CtrlSigmaCenterEnabled": "Y",
+        "CtrlRangeCenterEnabled": "Y",
+        "CtrlCenterEnabled": "Y",
+        "ctrl_target": 9.91777142857143,
+        "ctrl_high": 11.0030461625817,
+        "CtrlHighEnabled": "Y",
+        "CtrlSigmaLowEnabled": "N",
+        "ctrl_sigma_target": 0.330250882225711,
+        "ctrl_sigma_high": 0.538040893792818,
+        "CtrlSigmaHighEnabled": "Y",
+        "CtrlRangeLowEnabled": "N",
+        "ctrl_range_target": 1.08644912577755,
+        "ctrl_range_high": 1.72575399256799,
+        "CtrlRangeHighEnabled": "Y",
+        "ExtMaMV": 9.92375,
+        "ExtEwmaMV": 9.9253747926551,
+        "ExtMsMV": 0.0388908729652599,
+        "EwmaS": 0.388327371576488,
+        "EwmaR": 1.41295294064355,
+        "ExtEwmaMVLCL": 9.7270919583003,
+        "ExtEwmaMVCenter": 9.91777142857143,
+        "ExtEwmaMVUCL": 10.1084508988426,
+        "ExtMaMVLCL": 9.78294068210965,
+        "ExtMaMVCenter": 9.91777142857143,
+        "ExtMaMVUCL": 10.0526021750332,
+        "EwmaSLCL": 0.266124102222377,
+        "EwmaSCenter": 0.344633318402393,
+        "EwmaSUCL": 0.423142534582409,
+        "EwmaRLCL": 0.84841077240755,
+        "EwmaRCenter": 1.12697172392824,
+        "EwmaRUCL": 1.40553267544893,
+        "ExtMSMVLCL": 0.000194758695755404,
+        "ExtMSMVCenter": 0.0918423536299421,
+        "ExtMSMVUCL": 0.368934291283178,
+        "MVLal": 0.0,
+        "MVUal": 0.0,
+        "RawLal": 8.2898593275561,
+        "RawUal": 11.5456835295868,
+        "SigmaLal": 0.0,
+        "SigmaUal": 0.0,
+        "RangeLal": 0.0,
+        "RangeUal": 0.0
+      }
+    },
+    "Data_1list_RawValues": [
+      {
+        "SampleId": 200696899,
+        "Seqnr": 1,
+        "Value": 9.9,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 200696899,
+        "Seqnr": 18,
+        "Value": 10.0,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 200696899,
+        "Seqnr": 3,
+        "Value": 9.78,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 200696899,
+        "Seqnr": 4,
+        "Value": 10.4,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 200696899,
+        "Seqnr": 5,
+        "Value": 9.79,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 200696899,
+        "Seqnr": 6,
+        "Value": 9.91,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 200696899,
+        "Seqnr": 7,
+        "Value": 9.8,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 200696899,
+        "Seqnr": 8,
+        "Value": 9.03,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 200696899,
+        "Seqnr": 9,
+        "Value": 9.8,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 200696899,
+        "Seqnr": 10,
+        "Value": 9.83,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 200696899,
+        "Seqnr": 11,
+        "Value": 9.74,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 200696899,
+        "Seqnr": 12,
+        "Value": 9.74,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 200696899,
+        "Seqnr": 13,
+        "Value": 10.6,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 200696899,
+        "Seqnr": 14,
+        "Value": 9.92,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 200696899,
+        "Seqnr": 15,
+        "Value": 9.9,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 200696899,
+        "Seqnr": 16,
+        "Value": 10.7,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 200696899,
+        "Seqnr": 17,
+        "Value": 9.93,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      },
+      {
+        "SampleId": 200696899,
+        "Seqnr": 2,
+        "Value": 10.5,
+        "InternalFlagged": "N",
+        "ExternalFlagged": "N",
+        "NumViolations": 0
+      }
+    ],
+    "SampleSize": 18
+  },
+  "ProductionAction": {
+    "Id": "SPACEACT1:WUX:BE:ACWUS:D_Subcon_Incoming_Assy:Plating Thickness:34564",
+    "Type": "SpaceAction"
+  },
+  "Item": {
+    "Id": "Measlot:RU240140CG8",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "UniqueSourceKey": "WUX:BE:RU240140CG8:ACWUS:D_Subcon_Incoming_Assy:Plating Thickness:34564:200696899:0"
+  }
+}

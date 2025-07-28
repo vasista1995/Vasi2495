@@ -1,0 +1,326 @@
+{
+  "PackageFamily": [
+    "TO252",
+    "TO263",
+    "WDSON",
+    "TO262"
+  ],
+  "Module": [
+    "Assy_EOL",
+    "SP",
+    "Assy_FOL"
+  ],
+  "Package": [
+    "TO252-5",
+    "TO263-7",
+    "TO263-5",
+    "TO252-3",
+    "WDSON_M-CAN",
+    "TO262-3",
+    "TO263-3",
+    "WDSON_L-CAN"
+  ],
+  "Segment": [
+    "Tijuana"
+  ],
+  "FourDReport": [
+    "*"
+  ],
+  "ProcessEquipment": [
+    "SFMI461B",
+    "SGGE0550",
+    "SGHA0425",
+    "SGHA0461",
+    "DBBE0016",
+    "DBESA121",
+    "WEOA0102",
+    "DBESA123",
+    "WSDI0109",
+    "DBBE0019",
+    "TRPS0441",
+    "SGGE424B",
+    "DBESA118",
+    "DBESA120",
+    "DBESA116",
+    "DBES0152"
+  ],
+  "ParameterClass": [
+    "PPAP",
+    "NON_PPAP",
+    "E_SPC"
+  ],
+  "Classification": [
+    "SPC-Monitoreo",
+    "Setup/Conversión"
+  ],
+  "Operator": [
+    "MGOMEZ5",
+    "SALDANAR",
+    "mgomez5",
+    "MARTIDEB",
+    "AMBROSIO",
+    "PINEDAYA",
+    "GMOJICA1",
+    "curiel",
+    "cerna",
+    "JUAREZJOSEGU",
+    "omarroq1",
+    "CSALINAS1",
+    "LOPEZBEE",
+    "104OOOG.I01",
+    "ArellanoAlej",
+    "LCORDOV1",
+    "FERREL"
+  ],
+  "PartNumber": [
+    "MA005550128",
+    "IRL40SC228",
+    "MA005578209",
+    "MA005578190",
+    "MA005577809",
+    "MA005900661",
+    "AUIRF7736M2TR",
+    "MA005587544",
+    "MA005716986",
+    "913520DH",
+    "MA001919302",
+    "PA002410340",
+    "MA005974507",
+    "MA005678599",
+    "MA002005424",
+    "MA005727681",
+    "AUIRF7769L2TR",
+    "MA005577403"
+  ],
+  "Track": [
+    "A3477A",
+    "NA",
+    "IRX3793",
+    "3183-A-B",
+    "Z1",
+    "Z2",
+    "MP2010-1-A2-1",
+    "A2816",
+    "Diebond 1"
+  ],
+  "Area": [
+    "Plastic_Singulacion",
+    "DirectFet_Diebond",
+    "Pre_assy_Pasivacion",
+    "Pre_assy_Corte",
+    "Plastic_Trim",
+    "Plastic_Diebond"
+  ],
+  "SpaceRawValues.BreakPoint": [
+    "Rawvalueslist"
+  ],
+  "SpaceRawValues.ExternalFlagged": [
+    "N"
+  ],
+  "SpaceRawValues.InternalFlagged": [
+    "N"
+  ],
+  "SpaceRawValues.NumViolations": [
+    "0"
+  ],
+  "ParameterName": [
+    "BodyToGround_Distance",
+    "Die_PlacementX",
+    "Die_PlacementY",
+    "Die_Tiltness",
+    "Glue_Thickness",
+    "PasivationAperture_DistanceX",
+    "PasivationAperture_DistanceXa",
+    "PasivationAperture_DistanceY",
+    "PasivationAperture_DistanceYa",
+    "WaferKerf_Width",
+    "DambarDisplacement_Distance",
+    "Solder_Thickness"
+  ],
+  "ParameterUnit": [
+    "mils",
+    "um",
+    "mm"
+  ],
+  "SampleSize": [
+    "5",
+    "3"
+  ],
+  "LdsID": [
+    "2401"
+  ],
+  "IsCalcParam": [
+    "0"
+  ],
+  "CtrlMeanHighEnabled": [
+    "Y"
+  ],
+  "CtrlMeanLowEnabled": [
+    "Y"
+  ],
+  "CtrlMeanTargetEnabled": [
+    "Y"
+  ],
+  "CtrlLowEnabled": [
+    "N"
+  ],
+  "CtrlHighEnabled": [
+    "N"
+  ],
+  "CtrlRangeLowEnabled": [
+    "N"
+  ],
+  "CtrlRangeHighEnabled": [
+    "N"
+  ],
+  "CtrlSigmaLowEnabled": [
+    "Y"
+  ],
+  "CtrlSigmaCenterEnabled": [
+    "Y"
+  ],
+  "CtrlRangeCenterEnabled": [
+    "N"
+  ],
+  "CtrlCenterEnabled": [
+    "N"
+  ],
+  "CtrlSigmaHighEnabled": [
+    "Y"
+  ],
+  "SpecLowEnabled": [
+    "Y"
+  ],
+  "SpecHighEnabled": [
+    "N",
+    "Y"
+  ],
+  "RvStoreFlag": [
+    "Y"
+  ],
+  "MeasurementEquipment": [
+    "CMST0007",
+    "CMST0006",
+    "MSNI0003",
+    "MSNI0001",
+    "MSNE0003",
+    "MSNE0005"
+  ],
+  "Lot": [
+    "104OLWB.I01",
+    "104OMCQ.I01",
+    "104OMDV.I01",
+    "104ONFY.I01",
+    "104ONIQ.I01",
+    "104ONK3.I01",
+    "104ONLO.I01",
+    "104ONPC.I01",
+    "104ONSN.I01",
+    "104ONWU.I01",
+    "104OOFV.1",
+    "104OOG5.I02",
+    "104OOG8.1",
+    "104OOH5.I01",
+    "104OOIL.I01",
+    "104OOKX.I01",
+    "104OOL8.I01",
+    "104OOMD.I01",
+    "104OOOG.I01",
+    "104OOOI.I01",
+    "104OOOS.I01",
+    "104OOWK.I01"
+  ],
+  "CkcId": [
+    "0"
+  ],
+  "ChannelDescr": [
+    "singulation plastics",
+    "Wafer saw process",
+    "Die Tilt Plastics",
+    "Solder Thickness Plasitics"
+  ],
+  "SpaceInstanceName": [
+    "BE"
+  ],
+  "Sitekey": [
+    "TIJ"
+  ],
+  "ILdsID": [
+    "0"
+  ],
+  "AcceptFlag": [
+    "Y"
+  ],
+  "UpdatedBy": [
+    " "
+  ],
+  "SpecTargetOrigin": [
+    "V"
+  ],
+  "ViolCount": [
+    "0"
+  ],
+  "OutOfOrder": [
+    "N"
+  ],
+  "LimitEnable": [
+    "YYNYNNYNYYYYYYYYYYYNNNYYYYYYYNNNNNNNN"
+  ],
+  "ClOrigin": [
+    "0"
+  ],
+  "MVLal": [
+    "0"
+  ],
+  "MVUal": [
+    "0"
+  ],
+  "ExtSpecLower": [
+    "0"
+  ],
+  "ExtSpecUpper": [
+    "0"
+  ],
+  "ExtSpecLimEnable": [
+    "NN"
+  ],
+  "CalculationStrategy": [
+    "ND"
+  ],
+  "ChState": [
+    "Online"
+  ],
+  "WaferThickness": [
+    "PBF_2.0",
+    "PBF_1.5",
+    "SFET3"
+  ],
+  "HexSize": [
+    "3.1",
+    "3",
+    "4.7"
+  ],
+  "Layout": [
+    "M4",
+    "ME",
+    "8IN_ELLEMEX",
+    "MZ",
+    "L8"
+  ],
+  "SolderType": [
+    "44-0206",
+    "44-0229",
+    "44-1540",
+    "44-0228"
+  ],
+  "Category": [
+    "PBF",
+    "PT-0008-07"
+  ],
+  "DieSize": [
+    "L"
+  ],
+  "ProductionVersion": [
+    "M101"
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "Data_flat_Metadata": {
+    "ParameterOper": "1700",
+    "ParameterFacility": "BE1I",
+    "SiteKey": "BAT",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-11-14T09:09:40Z",
+    "BeginTimestamp": "2023-11-14T16:09:40Z",
+    "EndTimestampUtc": "2023-11-14T09:09:40Z",
+    "EndTimestamp": "2023-11-14T16:09:40Z"
+  },
+  "Data_flat_StrangeMetadata": {
+    "Device": "S7185C",
+    "Module": "DSO 300-EPAD-LSS",
+    "ParameterClass": "NON_SPC",
+    "Segment": "MOLD",
+    "F56Parameter": "N"
+  },
+  "Data_1list_Parameters": [
+    {
+      "Data_1list_RawValues": [
+        {
+          "Seqnr": 4,
+          "SampleId": 240196171,
+          "Value": 0.031,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T16:09:40Z",
+          "SampleTimestampUtc": "2023-11-14T09:09:40Z",
+          "CreatedTimestamp": "2023-11-14T16:09:40Z",
+          "CreatedTimestampUtc": "2023-11-14T09:09:40Z",
+          "UpdatedTimestamp": "2023-11-14T16:09:40Z",
+          "UpdatedTimestampUtc": "2023-11-14T09:09:40Z",
+          "NumViolations": 0,
+          "SampleMean": 0.02175,
+          "SampleMin": 0.007,
+          "SampleMax": 0.041,
+          "SampleMedian": 0.0195,
+          "SampleStdev": 0.0169582821457049,
+          "SampleQ1": 0.00775,
+          "SampleQ3": 0.0335,
+          "SampleSize": 4
+        },
+        {
+          "Seqnr": 1,
+          "SampleId": 240196171,
+          "Value": 0.007,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T16:09:40Z",
+          "SampleTimestampUtc": "2023-11-14T09:09:40Z",
+          "CreatedTimestamp": "2023-11-14T16:09:40Z",
+          "CreatedTimestampUtc": "2023-11-14T09:09:40Z",
+          "UpdatedTimestamp": "2023-11-14T16:09:40Z",
+          "UpdatedTimestampUtc": "2023-11-14T09:09:40Z",
+          "NumViolations": 0,
+          "SampleMean": 0.02175,
+          "SampleMin": 0.007,
+          "SampleMax": 0.041,
+          "SampleMedian": 0.0195,
+          "SampleStdev": 0.0169582821457049,
+          "SampleQ1": 0.00775,
+          "SampleQ3": 0.0335,
+          "SampleSize": 4
+        },
+        {
+          "Seqnr": 3,
+          "SampleId": 240196171,
+          "Value": 0.041,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T16:09:40Z",
+          "SampleTimestampUtc": "2023-11-14T09:09:40Z",
+          "CreatedTimestamp": "2023-11-14T16:09:40Z",
+          "CreatedTimestampUtc": "2023-11-14T09:09:40Z",
+          "UpdatedTimestamp": "2023-11-14T16:09:40Z",
+          "UpdatedTimestampUtc": "2023-11-14T09:09:40Z",
+          "NumViolations": 0,
+          "SampleMean": 0.02175,
+          "SampleMin": 0.007,
+          "SampleMax": 0.041,
+          "SampleMedian": 0.0195,
+          "SampleStdev": 0.0169582821457049,
+          "SampleQ1": 0.00775,
+          "SampleQ3": 0.0335,
+          "SampleSize": 4
+        },
+        {
+          "Seqnr": 2,
+          "SampleId": 240196171,
+          "Value": 0.008,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-11-14T16:09:40Z",
+          "SampleTimestampUtc": "2023-11-14T09:09:40Z",
+          "CreatedTimestamp": "2023-11-14T16:09:40Z",
+          "CreatedTimestampUtc": "2023-11-14T09:09:40Z",
+          "UpdatedTimestamp": "2023-11-14T16:09:40Z",
+          "UpdatedTimestampUtc": "2023-11-14T09:09:40Z",
+          "NumViolations": 0,
+          "SampleMean": 0.02175,
+          "SampleMin": 0.007,
+          "SampleMax": 0.041,
+          "SampleMedian": 0.0195,
+          "SampleStdev": 0.0169582821457049,
+          "SampleQ1": 0.00775,
+          "SampleQ3": 0.0335,
+          "SampleSize": 4
+        }
+      ],
+      "CFComment": "EOL",
+      "FourDReport": "*",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "Y",
+          "SpecLowEnabled": "N",
+          "spec_high": 0.05,
+          "target": 0.0
+        },
+        "ControlLimits": {
+          "CtrlMeanLowEnabled": "N",
+          "ctrl_mean_target": 0.02,
+          "CtrlMeanTargetEnabled": "Y",
+          "ctrl_mean_high": 0.045,
+          "CtrlMeanHighEnabled": "Y",
+          "CtrlLowEnabled": "N",
+          "CtrlHighEnabled": "N",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "N",
+          "CtrlRangeCenterEnabled": "Y",
+          "CtrlCenterEnabled": "N",
+          "CtrlStdevHighEnabled": "N",
+          "CtrlRangeLowEnabled": "N",
+          "ctrl_range_target": 0.02476,
+          "ctrl_range_high": 0.0625313258863526,
+          "CtrlRangeHighEnabled": "Y"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 4,
+        "base_count": 4,
+        "flagged_count": 0,
+        "mean": 0.02175,
+        "median": 0.0195,
+        "stdev": 0.014686303142724517,
+        "range": 0.034,
+        "min": 0.007,
+        "max": 0.041,
+        "q02": 0.00706,
+        "q05": 0.00715,
+        "q25": 0.00775,
+        "q75": 0.0335,
+        "q95": 0.03949999999999999,
+        "q98": 0.0404,
+        "NumViolations": 0,
+        "Samples": "240196171"
+      },
+      "ParameterName": "OffCenter-Y",
+      "ParameterUnit": "mm",
+      "ChannelId": "73191",
+      "SourceDataLevel": "C",
+      "channel_name": "Mold_OffCenter DSO 300 Y OGP",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-11-14T09:09:40Z",
+      "created_timestamp": "2023-11-14T16:09:40Z",
+      "updated_timestamp_utc": "2023-11-14T09:09:40Z",
+      "updated_timestamp": "2023-11-14T16:09:40Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-11-14T09:09:40Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED2:BAT:BE:BE1I:1700:",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "Measlot:",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "BAT:BE:RU334004B03:BE1I:1700:OffCenter-Y:73191:240196171:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-11-14T16:09:40Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "Measlot::SPACEAGGED2:BAT:BE:BE1I:1700::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "BAT"
+  }
+}

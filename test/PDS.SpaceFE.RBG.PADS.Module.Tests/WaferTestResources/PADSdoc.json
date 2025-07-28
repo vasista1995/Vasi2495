@@ -1,0 +1,107 @@
+{
+    "_id": "Motherlot:3A110879:01:SPACEAGG1:RBG:FE:WLADR:8667:WARPAGE:161310:ProcessControl:1.0",    
+    "Document": {
+        "Version": "1.0",
+        "Type": "ProcessControl",
+        "Repetition": {
+            "_id": "0",
+            "IdBaseValue": "1/8/2021 8:18:18 AM"
+        }
+    },
+    "ProductionAction": {
+        "Type": "SpaceAggregation",
+        "_id": "SPACEAGG1:RBG:FE:WLADR:8667:WARPAGE:161310"
+    },
+    "Item": {
+        "_id": "Measlot:3A110879",
+        "IdSystemName": "Measlot",
+        "Type": "Lot"
+    },
+    "Data_flat_Metadata": {
+        "Motherlot": "3A110879",
+        "Wafer": "01",
+        "MeasLot": "3A110879",
+        "ParameterOper": "8667",
+        "ParameterFacility": "WLADR",
+        "SiteKey": "RBG",
+        "SpaceInstanceName": "FE",
+        "CreatedTimestampUtc": "2021-01-08T07:42:40.000Z",
+        "UpdatedTimestampUtc": "2021-01-08T08:18:18.000Z",
+        "ExportedTimestampUtc": "2021-03-16T12:47:22.166Z",
+        "BeginTimestampUtc": "2021-01-08T07:42:40.000Z",
+        "EndTimestampUtc": "2021-01-08T08:18:18.000Z",
+        "Route": "WLERP002A0",
+        "SPS_Number": "K84002",
+        "Equipment": "MET984-02",
+        "Recipe": "WLERP002A0",
+        "EquipmentType": "NIKON_VMR",
+        "RvStoreFlag": "Y"
+    },
+    "SystemLog": {
+        "JobRunId": "1",
+        "DocCreatedTimestampUtc": "2021-09-14T21:51:04.475Z",
+        "DocUpdatedTimestampUtc": "2021-09-14T21:51:25.248Z"
+    },
+    "Data_flat_StrangeMetadata": {
+        "BasicType": "W1350D",
+        "ProductType": "W1350D00012",
+        "Product": "67090914",
+        "ProcessGroup": "EWLBA_FO",
+        "ProcessLine": "08FIWLBA01",
+        "Design": "-",
+        "Layer": "-",
+        "MeasurementBatch": "0"
+    },
+    "Data_1list_Parameters": [
+        {
+            "ParameterName": "WARPAGE",
+            "ParameterUnit": "s",
+            "ProcessEquipment": "509-681",
+            "ChannelId": 161310,
+            "SourceDataLevel": "W",
+            "ProcessBatch": "0",
+            "ChannelName": "8667_WARPAGE_RADAR",
+            "ChannelDescr": "Rohdatensammelkarte RADAR",
+            "Data_flat_Limits": {
+                "CKC_ID": "0",
+                "MeasurementSpecLimits": {
+                    "SpecHighEnabled": "Y",
+                    "SpecLowEnabled": "Y",
+                    "spec_high": 3,
+                    "spec_low": -3,
+                    "spec_target": 0,
+                    "RemovalDue2Ambiguity": ""
+                },
+                "ControlLimits": {
+                    "CtrlMeanLowEnabled": "N",
+                    "CtrlMeanTargetEnabled": "N",
+                    "CtrlMeanHighEnabled": "N",
+                    "CtrlLowEnabled": "N",
+                    "CtrlHighEnabled": "N",
+                    "CtrlSigmaLowEnabled": "N",
+                    "CtrlSigmaHighEnabled": "N",
+                    "CtrlRangeLowEnabled": "N",
+                    "CtrlRangeHighEnabled": "N",
+                    "ctrl_mean_low": 324,
+                    "ctrl_mean_target": 232,
+                    "ctrl_mean_high": 123
+                }
+            },
+            "Data_flat_MeasurementAggregates": {
+                "exec_count": 325,
+                "mean": -0.0000021538461538452335,
+                "median": -0.1502,
+                "sigma": 0.2546709494984416,
+                "min": -0.2884,
+                "max": 0.3647,
+                "q2": -0.275604,
+                "q5": -0.26764,
+                "q25": -0.2121,
+                "q75": 0.3148,
+                "q95": 0.33174000000000003,
+                "q98": 0.3456999999999999
+            }
+
+        }
+    ]
+}

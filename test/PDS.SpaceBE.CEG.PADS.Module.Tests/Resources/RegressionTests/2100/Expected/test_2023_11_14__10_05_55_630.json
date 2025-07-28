@@ -1,0 +1,160 @@
+{
+  "Data_flat_Metadata": {
+    "Line": "HD",
+    "ProductionOrder": "81773909",
+    "MaterialNumber": "564",
+    "MeasurementRecipe": "Abart 14 Hybrid Pack Drive",
+    "OrderType": "2100",
+    "QrkGroup": "2100",
+    "ProcessGroup": "Frame_Assembly",
+    "SpcClass": "2100",
+    "CustomComment": "gluing",
+    "Segment": "HPS",
+    "MeasLot": "81773909",
+    "ParameterOper": "gluing",
+    "SiteKey": "CEG",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-10-27T09:34:43Z",
+    "BeginTimestamp": "2023-10-27T11:34:43Z",
+    "EndTimestampUtc": "2023-10-27T09:34:43Z",
+    "EndTimestamp": "2023-10-27T11:34:43Z"
+  },
+  "Data_flat_StrangeMetadata": {
+    "MaterialNumberText": "2100",
+    "Operator": "2100",
+    "ParameterClass": "NON_PPAP",
+    "Package": "HD",
+    "GroupId": "glue_weight",
+    "Module": "13 assembly",
+    "PosName": "2100"
+  },
+  "Data_1list_Parameters": [
+    {
+      "process_equipment": "10123714",
+      "ProcessEquipmentName": "ZBV5 -RM",
+      "LongParameterName": "Klebemenge",
+      "Data_1list_RawValues": [
+        {
+          "process_equipment": "10123714",
+          "ProcessEquipmentName": "ZBV5 -RM",
+          "Seqnr": 1,
+          "SampleId": 332712759,
+          "Value": 0.506,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-10-27T11:34:43Z",
+          "SampleTimestampUtc": "2023-10-27T09:34:43Z",
+          "CreatedTimestamp": "2023-10-27T11:34:43Z",
+          "CreatedTimestampUtc": "2023-10-27T09:34:43Z",
+          "UpdatedTimestamp": "2023-10-27T11:34:43Z",
+          "UpdatedTimestampUtc": "2023-10-27T09:34:43Z",
+          "NumViolations": 0,
+          "SampleMean": 0.506,
+          "SampleMin": 0.506,
+          "SampleMax": 0.506,
+          "SampleMedian": 0.506,
+          "SampleStdev": 0.0,
+          "SampleQ1": 0.506,
+          "SampleQ3": 0.506,
+          "SampleSize": 1
+        }
+      ],
+      "ParameterType": "2100",
+      "FourDReport": "*",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "Y",
+          "SpecLowEnabled": "Y",
+          "spec_high": 0.55,
+          "spec_low": 0.45,
+          "target": 0.5
+        },
+        "ControlLimits": {
+          "ctrl_mean_low": 0.469302041546872,
+          "CtrlMeanLowEnabled": "Y",
+          "ctrl_mean_target": 0.49829531914894,
+          "CtrlMeanTargetEnabled": "Y",
+          "ctrl_mean_high": 0.527288596751008,
+          "CtrlMeanHighEnabled": "Y",
+          "ctrl_low": 0.469302041546872,
+          "CtrlLowEnabled": "Y",
+          "ctrl_target": 0.49829531914894,
+          "ctrl_high": 0.527288596751008,
+          "CtrlHighEnabled": "Y",
+          "ctrl_stdev_low": 0.0,
+          "CtrlStdevLowEnabled": "Y",
+          "CtrlSigmaCenterEnabled": "Y",
+          "CtrlRangeCenterEnabled": "Y",
+          "CtrlCenterEnabled": "Y",
+          "ctrl_stdev_target": 0.0,
+          "ctrl_stdev_high": 0.0,
+          "CtrlStdevHighEnabled": "Y",
+          "ctrl_range_low": 0.0,
+          "CtrlRangeLowEnabled": "Y",
+          "ctrl_range_target": 0.0,
+          "ctrl_range_high": 0.0,
+          "CtrlRangeHighEnabled": "Y"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 1,
+        "base_count": 1,
+        "flagged_count": 0,
+        "mean": 0.506,
+        "median": 0.506,
+        "stdev": 0.0,
+        "range": 0.0,
+        "min": 0.506,
+        "max": 0.506,
+        "q02": 0.506,
+        "q05": 0.506,
+        "q25": 0.506,
+        "q75": 0.506,
+        "q95": 0.506,
+        "q98": 0.506,
+        "NumViolations": 0,
+        "Samples": "332712759"
+      },
+      "ParameterName": "glue_weight",
+      "ParameterUnit": "[g]",
+      "ChannelId": "105699",
+      "SourceDataLevel": "C",
+      "channel_name": "glue_weight",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-10-27T09:34:43Z",
+      "created_timestamp": "2023-10-27T11:34:43Z",
+      "updated_timestamp_utc": "2023-10-27T09:34:43Z",
+      "updated_timestamp": "2023-10-27T11:34:43Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-10-27T09:34:43Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED3:CEG:BE:HD:gluing:",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "HPSModFAUF:81773909",
+    "IdSystemName": "HPSModFAUF",
+    "Type": "Fauf"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "CEG:BE:81773909:HD:gluing:glue_weight:105699:332712759:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-10-27T11:34:43Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "HPSModFAUF:81773909:SPACEAGGED3:CEG:BE:HD:gluing::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "CEG"
+  }
+}

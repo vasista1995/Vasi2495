@@ -1,0 +1,137 @@
+{
+  "Data_flat_Metadata": {
+    "Classification": "Routine check(Daily SPC)",
+    "MeasLot": "2Z3490FM",
+    "SiteKey": "CJJ",
+    "SpaceInstanceName": "BE",
+    "BeginTimestampUtc": "2023-12-10T13:42:28Z",
+    "BeginTimestamp": "2023-12-10T22:42:28Z",
+    "EndTimestampUtc": "2023-12-10T13:42:28Z",
+    "EndTimestamp": "2023-12-10T22:42:28Z"
+  },
+  "Data_flat_StrangeMetadata": {
+    "ChipType": "NTC_E0.675",
+    "Operator": "30156566",
+    "Package": "CIPOS MINI DCB PLUS",
+    "Device": "IM828-XCC",
+    "MaterialType": "Schweizer"
+  },
+  "Data_1list_Parameters": [
+    {
+      "Data_1list_RawValues": [
+        {
+          "Seqnr": 1,
+          "SampleId": 243031183,
+          "Value": 1158.0,
+          "is_flagged": "N",
+          "SampleTimestamp": "2023-12-10T22:42:28Z",
+          "SampleTimestampUtc": "2023-12-10T13:42:28Z",
+          "CreatedTimestamp": "2023-12-10T22:42:28Z",
+          "CreatedTimestampUtc": "2023-12-10T13:42:28Z",
+          "UpdatedTimestamp": "2023-12-10T22:42:28Z",
+          "UpdatedTimestampUtc": "2023-12-10T13:42:28Z",
+          "NumViolations": 0,
+          "SampleMean": 1158.0,
+          "SampleMin": 1158.0,
+          "SampleMax": 1158.0,
+          "SampleMedian": 1158.0,
+          "SampleStdev": 0.0,
+          "SampleQ1": 1158.0,
+          "SampleQ3": 1158.0,
+          "SampleSize": 1
+        }
+      ],
+      "process_equipment": "LED008",
+      "ParameterClass": "E_SPC",
+      "Segment": "IFPS",
+      "Module": "MiniDCB",
+      "FourDReport": "*",
+      "Data_flat_Limits": {
+        "CKC_ID": "0",
+        "MeasurementSpecLimits": {
+          "SpecHighEnabled": "N",
+          "SpecLowEnabled": "Y",
+          "spec_low": 290.0,
+          "target": 1000.0
+        },
+        "ControlLimits": {
+          "ctrl_mean_low": 515.140677704337,
+          "CtrlMeanLowEnabled": "Y",
+          "ctrl_mean_target": 1091.78787878788,
+          "CtrlMeanTargetEnabled": "Y",
+          "ctrl_mean_high": 1668.43507987142,
+          "CtrlMeanHighEnabled": "Y",
+          "CtrlLowEnabled": "N",
+          "CtrlHighEnabled": "N",
+          "CtrlStdevLowEnabled": "N",
+          "CtrlSigmaCenterEnabled": "N",
+          "CtrlRangeCenterEnabled": "N",
+          "CtrlCenterEnabled": "N",
+          "CtrlStdevHighEnabled": "N",
+          "CtrlRangeLowEnabled": "N",
+          "ctrl_range_high": 0.0,
+          "CtrlRangeHighEnabled": "Y"
+        }
+      },
+      "Data_flat_MeasurementAggregates": {
+        "exec_count": 1,
+        "base_count": 1,
+        "flagged_count": 0,
+        "mean": 1158.0,
+        "median": 1158.0,
+        "stdev": 0.0,
+        "range": 0.0,
+        "min": 1158.0,
+        "max": 1158.0,
+        "q02": 1158.0,
+        "q05": 1158.0,
+        "q25": 1158.0,
+        "q75": 1158.0,
+        "q95": 1158.0,
+        "q98": 1158.0,
+        "NumViolations": 0,
+        "Samples": "243031183"
+      },
+      "ParameterName": "Die_ShearForce",
+      "ParameterUnit": "gf",
+      "ChannelId": "57261",
+      "SourceDataLevel": "C",
+      "channel_name": "Die_ShearForce MiniDCB PLUS NTC_E0.675",
+      "RvStoreFlag": "Y",
+      "created_timestamp_utc": "2023-12-10T13:42:28Z",
+      "created_timestamp": "2023-12-10T22:42:28Z",
+      "updated_timestamp_utc": "2023-12-10T13:42:28Z",
+      "updated_timestamp": "2023-12-10T22:42:28Z"
+    }
+  ],
+  "Document": {
+    "Version": "1.0",
+    "Type": "ProcessControl",
+    "Repetition": {
+      "Id": "0",
+      "IdBaseValue": "2023-12-10T13:42:28Z"
+    }
+  },
+  "ProductionAction": {
+    "Id": "SPACEAGGED2:CJJ:BE:::",
+    "Type": "SpaceAggregation"
+  },
+  "Item": {
+    "Id": "Measlot:2Z3490FM",
+    "IdSystemName": "Measlot",
+    "Type": "Lot"
+  },
+  "SystemLog": {
+    "UniqueSourceKey": "CJJ:BE:2Z3490FM:::Die_ShearForce:57261:243031183:0",
+    "ExtractedTimestampUtc": "0001-01-01T00:00:00",
+    "EnqueuedTimestampUtc": "0001-01-01T00:00:00",
+    "DocCreatedTimestampUtc": "2023-12-10T22:42:28Z",
+    "QueueOffset": 0,
+    "QueuePartition": 0
+  },
+  "SearchPatterns": {
+    "SpaceKey": "Measlot:2Z3490FM:SPACEAGGED2:CJJ:BE::::ProcessControl:1.0",
+    "TimeGroup": "0",
+    "SiteKey": "CJJ"
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "Device": [
+    "U0163B",
+    "U5435A",
+    "S0946S",
+    "U5880B",
+    "S8803B",
+    "S1918E",
+    "S0946T",
+    "L2891S",
+    "L2791R",
+    "L8404F",
+    "U5886B"
+  ],
+  "ParameterClass": [
+    "PPAP",
+    "NON_SPC",
+    "NON_PPAP"
+  ],
+  "CFComment": [
+    "FOL"
+  ],
+  "Segment": [
+    "WB",
+    "A2PL"
+  ],
+  "F56Parameter": [
+    "N"
+  ],
+  "FourDReport": [
+    "*"
+  ],
+  "SpaceRawValues.BreakPoint": [
+    "Rawvalueslist"
+  ],
+  "SpaceRawValues.ExternalFlagged": [
+    "N"
+  ],
+  "SpaceRawValues.InternalFlagged": [
+    "N"
+  ],
+  "SpaceRawValues.NumViolations": [
+    "0",
+    "1",
+    "2"
+  ],
+  "ParameterName": [
+    "WedgeBumpPullTest",
+    "WirePull",
+    "BallBumpShearTest",
+    "BallShear",
+    "GoldBallDiameter",
+    "GoldBallHeight",
+    "GoldBallHeightBump",
+    "A2PLBallShearTop",
+    "CopperBallDiameter",
+    "CopperBallHeight",
+    "CopperLoopHeight",
+    "A2PLWirePullTop",
+    "AluWirePullTest",
+    "WedgeShearLead",
+    "WedgeShearPad",
+    "StitchPull",
+    "Copper BallShearCTDownBond",
+    "Copper BallShearCTShearPad",
+    "Copper BallShearSPT10Bump",
+    "Copper BallShearSPT10Normal",
+    "Copper WirePullSPT10Normal",
+    "CopperBallDiameterCTDownbond",
+    "CopperBallDiameterCTNormal"
+  ],
+  "ParameterUnit": [
+    "g",
+    "um",
+    "gf"
+  ],
+  "SampleSize": [
+    "5",
+    "6",
+    "8"
+  ],
+  "LdsID": [
+    "1010"
+  ],
+  "IsCalcParam": [
+    "0"
+  ],
+  "CntrlLow": [
+    "11,8281013302995",
+    "6,07986743002658",
+    "400,681692867696",
+    "497,808427859395",
+    "83,8630032980114",
+    "46,2560701685626",
+    "54,0792713270776",
+    "43,6498192613376",
+    "12,9851979265002"
+  ],
+  "CntrlTarget": [
+    "16,636768",
+    "11,1681178082192",
+    "752,670068027211",
+    "772,516913946588",
+    "133,4278",
+    "77,8094214876033",
+    "95,7867972972973",
+    "72,4064935064935",
+    "20,0847271477663"
+  ],
+  "CntrlHigh": [
+    "21,4454346697005",
+    "16,2563681864118",
+    "1104,65844318673",
+    "1047,22540003378",
+    "182,992596701989",
+    "109,362772806644",
+    "137,494323267517",
+    "101,163167751649",
+    "27,1842563690324"
+  ],
+  "CtrlMeanHighEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlMeanLowEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlMeanTargetEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlLowEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlHighEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlRangeLowEnabled": [
+    "N",
+    "Y"
+  ],
+  "CtrlRangeHighEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlSigmaLowEnabled": [
+    "N",
+    "Y"
+  ],
+  "CtrlSigmaCenterEnabled": [
+    "N",
+    "Y"
+  ],
+  "CtrlRangeCenterEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlCenterEnabled": [
+    "Y",
+    "N"
+  ],
+  "CtrlSigmaHighEnabled": [
+    "N",
+    "Y"
+  ],
+  "SpecLowEnabled": [
+    "Y"
+  ],
+  "SpecHighEnabled": [
+    "N",
+    "Y"
+  ],
+  "RvStoreFlag": [
+    "Y"
+  ],
+  "Operation": [
+    "A2_Plating",
+    "Wire_Bond1",
+    "FOL_Autovision",
+    "FOL_Autovision_SmartS"
+  ],
+  "Facility": [
+    "BE1I"
+  ],
+  "CkcId": [
+    "0",
+    "4",
+    "56",
+    "912",
+    "519",
+    "3",
+    "42",
+    "16",
+    "1",
+    "275"
+  ],
+  "ChannelDescr": [
+    "for chip to chip PG-DSO-36-21",
+    "Created from ( I )LDS \nexclude list by \naction 'Create SPC Channel'",
+    "A2PLBallShearTop\\PDS20\\A2CU\\50",
+    "LSS",
+    "A2PLBallShearTop\\PDS36\\A2CU7\\65",
+    "A2PLWirePullTop\\DS20\\A2CU\\50 ",
+    "A2PLWirePullTop\\DS20\\A2AL\\50 ",
+    "Created from LDS \nexclude list by \naction 'Create SPC Channel'",
+    "PG-DSO-20-91, 16um imide, UTC \nShearPad",
+    "Bump Diameter, Downbond",
+    "Ball Diameter, CT Chips"
+  ],
+  "SpaceInstanceName": [
+    "BE"
+  ],
+  "Sitekey": [
+    "BAT"
+  ],
+  "ILdsID": [
+    "0"
+  ],
+  "AcceptFlag": [
+    "Y"
+  ],
+  "UpdatedBy": [
+    " ",
+    "pobtech",
+    "iscw8cc2082mwr",
+    "iscw4ce02718gx",
+    "iscw8cc2082mw1"
+  ],
+  "SpecTargetOrigin": [
+    "V"
+  ],
+  "ViolCount": [
+    "0",
+    "1",
+    "2"
+  ],
+  "OutOfOrder": [
+    "N"
+  ],
+  "LimitEnable": [
+    "YYNYNNYNYYYYYYYYYYYYYYYYYYYYNNNNNNNNN",
+    "YYNYNNYNYYNNNNNNNNNNNNNNNNNNNNNNNNNNN",
+    "YYNYNNYNYYYYYYYYYYYNNNYYYYYYNNNNNNNNN",
+    "YYYYNNYNYYYYYYYYYYYNNNNNNNNNYNNNNNNNN",
+    "YYYYNNYNYYNNNNNNNNNNNNNNNNNNYNNNNNNNN",
+    "YYNYNNYNYYYYYYYYYYYNNNNNNNNNNNNNNNNNN",
+    "YYYYYNYYYYYYYYYYYYYYYYYYYYYYYNNNNNNNN",
+    "YYNYYNYYYYYYYYYYYYYYYYYYYYYYNNNNNNNNN",
+    "YYNYNNYNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN"
+  ],
+  "ClOrigin": [
+    "0"
+  ],
+  "MVLal": [
+    "0"
+  ],
+  "MVUal": [
+    "0"
+  ],
+  "ExtSpecLower": [
+    "0"
+  ],
+  "ExtSpecUpper": [
+    "0"
+  ],
+  "ExtSpecLimEnable": [
+    "NN"
+  ],
+  "CalculationStrategy": [
+    "ND",
+    "ND 4.5 Sigma"
+  ],
+  "ChannelType": [
+    "N"
+  ],
+  "ChState": [
+    "Online"
+  ],
+  "SpaceRawValues.ViolationList": [
+    "4",
+    "4,10",
+    "2,4",
+    "1,3",
+    "7,18",
+    "10",
+    "18",
+    "8"
+  ],
+  "SpaceRawValues.PrimaryViolation": [
+    "4",
+    "2",
+    "1",
+    "7",
+    "10",
+    "18",
+    "8"
+  ],
+  "SpcComExtern": [
+    "CA-Attributes started. Ticket id: c39c4752-743b-4f7b-b96e-4b92052c5b82\nCA triggered by violation 4 (Mean value below limit) in channel (53709/0)\n====\nTicketId=c39c4752-743b-4f7b-b96e-4b92052c5b82 state=PASS executed OCAP=General, HOLDLOT, STOPEQUIPMENTPROCESSING, QUALITYALARMTRIGGER\nCA triggered by violation -1 (Unknown violation description) in channel (-1/-1)",
+    "CA-Attributes started. Ticket id: 5096fb1c-e1f5-4996-b939-0b25d3463008\nCA triggered by violation 4 (Mean value below limit) in channel (49185/4)\n====\nTicketId=5096fb1c-e1f5-4996-b939-0b25d3463008 state=PASS executed OCAP=General, HOLDLOT, STOPEQUIPMENTPROCESSING, QUALITYALARMTRIGGER\nCA triggered by violation -1 (Unknown violation description) in channel (-1/-1)",
+    "CA-Attributes started. Ticket id: b89a4d16-2928-4cce-83dd-e82bcc78ef50\nCA triggered by violation 2 (Raw value below specification) in channel (67983/56)\n====\nTicketId=b89a4d16-2928-4cce-83dd-e82bcc78ef50 state=PASS executed OCAP=General, HOLDLOT, STOPEQUIPMENTPROCESSING, QUALITYALARMTRIGGER\nCA triggered by violation -1 (Unknown violation description) in channel (-1/-1)",
+    "CA-Attributes started. Ticket id: 55b5b55f-ef31-48f5-8dcc-d3bdf7eecf89\nCA triggered by violation 1 (Raw value above specification) in channel (67999/912)\n====\nTicketId=55b5b55f-ef31-48f5-8dcc-d3bdf7eecf89 state=PASS executed OCAP=General, HOLDLOT, STOPEQUIPMENTPROCESSING, QUALITYALARMTRIGGER\nCA triggered by violation -1 (Unknown violation description) in channel (-1/-1)",
+    "CA-Attributes started. Ticket id: 60f88852-d256-4977-b972-bb440088db09\nCA triggered by violation 1 (Raw value above specification) in channel (68003/519)\n====\nTicketId=60f88852-d256-4977-b972-bb440088db09 state=PASS executed OCAP=General, HOLDLOT, STOPEQUIPMENTPROCESSING, QUALITYALARMTRIGGER\nCA triggered by violation -1 (Unknown violation description) in channel (-1/-1)",
+    "CA-Attributes started. Ticket id: 962d095c-48df-4c2d-a5a4-53eb58068805\nCA triggered by violation 1 (Raw value above specification) in channel (67621/275)\n====\nTicketId=962d095c-48df-4c2d-a5a4-53eb58068805 state=PASS executed OCAP=General, HOLDLOT, STOPEQUIPMENTPROCESSING, QUALITYALARMTRIGGER\nCA triggered by violation -1 (Unknown violation description) in channel (-1/-1)"
+  ],
+  "SigmaCntrlLow": [
+    "2,78234550501781",
+    "0,244502118600319",
+    "5,77929693470142",
+    "0,334410310243388",
+    "0,42984568274696",
+    "-0,443239125299664",
+    "0,0791885121492654"
+  ],
+  "SigmaCntrlTarget": [
+    "5,81060606180569",
+    "3,99201640778191",
+    "4,10054083871172",
+    "4,94041394034462",
+    "1,22019036420208"
+  ],
+  "SigmaCntrlHigh": [
+    "21,3186322126267",
+    "8,42315462041983",
+    "14,8015490395163",
+    "13,086764947474",
+    "3,1453261882761"
+  ]
+}
